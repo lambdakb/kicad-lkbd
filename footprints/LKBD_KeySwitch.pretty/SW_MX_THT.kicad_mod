@@ -371,4 +371,15 @@
 		(remove_unused_layers no)
 		(uuid "b728fb8b-64a1-4225-8b2e-cf7a31ebf1a5")
 	)
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_PCB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

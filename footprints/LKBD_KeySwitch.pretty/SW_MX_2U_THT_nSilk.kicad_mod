@@ -320,9 +320,9 @@
 		(remove_unused_layers no)
 		(uuid "05147e0e-c9dc-4e0d-ba91-a68214c10a08")
 	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_Cherry_MX_2.00u.wrl"
 		(offset
-			(xyz 0.625 -4.75 -3.4)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -331,15 +331,15 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_Cherry_MX_2.00u.wrl"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_PCB.wrl"
 		(offset
-			(xyz -11.95 0 3.65)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )
