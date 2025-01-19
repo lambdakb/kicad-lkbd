@@ -1,4 +1,4 @@
-(footprint "Diode_SMD+THT_SOD123_DO35_P7.62mm"
+(footprint "Diode_SMD+THT_SOD123_DO35_P6.5mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -129,8 +129,8 @@
 		(uuid "f38a60ad-11eb-4b05-85c5-feb40c78cd9f")
 	)
 	(fp_rect
-		(start -5 -1)
-		(end 5 1)
+		(start -4.3 -1)
+		(end 4.3 1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -140,8 +140,8 @@
 		(uuid "36e39797-41dc-427c-9d1f-6cd92338cd4f")
 	)
 	(fp_rect
-		(start -5 -1)
-		(end 5 1)
+		(start -4.3 -1)
+		(end 4.3 1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -203,7 +203,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -3.81 0 180)
+		(at -3.25 0 180)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -211,17 +211,17 @@
 		(uuid "224a45c7-9bcb-4e97-83ec-a3f9aef42b36")
 	)
 	(pad "1" smd roundrect
-		(at -3.81 0 180)
-		(size 3.9 1.6)
+		(at -3.25 0 180)
+		(size 3.3 1.6)
 		(drill
-			(offset -1.06 0)
+			(offset -0.8 0)
 		)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "ae62277c-f147-438d-8700-599115c57540")
 	)
 	(pad "2" thru_hole circle
-		(at 3.81 0 180)
+		(at 3.25 0 180)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -229,10 +229,10 @@
 		(uuid "7c7a0b4d-1028-4444-aa43-d7ef79b19cb4")
 	)
 	(pad "2" smd roundrect
-		(at 3.81 0)
-		(size 3.9 1.6)
+		(at 3.25 0)
+		(size 3.3 1.6)
 		(drill
-			(offset -1.06 0)
+			(offset -0.8 0)
 		)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)

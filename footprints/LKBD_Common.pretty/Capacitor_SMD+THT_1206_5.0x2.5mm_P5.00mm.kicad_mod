@@ -6,7 +6,7 @@
 	(descr "Dual footprint for 1206 SMD Capacitor and 5mm × 2.5mm THT Ceramic Disc Capacitor")
 	(tags "C Disc Capacitor SMD 1206 THT pitch 5.00mm diameter 5mm width 2.5mm")
 	(property "Reference" "REF**"
-		(at 0 -2.35 0)
+		(at 0 2.35 0)
 		(layer "F.SilkS")
 		(uuid "136b47df-1fc1-42b9-a015-231eaaf7d771")
 		(effects
@@ -66,7 +66,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -2.67 -1.37)
 		(end -2.67 -1.12)
@@ -388,8 +388,20 @@
 		(uuid "9f6d62b2-dd7b-4403-9c8c-06e1c61f900b")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(hide yes)
 		(offset
 			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(offset
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
