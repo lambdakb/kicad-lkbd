@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
-		(at 0 2.6 0)
+		(at 0 -2.35 0)
 		(layer "F.Fab")
 		(uuid "1f85e0ab-52e9-4bcd-a183-cbccbab87bae")
 		(effects
@@ -341,7 +341,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.05 0)
+		(at 0 2.35 0)
 		(layer "F.Fab")
 		(uuid "c33afb81-a11c-4fb9-bd9b-468aee24015f")
 		(effects

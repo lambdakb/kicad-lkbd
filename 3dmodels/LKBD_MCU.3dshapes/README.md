@@ -11,3 +11,9 @@ These models are sourced from various authors and distributed under their respec
 - **Attribution**: [Adafruit KB2040 v7.step](https://grabcad.com/library/adafruit-kb2040-1) by [DeltaWhy](https://grabcad.com/deltawhy-1)
 - **Usage Terms**: [GrabCAD Sharing Policy](https://help.grabcad.com/article/246-how-can-models-be-used-and-shared)
 - **Details**: Redistribution is allowed for public non-commercial projects. See the full [GrabCAD Sharing Policy](https://help.grabcad.com/article/246-how-can-models-be-used-and-shared).
+
+## [`MCU_XIAO-RP2040.step`](./MCU_XIAO-RP2040.step)
+
+- **Attribution**: [Seeed Studio XIAO RP2040 v26.step](https://grabcad.com/library/seeed-studio-xiao-rp2040-1) by [mirac gulgonul](https://grabcad.com/mirac.gulgonul-1)
+- **Usage Terms**: [GrabCAD Sharing Policy](https://help.grabcad.com/article/246-how-can-models-be-used-and-shared)
+- **Details**: Redistribution is allowed for public non-commercial projects. See the full [GrabCAD Sharing Policy](https://help.grabcad.com/article/246-how-can-models-be-used-and-shared).

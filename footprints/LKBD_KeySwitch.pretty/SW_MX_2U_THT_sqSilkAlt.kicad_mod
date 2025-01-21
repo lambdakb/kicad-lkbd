@@ -444,7 +444,7 @@
 		(remove_unused_layers no)
 		(uuid "aa48fb90-c364-452a-8c69-53c356cb922c")
 	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_Cherry_MX_2.00u.wrl"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_MX_2.00u.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Dual footprint for SOD123 SMD Diode and DO35 THT Diode")
+	(descr "Dual footprint for SOD123 SMD Diode and DO35 THT Diode (Pitch 6.5mm)")
 	(tags "D Diode SMD SOD123 THT DO35 pitch 7.62mm")
 	(property "Reference" "REF**"
 		(at 0 2.15 0)
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Diode_SMD+THT_SOD123_DO35_P7.62mm_Alt"
-		(at 0 2.6 0)
+	(property "Value" "Diode_SMD+THT_SOD123_DO35_P6.5mm"
+		(at 0 -2.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb198105-d5fb-4ae6-ad52-a49b8289f503")
@@ -191,7 +191,7 @@
 		(uuid "b68d872f-e0e1-4ce7-91b3-b5780d624e99")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.1 0)
+		(at 0 2.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a430c7a6-e5e0-4fd5-8eb6-221358a44633")

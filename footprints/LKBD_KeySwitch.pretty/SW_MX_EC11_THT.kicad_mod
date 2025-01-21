@@ -290,7 +290,7 @@
 		(remove_unused_layers no)
 		(uuid "fe2a40c6-3e9b-4d06-abf5-196713bf6b25")
 	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12-SW.step"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"
 		(offset
 			(xyz 0 0 0)
 		)
