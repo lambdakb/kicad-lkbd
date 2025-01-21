@@ -1,4 +1,4 @@
-# KiCad LKBD Library
+# LambdaKB.dev KiCad Libraries (LKDB)
 
 This repository includes the different symbol and footprint libraries used to create devices at LambdaKB.dev.
 
