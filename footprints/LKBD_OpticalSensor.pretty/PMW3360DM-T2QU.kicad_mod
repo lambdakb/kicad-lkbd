@@ -1,4 +1,4 @@
-(footprint "PMW3360DM‐T2QU"
+(footprint "PMW3360DM-T2QU"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -511,6 +511,17 @@
 		(uuid "fe41907f-7e73-4d3c-ae91-9f5027f18b68")
 	)
 	(model "${KIPRJMOD}/libraries/PMW3360.pretty/PMW3360DM.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_OpticalSensor.3dshapes/PMW3360DM.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
