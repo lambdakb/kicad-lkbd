@@ -174,6 +174,17 @@
 			(type default)
 		)
 		(fill none)
+		(layer "B.CrtYd")
+		(uuid "61d568ec-f372-4979-b4c7-2518f2c3e44b")
+	)
+	(fp_rect
+		(start -0.95 -3.78)
+		(end 11.65 15.47)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "90a853ce-bec0-4ea5-a2d0-1ae85dcb2237")
 	)
