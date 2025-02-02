@@ -1,10 +1,10 @@
-(footprint "MCU_KB2040_DIP-24_Socket_Reverse"
+(footprint "MCU_ProMicro_DIP-24_Socket_Reverse"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "DIP-24 (Wide, 15.24mm) socket for KB2040 and other ProMicro style MCU")
-	(tags "MCU Socket KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket")
+	(descr "DIP-24 (Wide, 15.24mm) socket for Generic ProMicro style MCU (Reverse)")
+	(tags "MCU Socket Generic KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket Reverse")
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MCU_KB2040_DIP-24_Socket_Reverse"
+	(property "Value" "MCU_ProMicro_DIP-24_Socket_Reverse"
 		(at 0 30.4 0)
 		(layer "F.Fab")
 		(uuid "3897afff-b46e-4912-b11b-ce19728852cd")
@@ -67,8 +67,39 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -6.35 -1.27)
+		(end 6.35 -1.27)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42da1ecd-3fb8-48a4-9fd1-ccdf6fcfca88")
+	)
+	(fp_line
+		(start -6.35 29.21)
+		(end 6.35 29.21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6273bcce-3b0d-447d-9788-a0e14e68e1f5")
+	)
 	(fp_rect
 		(start -8.89 -1.27)
+		(end -6.35 29.21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bc6177a5-968c-4d1f-b628-14fdd9cec0b0")
+	)
+	(fp_rect
+		(start 6.35 -1.27)
 		(end 8.89 29.21)
 		(stroke
 			(width 0.12)
@@ -76,7 +107,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "3829f727-0d77-4741-984b-3c87a0efef67")
+		(uuid "b28c9b18-d874-4082-8e35-9a60974329cd")
 	)
 	(fp_rect
 		(start -6.72 -1.2)
@@ -142,325 +173,13 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "b33017fd-c257-4e78-839f-a90c3744c2c6")
-	)
-	(fp_text user "A3"
-		(at -6.5 10.541 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "01fd1231-7717-415a-b222-e071fb0a67b8")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "4"
-		(at 6.5 15.494 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "10a06137-b1d9-4c6d-8ce1-9eb5de502d93")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "RX"
-		(at 6.5 2.921 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2b5744df-2def-426f-a22a-f93ed8f487ea")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "2"
-		(at 6.5 10.414 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3c1e1caf-d29f-4def-ac41-3405a26f0c2e")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "A1"
-		(at -6.5 15.621 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4af85271-6990-426b-91c8-9cdf5a947d40")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "A2"
-		(at -6.5 13.081 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4bdc2507-6078-48d5-bb3e-0ad3986c3adf")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "10"
-		(at -6.5 28.321 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "52d47a9b-5a3f-45db-9a1d-0c90c1360141")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "A0"
-		(at -6.5 18.161 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "619fea0e-8c10-40b3-9bd9-b06771829482")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "GND"
-		(at 6.5 5.715 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8187e57b-818c-4de0-99bb-9bc518bdc804")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "CLK"
-		(at -6.5 20.955 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8cb68a22-546e-44e5-a407-7c409f2315b6")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "MO"
-		(at -6.5 25.781 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "9b0b066f-6ffa-4f2e-92e9-e24dcffd2ae9")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "9"
-		(at 6.5 28.194 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b335c7ba-3a88-4155-aa62-9f8e4a39e3e5")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "5"
-		(at 6.5 18.034 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b341a735-882a-4cab-a7d6-a4a9e20db20d")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "TX"
-		(at 6.5 0.381 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b4567308-0660-46ca-a3ca-6cf39a380da4")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "8"
-		(at 6.5 25.654 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b629cfd2-0996-4f0f-a00f-0fb7f832fe3f")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "VCC"
-		(at -6.5 8.255 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "be0175b4-f028-41ad-b3d9-b55fcd7e8465")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "6"
-		(at 6.5 20.574 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c0c6a486-0d12-4c61-98b2-033167e315e9")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "RAW"
-		(at -6.5 0.635 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c232125d-f852-4219-b4ef-661b532a0bd9")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "RST"
-		(at -6.5 5.715 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "dac1dd62-21cd-440e-9df2-17e4463f2762")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "MI"
-		(at -6.5 23.241 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e1b46dd9-55f5-4eb5-a0fd-07f2643509d0")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "GND"
-		(at -6.5 3.175 45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e1cbc1ba-0866-4b6c-9000-016e5e629274")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "7"
-		(at 6.5 23.114 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ee0cf3a6-7341-4a70-8502-40cc6169c00e")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "3"
-		(at 6.5 12.954 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f34ace43-e063-4434-997b-7e6b041d3d02")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "GND"
-		(at 6.5 8.255 -45)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f4dc1f40-f0e7-45b3-8060-243f679efa4e")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
+		(uuid "5118b4e4-679e-48c6-abb9-03b1a69ec9af")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 32 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2079a349-54a5-4761-bdf2-687cd4df8649")
+		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects
 			(font
 				(size 1 1)
@@ -670,17 +389,6 @@
 		)
 		(rotate
 			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_MCU.3dshapes/MCU_KB2040.step"
-		(offset
-			(xyz 0 -12.7 5.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 180 0)
 		)
 	)
 )

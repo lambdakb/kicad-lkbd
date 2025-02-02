@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "OLED_SSD1306_I2C_0.91inch"
-		(at -17.03 6.608 0)
+		(at 0 6.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b84e7afc-db25-429b-8649-ce29d0045235")
@@ -220,7 +220,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -17.03 8.108 0)
+		(at 0 8.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3ff09b70-602c-45cd-8640-6bc94af87ce1")

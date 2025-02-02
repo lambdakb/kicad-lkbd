@@ -67,10 +67,10 @@
 				(end 12.7 -17.78)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -601,10 +601,10 @@
 				(end 12.7 -16.51)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -1108,10 +1108,10 @@
 				(end 12.7 -16.51)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
