@@ -9,8 +9,8 @@ This repository includes the different symbol and footprint libraries used to cr
 | [`LKBD_MCU.kicad_sym`]           | Micro controller symbols (RP2040, Arduino Pro Micro, SeeedStudio XIAO, ...) |
 | [`LKBD_OpticalSensor.kicad_sym`] | Mouse & trackball optical sensor symbols (PMW3360, ...)                     |
 
-[`LKBD_MCU.kicad_sym`]: symbols/README.md#LKBD_MCU.kicad_sym
-[`LKBD_OpticalSensor.kicad_sym`]: symbols/README.md#LKBD_OpticalSensor#LKBD_MCU.kicad_sym
+[`LKBD_MCU.kicad_sym`]: symbols/README.md#lkbd_mcukicad_sym
+[`LKBD_OpticalSensor.kicad_sym`]: symbols/README.md#lkbd_opticalsensorkicad_sym
 
 ## Footprints
 
