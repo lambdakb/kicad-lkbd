@@ -23,13 +23,13 @@ This repository includes the different symbol and footprint libraries used to cr
 | [`LKBD_OLED.pretty`]          | I²C OLED modules footprint (0.91" SSD1306 module, ...)                                                  |
 | [`LKBD_OpticalSensor.pretty`] | Mouse & trackball optical sensor footprints (PMW3360, ...)                                              |
 
-[`LKBD_Common.pretty`]: footprints/LKBD_Common.pretty
-[`LKBD_KeySwitch.pretty`]: footprints/LKBD_KeySwitch.pretty
-[`LKBD_MCU.pretty`]: footprints/LKBD_MCU.pretty
-[`LKBD_MicroSwitch.pretty`]: footprints/LKBD_MicroSwitch.pretty
-[`LKBD_OLED.pretty`]: footprints/LKBD_OLED.pretty
-[`LKBD_OpticalSensor.pretty`]: footprints/LKBD_OpticalSensor.pretty
+[`LKBD_Common.pretty`]: footprints/README.md#lkbd_commonpretty
+[`LKBD_KeySwitch.pretty`]: footprints/README.md#lkbd_keyswitchpretty
+[`LKBD_MCU.pretty`]: footprints/README.md#lkbd_mcupretty
+[`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty
+[`LKBD_OLED.pretty`]: footprints/README.md#lkbd_oledpretty
+[`LKBD_OpticalSensor.pretty`]: footprints/README.md#lkbd_opticalsensorpretty
 
 ## License
 
-This KiCad library is distributed under the [MIT License](/LICENSE). However, the 3D models located in the `3dmodels/` folder are licensed separately. Please refer to the `README.md` file in each `*.3dshapes` folder for the specific licensing terms of those models.
+This KiCad library is distributed under the [MIT License](/LICENSE). However, the 3D models located in the `3dmodels/` folder are licensed separately. Please refer to the [`3dmodels/README.md`](3dmodels/README.md) file for the their specific licensing terms.
