@@ -316,7 +316,7 @@
 		(start -8.89 -2.88)
 		(end 8.89 18.12)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(fill none)

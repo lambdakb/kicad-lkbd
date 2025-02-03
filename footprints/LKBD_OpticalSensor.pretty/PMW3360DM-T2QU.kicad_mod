@@ -126,45 +126,16 @@
 		(layer "Dwgs.User")
 		(uuid "acda6a6d-6c9f-4aa5-b3f1-7ba6afa75240")
 	)
-	(fp_line
+	(fp_rect
 		(start 1.05 -2.78)
-		(end 9.65 -2.78)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "dcc03afd-ed53-4bb7-b705-93c2287dcf7e")
-	)
-	(fp_line
-		(start 1.05 14.48)
-		(end 1.05 -2.78)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9bbb7ea9-4b74-4b9c-880e-605243e211cb")
-	)
-	(fp_line
-		(start 1.05 14.48)
 		(end 9.65 14.48)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "17090892-2a2b-4c2b-aa75-927ba2601c31")
-	)
-	(fp_line
-		(start 9.65 -2.78)
-		(end 9.65 14.48)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "24651d41-ceb0-490b-a9cf-c26c1fc9b598")
+		(uuid "dcdb6aaa-b6fa-4925-aea6-ef312ced8dc2")
 	)
 	(fp_rect
 		(start -0.95 -3.78)
@@ -312,45 +283,16 @@
 		(layer "B.Fab")
 		(uuid "e253a6a7-e9fb-4add-a0c0-b955c15d3bcb")
 	)
-	(fp_line
+	(fp_rect
 		(start 0.8 -1.25)
-		(end 9.9 -1.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "fde812db-f911-4b3d-a2a9-f431c47aade4")
-	)
-	(fp_line
-		(start 0.8 14.95)
-		(end 0.8 -1.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1d31d267-513a-4123-bfb9-be36a733a73b")
-	)
-	(fp_line
-		(start 0.8 14.95)
 		(end 9.9 14.95)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill none)
 		(layer "F.Fab")
-		(uuid "c06c3a02-2fa2-4147-b69c-74c8ef3b1b10")
-	)
-	(fp_line
-		(start 9.9 -1.25)
-		(end 9.9 14.95)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1747d9b8-4e2f-4588-8274-72d0d1f5a0cb")
+		(uuid "588ac02b-1d8e-43ee-b458-712871cc40b3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5.35 6.85 0)

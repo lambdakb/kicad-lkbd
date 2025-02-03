@@ -1,4 +1,4 @@
-ProMicro_ATmega32U4(footprint "MCU_ProMicro_DIP-24_Socket_Reverse"
+(footprint "MCU_ProMicro_DIP-24_Socket_Reverse"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
