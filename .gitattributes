@@ -11,3 +11,5 @@
 *.kicad_pcb linguist-detectable=true linguist-language=KiCad-Layout
 *.kicad_mod linguist-detectable=true linguist-language=KiCad-Layout
 *.kicad_wks linguist-detectable=true linguist-language=KiCad-Layout
+
+output/**   -diff linguist-generated=true
