@@ -202,6 +202,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "33857de3-b050-4900-ab23-5a5da3ffa363")
 	)
 	(pad "3" thru_hole oval
@@ -210,6 +211,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "65ade94b-99d6-4aad-a475-418a7be02d7b")
 	)
 	(pad "4" thru_hole oval
@@ -218,6 +220,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "34df7740-3f84-4e2f-935f-a257e5e4a998")
 	)
 	(pad "5" thru_hole oval
@@ -226,6 +229,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "a683d38f-93ef-456b-aee3-18f6711e72b0")
 	)
 	(pad "6" thru_hole oval
@@ -234,6 +238,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "a32dbb2a-95d3-4721-a78a-63df297053c2")
 	)
 	(pad "7" thru_hole oval
@@ -242,6 +247,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "d87899e2-7b75-4814-939f-d89fef9bfdf8")
 	)
 	(pad "8" thru_hole oval
@@ -250,6 +256,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "8cbe4e6b-2d8f-48fe-af79-231670c0ff29")
 	)
 	(pad "9" thru_hole oval
@@ -258,6 +265,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "9d5653ed-6200-4ddd-a57e-9d66e1a80cc1")
 	)
 	(pad "10" thru_hole oval
@@ -266,6 +274,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "c123b0f9-7f67-44e9-9d78-a04c738a09f7")
 	)
 	(pad "11" thru_hole oval
@@ -274,6 +283,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "d4598eaa-717e-4ccb-ac50-9a8340a04b34")
 	)
 	(pad "12" thru_hole oval
@@ -282,6 +292,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "3eebceb0-1eb9-4e7f-9e2b-8e442b6176fd")
 	)
 	(pad "13" thru_hole oval
@@ -290,6 +301,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "951c49c9-238c-4da7-ba5d-d2e9180fa49f")
 	)
 	(pad "14" thru_hole oval
@@ -298,6 +310,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "78e2981f-e416-4295-adb5-310ad231bc5c")
 	)
 	(pad "15" thru_hole oval
@@ -306,6 +319,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "449a4a66-d952-4821-81dd-cb97fadd1816")
 	)
 	(pad "16" thru_hole oval
@@ -314,6 +328,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "077e870d-27e9-4908-9585-7bbc33acf203")
 	)
 	(pad "17" thru_hole oval
@@ -322,6 +337,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "ed7d5fe1-6fe2-41a7-b932-144ebb9f3989")
 	)
 	(pad "18" thru_hole oval
@@ -330,6 +346,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "21d33656-d654-49b9-803b-e41f4f5b3b0c")
 	)
 	(pad "19" thru_hole oval
@@ -338,6 +355,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "9d16b86f-c79a-4400-8764-1e5e977690ee")
 	)
 	(pad "20" thru_hole oval
@@ -346,6 +364,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "9d22211e-5c91-406e-8d08-8f00bb764db0")
 	)
 	(pad "21" thru_hole oval
@@ -354,6 +373,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "901c265f-944f-4d03-bacb-a5c71f725241")
 	)
 	(pad "22" thru_hole oval
@@ -362,6 +382,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "cb2ba77b-f5f3-4c4a-abba-e789b873f597")
 	)
 	(pad "23" thru_hole oval
@@ -370,6 +391,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "eeb6d308-ef45-44fc-a522-4e8259de68f6")
 	)
 	(pad "24" thru_hole oval
@@ -378,6 +400,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "edba13b9-f4a3-4b82-9a0b-f696d3ab73f5")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.wrl"
