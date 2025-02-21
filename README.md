@@ -1,6 +1,6 @@
 # LambdaKB.dev KiCad Libraries (LKDB)
 
-This repository includes the different symbol and footprint libraries used to create devices at LambdaKB.dev.
+This repository includes the different symbol and footprint libraries used to create devices at LambdaKB.dev as well as our KiCad project templates.
 
 ## Symbols
 
@@ -14,8 +14,8 @@ This repository includes the different symbol and footprint libraries used to cr
 
 ## Footprints
 
-| Name                        | Description                                                                                             |
-| --------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Name                          | Description                                                                                             |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [`LKBD_Common.pretty`]        | Common footprint used across all types of devices (THT+SMD diodes / resistors, reset switches, ...)     |
 | [`LKBD_KeySwitch.pretty`]     | Mechanical keyboard switches footprints (Cherry MX, Kailh hot-swap socket, ...)                         |
 | [`LKBD_MCU.pretty`]           | Micro controller footprints including socketed and soldered footprints (Arduino Pro Micro, KB2040, ...) |
@@ -29,6 +29,14 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty
 [`LKBD_OLED.pretty`]: footprints/README.md#lkbd_oledpretty
 [`LKBD_OpticalSensor.pretty`]: footprints/README.md#lkbd_opticalsensorpretty
+
+## Templates
+
+| Name                  | Description                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------- |
+| [`Mechanical-Keyboard`] | Basic template for mechanical keyboards, including standardized design rules & BOM fields |
+
+[`Mechanical-Keyboard`]: templates/Mechanical-Keyboard
 
 ## License
 

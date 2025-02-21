@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76cb4e9e-c848-4f96-8850-cfdf3c15cc6a")
+	(paper "A4")
+	(title_block
+		(rev "v1.00")
+		(company "LambdaKB.dev")
+		(comment 1 "https://lambdakb.dev/")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
