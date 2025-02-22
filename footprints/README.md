@@ -64,4 +64,15 @@
 | ---------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | `PMW3360DM-T2QU` | PixArt PMW3360DM Optical Gaming Navigation Chip | <img src="../output/footprints/LKBD_OpticalSensor.pretty/PMW3360DM-T2QU.png" width="160" height="160"> |
 
+## `LKBD_PCBFab.pretty`
+
+| Footprint                    | Description                                                                 | Preview [^preview] |
+| ---------------------------- | --------------------------------------------------------------------------- | ------------------ |
+| `JLCPCB_2DBarcode_5x5mm`     | 2D barcode (5mm × 5mm) placeholder for JLCPCB [^jlcpcbmark]                 | n/a                |
+| `JLCPCB_2DBarcode_8x8mm`     | 2D barcode (8mm × 8mm) placeholder for JLCPCB [^jlcpcbmark]                 | n/a                |
+| `JLCPCB_2DBarcode_10x10mm`   | 2D barcode (10mm × 10mm) placeholder for JLCPCB [^jlcpcbmark]               | n/a                |
+| `JLCPCB_OrderNumber_H0.8mm`  | Order number placeholder (0.8mm text) for JLCPCB [^jlcpcbmark]              | n/a                |
+| `JLCPCB_SerialNumber_2x10mm` | Number only serial number (2mm × 10mm) placeholder for JLCPCB [^jlcpcbmark] | n/a                |
+
 [^preview]: Preview images are not automatically generated for footprints. Use them for reference only as they may not be up-to-date with the footprints.
+[^jlcpcbmark]: See [How to mark on PCB?](https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB) on JLCPCB's website

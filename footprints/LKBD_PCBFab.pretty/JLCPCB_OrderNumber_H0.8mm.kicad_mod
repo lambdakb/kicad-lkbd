@@ -1,0 +1,111 @@
+(footprint "JLCPCB_OrderNumber_H0.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Order number placeholder (0.8mm text) for JLCPCB")
+	(tags "JLCPCB")
+	(property "Reference" "REF**"
+		(at 0 4.024 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a21b81d1-7582-47d6-8a1b-08dd59d17454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JLCPCB_OrderNumber_H0.8mm"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82260a01-9630-488f-a275-a3aaca8ac691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -15.5 4 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1aac2f46-d4e5-4e64-bf64-512378c101aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at -15.5 4 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "dd6e3de3-ccf7-4d7f-ab07-f8eaa8e51cfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at -15.5 4 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "9a5c8d7b-55e3-426e-a52a-57ecf31ae6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -4.6 -0.8)
+		(end 4.6 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d56fa8ff-8928-42bc-8b63-e6829eba654b")
+	)
+	(fp_text user "JLCJLCJLCJLC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ed9629b-6589-4576-927e-4cf4a6d0a122")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e0e012c4-0b5a-4f72-a544-2256d8be2370")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
