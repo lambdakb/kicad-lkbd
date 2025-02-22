@@ -22,6 +22,7 @@ This repository includes the different symbol and footprint libraries used to cr
 | [`LKBD_MicroSwitch.pretty`]   | Mouse micro-switch footprints (Omron SMD & THT switches, ...)                                           |
 | [`LKBD_OLED.pretty`]          | I²C OLED modules footprint (0.91" SSD1306 module, ...)                                                  |
 | [`LKBD_OpticalSensor.pretty`] | Mouse & trackball optical sensor footprints (PMW3360, ...)                                              |
+| [`LKBD_PCBFab.pretty`]        | PCB fabrication related footprints (such as PCB marks or serial number placeholders)                    |
 
 [`LKBD_Common.pretty`]: footprints/README.md#lkbd_commonpretty
 [`LKBD_KeySwitch.pretty`]: footprints/README.md#lkbd_keyswitchpretty
@@ -29,11 +30,12 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty
 [`LKBD_OLED.pretty`]: footprints/README.md#lkbd_oledpretty
 [`LKBD_OpticalSensor.pretty`]: footprints/README.md#lkbd_opticalsensorpretty
+[`LKBD_PCBFab.pretty`]: footprints/README.md#lkbd_pcbfab
 
 ## Templates
 
-| Name                  | Description                                                                               |
-| --------------------- | ----------------------------------------------------------------------------------------- |
+| Name                    | Description                                                                               |
+| ----------------------- | ----------------------------------------------------------------------------------------- |
 | [`Mechanical-Keyboard`] | Basic template for mechanical keyboards, including standardized design rules & BOM fields |
 
 [`Mechanical-Keyboard`]: templates/Mechanical-Keyboard
