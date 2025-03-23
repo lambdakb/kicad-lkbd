@@ -1,7 +1,7 @@
 (footprint "MCU_KB2040_DIP-24_Socket_Reverse"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DIP-24 (Wide, 15.24mm) socket for KB2040 and other ProMicro style MCU")
 	(tags "MCU Socket KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -7.62 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d51c7ef3-9ac0-496a-a30d-e7081fe9fcc5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3829f727-0d77-4741-984b-3c87a0efef67")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "699d3ea0-725a-41d6-950f-5360b132a7d9")
 	)
@@ -96,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "3a7bec09-45e4-4105-bec0-005334c19d75")
 	)
@@ -107,7 +94,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d98aeb6e-886b-4b4d-973f-5f4ba0100190")
 	)
@@ -118,7 +105,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7d23eef1-d9da-481b-8dc4-897d5f4a5879")
 	)
@@ -129,7 +116,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f963343e-b45a-4740-a8af-8c9d54efa99c")
 	)
@@ -140,7 +127,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b33017fd-c257-4e78-839f-a90c3744c2c6")
 	)
@@ -158,7 +145,7 @@
 		)
 	)
 	(fp_text user "4"
-		(at 6.5 15.494 -45)
+		(at 6.5 15.494 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "10a06137-b1d9-4c6d-8ce1-9eb5de502d93")
@@ -171,7 +158,7 @@
 		)
 	)
 	(fp_text user "RX"
-		(at 6.5 2.921 -45)
+		(at 6.5 2.921 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2b5744df-2def-426f-a22a-f93ed8f487ea")
@@ -184,7 +171,7 @@
 		)
 	)
 	(fp_text user "2"
-		(at 6.5 10.414 -45)
+		(at 6.5 10.414 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3c1e1caf-d29f-4def-ac41-3405a26f0c2e")
@@ -249,7 +236,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 6.5 5.715 -45)
+		(at 6.5 5.715 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8187e57b-818c-4de0-99bb-9bc518bdc804")
@@ -288,7 +275,7 @@
 		)
 	)
 	(fp_text user "9"
-		(at 6.5 28.194 -45)
+		(at 6.5 28.194 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b335c7ba-3a88-4155-aa62-9f8e4a39e3e5")
@@ -301,7 +288,7 @@
 		)
 	)
 	(fp_text user "5"
-		(at 6.5 18.034 -45)
+		(at 6.5 18.034 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b341a735-882a-4cab-a7d6-a4a9e20db20d")
@@ -314,7 +301,7 @@
 		)
 	)
 	(fp_text user "TX"
-		(at 6.5 0.381 -45)
+		(at 6.5 0.381 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b4567308-0660-46ca-a3ca-6cf39a380da4")
@@ -327,7 +314,7 @@
 		)
 	)
 	(fp_text user "8"
-		(at 6.5 25.654 -45)
+		(at 6.5 25.654 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b629cfd2-0996-4f0f-a00f-0fb7f832fe3f")
@@ -353,7 +340,7 @@
 		)
 	)
 	(fp_text user "6"
-		(at 6.5 20.574 -45)
+		(at 6.5 20.574 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c0c6a486-0d12-4c61-98b2-033167e315e9")
@@ -418,7 +405,7 @@
 		)
 	)
 	(fp_text user "7"
-		(at 6.5 23.114 -45)
+		(at 6.5 23.114 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ee0cf3a6-7341-4a70-8502-40cc6169c00e")
@@ -431,7 +418,7 @@
 		)
 	)
 	(fp_text user "3"
-		(at 6.5 12.954 -45)
+		(at 6.5 12.954 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f34ace43-e063-4434-997b-7e6b041d3d02")
@@ -444,7 +431,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 6.5 8.255 -45)
+		(at 6.5 8.255 315)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f4dc1f40-f0e7-45b3-8060-243f679efa4e")
@@ -684,7 +671,8 @@
 		(thermal_bridge_angle 45)
 		(uuid "edba13b9-f4a3-4b82-9a0b-f696d3ab73f5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.wrl"
 		(offset
 			(xyz -7.62 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SW_MX_2U_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cherry MX style keyswitch with 2U Stabilizer (Through-Hole mount)")
 	(tags "MX Cherry Gateron Kailh THT")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "1528fd4b-896f-43a1-a8fe-50c44e655791")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -157,7 +144,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "94552ce9-8e99-428d-8da4-9c44ab341db2")
 	)
@@ -308,7 +295,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "52c3fa06-a959-4ec8-9798-9ead042b8347")
 	)
@@ -319,7 +306,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8fd90015-0520-4512-a1d8-9f83abeec2c3")
 	)
@@ -400,6 +387,7 @@
 		(remove_unused_layers no)
 		(uuid "bb67a69f-c240-49f4-b440-352c59b0de8b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_MX_2.00u.wrl"
 		(offset
 			(xyz 0 0 0)

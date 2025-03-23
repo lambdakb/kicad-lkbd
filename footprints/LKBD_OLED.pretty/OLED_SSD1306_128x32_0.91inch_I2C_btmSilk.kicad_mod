@@ -1,7 +1,7 @@
 (footprint "OLED_SSD1306_128x32_0.91inch_I2C_btmSilk"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SSD1306 based OLED module (0.91 inch)")
 	(tags "OLED SSD1306 I2C Display 128x32 0.91inch")
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b84e7afc-db25-429b-8649-ce29d0045235")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -17.05 -0.25 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "78395949-824f-42fc-aa16-c6de890297fa")
 		(effects
 			(font
 				(size 1 1)
@@ -69,79 +56,13 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -15.76 -5.33)
-		(end -19.697 -2.79)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "df805d7d-ed82-4889-9c61-c4df2962bdae")
-	)
-	(fp_rect
-		(start -15.76 -5.33)
-		(end -18.3 4.83)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "0982cd8f-a33b-49ff-b5a3-9c4eb7620f4d")
-	)
-	(fp_rect
-		(start -15.76 -2.79)
-		(end -19.697 -0.25)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "be8f52dc-fea6-424b-a962-c0604e1da2f1")
-	)
-	(fp_rect
-		(start -15.76 -2.79)
-		(end -19.697 -0.25)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "be8f52dc-fea6-424b-a962-c0604e1da2f1")
-	)
-	(fp_rect
-		(start -15.76 -0.25)
-		(end -19.697 2.29)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "9bc84a34-45f7-4c2b-8b83-66f9f0eb2814")
-	)
-	(fp_rect
-		(start -15.76 2.29)
-		(end -19.697 4.83)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "97754500-dc83-42e5-809f-4016ffb49552")
-	)
-	(fp_rect
 		(start -19.697 -5.33)
 		(end -15.76 -2.79)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c3fcffce-e8c6-426a-919b-388220edf457")
 	)
@@ -152,7 +73,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "84fe2384-9af9-4188-8129-b1e5c962567a")
 	)
@@ -163,7 +84,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "88f07393-64c9-4959-867d-0c55b5f418bf")
 	)
@@ -174,7 +95,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "dfaed3a0-22bb-42be-9551-e308223a0a6a")
 	)
@@ -185,9 +106,75 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e37aca16-9a59-4ae3-8079-bc28e22498ee")
+	)
+	(fp_rect
+		(start -15.76 -5.33)
+		(end -19.697 -2.79)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "df805d7d-ed82-4889-9c61-c4df2962bdae")
+	)
+	(fp_rect
+		(start -15.76 -5.33)
+		(end -18.3 4.83)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "0982cd8f-a33b-49ff-b5a3-9c4eb7620f4d")
+	)
+	(fp_rect
+		(start -15.76 -2.79)
+		(end -19.697 -0.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "be8f52dc-fea6-424b-a962-c0604e1da2f1")
+	)
+	(fp_rect
+		(start -15.76 -2.79)
+		(end -19.697 -0.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "be8f52dc-fea6-424b-a962-c0604e1da2f1")
+	)
+	(fp_rect
+		(start -15.76 -0.25)
+		(end -19.697 2.29)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "9bc84a34-45f7-4c2b-8b83-66f9f0eb2814")
+	)
+	(fp_rect
+		(start -15.76 2.29)
+		(end -19.697 4.83)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "97754500-dc83-42e5-809f-4016ffb49552")
 	)
 	(fp_rect
 		(start -12.19 -3.79)
@@ -196,7 +183,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "fc3fac61-ad4b-46a9-b5c9-9758413664ee")
 	)
@@ -207,7 +194,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d92ef795-d8cf-496a-94a0-757003862310")
 	)
@@ -218,7 +205,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7516d61b-475b-4276-84e4-52164574522f")
 	)
@@ -229,61 +216,9 @@
 			(width 0.1)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "aefa1071-6362-45b4-acbc-c278f8c82ee4")
-	)
-	(fp_text user "SCL"
-		(at -18.6436 -1.524 -90)
-		(layer "B.SilkS")
-		(uuid "201fe5fb-05eb-4564-916d-75b5a5b054bf")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
-	)
-	(fp_text user "GND"
-		(at -18.6436 3.556 -90)
-		(layer "B.SilkS")
-		(uuid "4d81c716-0029-4ee2-bfa1-120180ed883c")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
-	)
-	(fp_text user "SDA"
-		(at -18.6436 -4.064 -90)
-		(layer "B.SilkS")
-		(uuid "6d4b9d2d-a387-4dbd-aba1-68a448944c66")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
-	)
-	(fp_text user "VCC"
-		(at -18.6436 1.016 -90)
-		(layer "B.SilkS")
-		(uuid "8c66ebae-65d5-4bc6-9191-4ebdc59ede5d")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
 	)
 	(fp_text user "SDA"
 		(at -18.6436 -4.064 90)
@@ -337,6 +272,58 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "SCL"
+		(at -18.6436 -1.524 270)
+		(layer "B.SilkS")
+		(uuid "201fe5fb-05eb-4564-916d-75b5a5b054bf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -18.6436 3.556 270)
+		(layer "B.SilkS")
+		(uuid "4d81c716-0029-4ee2-bfa1-120180ed883c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "SDA"
+		(at -18.6436 -4.064 270)
+		(layer "B.SilkS")
+		(uuid "6d4b9d2d-a387-4dbd-aba1-68a448944c66")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -18.6436 1.016 270)
+		(layer "B.SilkS")
+		(uuid "8c66ebae-65d5-4bc6-9191-4ebdc59ede5d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 8.3 0)
 		(unlocked yes)
@@ -381,6 +368,7 @@
 		(remove_unused_layers no)
 		(uuid "571a1200-816b-4df4-a3df-4f57596be4b0")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_OLED.3dshapes/OLED_SSD1306_128x32_0.91inch_I2C.step"
 		(offset
 			(xyz -17 0.3 0)

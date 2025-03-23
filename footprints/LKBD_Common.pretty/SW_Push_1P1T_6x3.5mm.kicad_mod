@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T_6x3.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tactile Push Button (6x3.5mm)")
 	(tags "SW Push 1P1T MJTP PHAP3362 6mm 3.5mm THT")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -3.25 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b3dbcda-4d2b-4bcf-a624-b62285c54e52")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -134,7 +121,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d87ccef9-b594-4117-b4d5-eeaa9624a6c6")
 	)
@@ -317,6 +304,7 @@
 		(remove_unused_layers no)
 		(uuid "9bff696e-f4e2-4d30-9078-7d0e4fe03cce")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_Common.3dshapes/SW_Push_6x3.5mm_DIP.step"
 		(offset
 			(xyz 0 0 0)

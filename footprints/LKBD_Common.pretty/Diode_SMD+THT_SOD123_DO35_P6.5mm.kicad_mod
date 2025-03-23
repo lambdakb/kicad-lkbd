@@ -1,7 +1,7 @@
 (footprint "Diode_SMD+THT_SOD123_DO35_P6.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Dual footprint for SOD123 SMD Diode and DO35 THT Diode (Pitch 6.5mm)")
 	(tags "D Diode SMD SOD123 THT DO35 pitch 7.62mm")
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb198105-d5fb-4ae6-ad52-a49b8289f503")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.45 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1db73fa-7ddd-4f17-9272-2d03f98cf626")
 		(effects
 			(font
 				(size 1 1)
@@ -135,7 +122,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "36e39797-41dc-427c-9d1f-6cd92338cd4f")
 	)
@@ -146,7 +133,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ab5508db-13c7-4249-a45b-ab1ad88a0d5f")
 	)
@@ -157,7 +144,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fc35f197-01ee-4914-bb30-7201eb8edd05")
 	)
@@ -187,7 +174,7 @@
 		(drill
 			(offset -0.8 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "ae62277c-f147-438d-8700-599115c57540")
 	)
@@ -205,11 +192,12 @@
 		(drill
 			(offset -0.8 0)
 		)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "774232e5-e20d-48d2-8a4d-c97e79c6f21b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.step"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.step"
 		(hide yes)
 		(offset
 			(xyz -3.82 0 0)
@@ -221,7 +209,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
