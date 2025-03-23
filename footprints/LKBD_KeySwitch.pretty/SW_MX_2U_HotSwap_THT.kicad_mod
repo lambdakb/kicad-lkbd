@@ -1,7 +1,7 @@
 (footprint "SW_MX_2U_HotSwap_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + Through-Hole mount)")
 	(tags "MX Cherry Gateron Kailh HotSwap SMD THT")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1528fd4b-896f-43a1-a8fe-50c44e655791")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -65,86 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -7 -7.000001)
-		(end -6 -7.000001)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "8b5086e8-7ed8-4df7-a3bf-22ede413a217")
-	)
-	(fp_line
-		(start -7 -6.000001)
-		(end -7 -7.000001)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "47355edb-373f-4ecd-9fdd-6d24c82564e1")
-	)
-	(fp_line
-		(start -7 6.999999)
-		(end -7 5.999999)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "f9831cc8-b5d4-44ed-b997-283f3666ea5c")
-	)
-	(fp_line
-		(start -6 6.999999)
-		(end -7 6.999999)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "acea5a02-6174-4516-9483-6f4efbc3e876")
-	)
-	(fp_line
-		(start 6 -7.000001)
-		(end 7 -7.000001)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "761152f4-7384-44cf-9263-da1e40bb5023")
-	)
-	(fp_line
-		(start 7 -7.000001)
-		(end 7 -6.000001)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "74a0c89a-6e61-4bdd-aa5a-ac818c358459")
-	)
-	(fp_line
-		(start 7 6.999999)
-		(end 6 6.999999)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "7c69aefa-6ffb-4c9d-bd26-5ac41dc49d31")
-	)
-	(fp_line
-		(start 7 6.999999)
-		(end 7 5.999999)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "27b0baf3-2bbe-4e49-92c0-f5cf1fb660aa")
-	)
 	(fp_line
 		(start -6.35 0.999999)
 		(end -6.35 0.634999)
@@ -247,6 +155,86 @@
 		(layer "F.SilkS")
 		(uuid "ec889ab9-1874-4b2f-8e06-cafcac5f4ce2")
 	)
+	(fp_line
+		(start -7 -7.000001)
+		(end -6 -7.000001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "8b5086e8-7ed8-4df7-a3bf-22ede413a217")
+	)
+	(fp_line
+		(start -7 -6.000001)
+		(end -7 -7.000001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "47355edb-373f-4ecd-9fdd-6d24c82564e1")
+	)
+	(fp_line
+		(start -7 6.999999)
+		(end -7 5.999999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f9831cc8-b5d4-44ed-b997-283f3666ea5c")
+	)
+	(fp_line
+		(start -6 6.999999)
+		(end -7 6.999999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "acea5a02-6174-4516-9483-6f4efbc3e876")
+	)
+	(fp_line
+		(start 6 -7.000001)
+		(end 7 -7.000001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "761152f4-7384-44cf-9263-da1e40bb5023")
+	)
+	(fp_line
+		(start 7 -7.000001)
+		(end 7 -6.000001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "74a0c89a-6e61-4bdd-aa5a-ac818c358459")
+	)
+	(fp_line
+		(start 7 6.999999)
+		(end 6 6.999999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7c69aefa-6ffb-4c9d-bd26-5ac41dc49d31")
+	)
+	(fp_line
+		(start 7 6.999999)
+		(end 7 5.999999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "27b0baf3-2bbe-4e49-92c0-f5cf1fb660aa")
+	)
 	(fp_rect
 		(start -19.05 -9.525)
 		(end 19.05 9.525)
@@ -254,7 +242,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "94552ce9-8e99-428d-8da4-9c44ab341db2")
 	)
@@ -265,7 +253,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "3485684b-348a-4c37-8cc9-799acad9745a")
 	)
@@ -456,7 +444,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "8fd90015-0520-4512-a1d8-9f83abeec2c3")
 	)
@@ -669,7 +657,7 @@
 	(pad "1" smd roundrect
 		(at -7.56 2.539999 180)
 		(size 2.55 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "bb08d5db-d555-4dff-84ce-04d3648b1a3c")
 	)
@@ -692,10 +680,11 @@
 	(pad "2" smd roundrect
 		(at 6.29 5.079999 180)
 		(size 2.55 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "24a34709-4ab5-4982-a9a8-40a51d00dd84")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
 		(offset
 			(xyz 0 0 -1.6)

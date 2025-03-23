@@ -1,5 +1,8 @@
 # LambdaKB.dev KiCad Libraries (LKDB)
 
+[![License](https://img.shields.io/badge/License-MIT-00ad00?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](/LICENSE)
+[![KiCad](https://img.shields.io/badge/KiCad-v9-orange?style=for-the-badge&logo=kicad&logoColor=white&logoSize=auto)](https://www.kicad.org/)
+
 This repository includes the different symbol and footprint libraries used to create devices at LambdaKB.dev as well as our KiCad project templates.
 
 ## Symbols

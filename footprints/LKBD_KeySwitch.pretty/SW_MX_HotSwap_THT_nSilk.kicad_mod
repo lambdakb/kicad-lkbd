@@ -1,7 +1,7 @@
 (footprint "SW_MX_HotSwap_THT_nSilk"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cherry MX style keyswitch (SMD HotSwap + Through-Hole mount)")
 	(tags "MX Cherry Gateron Kailh HotSwap SMD THT")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1528fd4b-896f-43a1-a8fe-50c44e655791")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -173,7 +161,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "fe736f1d-c1a8-436e-a1f0-fabc1c5428f1")
 	)
@@ -184,7 +172,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "2c3d1b96-bda2-4aef-b932-8e3f0bde5bf8")
 	)
@@ -375,7 +363,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "b674a616-1c1f-4e4c-87f3-e379b4b2d411")
 	)
@@ -560,7 +548,7 @@
 	(pad "1" smd roundrect
 		(at -7.56 2.54 180)
 		(size 2.55 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "f2f521bd-0a4b-40ab-99c8-19996d129afa")
 	)
@@ -583,10 +571,11 @@
 	(pad "2" smd roundrect
 		(at 6.29 5.08 180)
 		(size 2.55 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "1b81940c-d932-436a-bc00-045b02f57a76")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
 		(offset
 			(xyz 0 0 -1.6)

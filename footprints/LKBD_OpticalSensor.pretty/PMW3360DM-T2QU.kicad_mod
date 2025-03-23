@@ -1,7 +1,7 @@
 (footprint "PMW3360DM-T2QU"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Optical Gaming Navigation Chip")
 	(tags "Optical Sensor Gaming Navigation Chip Tracking")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a1c9a5b7-a08e-4416-b99c-82c4223d896f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -122,7 +110,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "acda6a6d-6c9f-4aa5-b3f1-7ba6afa75240")
 	)
@@ -133,7 +121,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "dcdb6aaa-b6fa-4925-aea6-ef312ced8dc2")
 	)
@@ -144,7 +132,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "61d568ec-f372-4979-b4c7-2518f2c3e44b")
 	)
@@ -155,7 +143,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "90a853ce-bec0-4ea5-a2d0-1ae85dcb2237")
 	)
@@ -290,7 +278,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "588ac02b-1d8e-43ee-b458-712871cc40b3")
 	)
@@ -434,6 +422,7 @@
 		(remove_unused_layers no)
 		(uuid "fe41907f-7e73-4d3c-ae91-9f5027f18b68")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/PMW3360.pretty/PMW3360DM.wrl"
 		(offset
 			(xyz 0 0 0)

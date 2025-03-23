@@ -1,7 +1,7 @@
 (footprint "SW_D2LS_OMR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Omron D2LS Ultra Subminiature Basic Switch (SMD)")
 	(tags "SW OMR MicroSwitch Micro Switch Omron D2LS D2LS-21 SMD")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "250cf1ef-93a6-4cbf-a1ef-23677764d0e8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cf4b60a5-cb9f-4e67-85ca-9c4096ba3410")
 	)
@@ -175,7 +163,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0c631bfa-ac1d-4e95-bbd8-a0c1634cb26a")
 	)
@@ -207,17 +195,18 @@
 	(pad "1" smd roundrect
 		(at -5.15 0)
 		(size 1.5 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "470a0d4a-83a4-4f6a-96e1-1b4ff78c286e")
 	)
 	(pad "2" smd roundrect
 		(at 5.15 0)
 		(size 1.5 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "3ac9f636-de5c-40c6-8bcc-ef50ff73c291")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_MicroSwitch.3dshapes/SW_D2LS-11.step"
 		(offset
 			(xyz -2 0 0)

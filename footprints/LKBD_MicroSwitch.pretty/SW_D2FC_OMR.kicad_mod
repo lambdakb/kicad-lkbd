@@ -1,7 +1,7 @@
 (footprint "SW_D2FC_OMR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Omron D2FC Ultra Subminiature Basic Switch (THT)")
 	(tags "SW OMR MicroSwitch Micro Switch Omron D2FC D2FC-F-7N THT")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e7b9133-aab9-406e-9b5d-5b295abb2117")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -213,7 +201,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "d26a29fb-c540-4792-8975-fc8aa8d039e4")
 	)
@@ -224,7 +212,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "3d49e958-e580-482f-86dc-fafc80c6e291")
 	)
@@ -235,7 +223,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "31fc48b1-a256-48dd-9507-2c13b6ad4017")
 	)
@@ -246,7 +234,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "06edcb44-58c5-449c-9688-5d1b73714d2b")
 	)
@@ -257,7 +245,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "08f62b19-c0bc-4265-9f70-787ed4fd197a")
 	)
@@ -296,6 +284,7 @@
 		(remove_unused_layers no)
 		(uuid "12c93ae3-fa3c-4ece-83d2-9663fab2a4aa")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_MicroSwitch.3dshapes/SW_D2FC-F-7N.step"
 		(offset
 			(xyz 6.375 -2.85 0.5)

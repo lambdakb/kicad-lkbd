@@ -1,7 +1,7 @@
 (footprint "SW_MX_EC11_THT_nSilk"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (Through-Hole mount)")
 	(tags "MX Cherry Gateron Kailh ALPS EC11 EC12 THT")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "1528fd4b-896f-43a1-a8fe-50c44e655791")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -76,7 +63,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "e0537b27-5f5f-4bf9-bed5-d0dcce088c57")
 	)
@@ -87,7 +74,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "2f6c5546-0440-4458-93a2-7e69a48c7fc5")
 	)
@@ -98,7 +85,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c645087f-7e06-46ac-a884-4e43cd6b5aa0")
 	)
@@ -109,7 +96,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "49d073f9-85da-492d-89df-0337ca124e65")
 	)
@@ -210,6 +197,7 @@
 		(remove_unused_layers no)
 		(uuid "fe2a40c6-3e9b-4d06-abf5-196713bf6b25")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"
 		(offset
 			(xyz 0 0 0)
