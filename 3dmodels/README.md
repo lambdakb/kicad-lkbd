@@ -8,11 +8,13 @@ These models are sourced from various authors and distributed under their respec
 
 ## `LKBD_Common.3dshapes`
 
-| File                         | Attribution                                                                                                                              | License / Usage Terms                      |
+| File                         | Attribution                                                                                                                              |           License / Usage Terms            |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------: |
 | [`SW_Push_6x3.5mm_DIP.step`] | [SW_PUSH-6X3,5_DIP.step](https://grabcad.com/library/tack-switch-tact-6x3-5-1) by [Yuri Motovilov](https://grabcad.com/yuri.motovilov-1) | [GrabCAD Sharing Policy] [^grabcad-policy] |
+| [`LED_SK6812MINI-E.step`]    | [SK6812MINI-E](https://grabcad.com/library/sk6812mini-e-led-1) by [Moritz Plattner](https://grabcad.com/moritz.plattner-2)               | [GrabCAD Sharing Policy] [^grabcad-policy] |
 
 [`SW_Push_6x3.5mm_DIP.step`]: ./LKBD_Common.3dshapes/SW_Push_6x3.5mm_DIP.step
+[`LED_SK6812MINI-E.step`]: ./LKBD_Common.3dshapes/LED_SK6812MINI-E.step
 
 ## `LKBD_KeySwitch.3dshapes`
 
@@ -30,7 +32,7 @@ These models are sourced from various authors and distributed under their respec
 
 ## `LKBD_MCU.3dshapes`
 
-| File                     | Attribution                                                                                                                                           | License / Usage Terms                      |
+| File                     | Attribution                                                                                                                                           |           License / Usage Terms            |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------: |
 | [`MCU_KB2040.step`]      | [Adafruit KB2040 v7.step](https://grabcad.com/library/adafruit-kb2040-1) by [DeltaWhy](https://grabcad.com/deltawhy-1)                                | [GrabCAD Sharing Policy] [^grabcad-policy] |
 | [`MCU_XIAO-RP2040.step`] | [Seeed Studio XIAO RP2040 v26.step](https://grabcad.com/library/seeed-studio-xiao-rp2040-1) by [mirac gulgonul](https://grabcad.com/mirac.gulgonul-1) | [GrabCAD Sharing Policy] [^grabcad-policy] |
@@ -40,9 +42,9 @@ These models are sourced from various authors and distributed under their respec
 
 ## `LKBD_MicroSwitch.3dshapes`
 
-| File                  | Attribution                                                                                                                                                           | License / Usage Terms                                                       |
+| File                  | Attribution                                                                                                                                                           |                            License / Usage Terms                            |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
-| [`SW_D2FC-F-7N.step`] | [Omron D2FC-F-7N.step](https://grabcad.com/library/omron-d2fc-f-7n-microswitch-1) by [Brendon Serack](https://grabcad.com/brendon.serack-1)                           | [GrabCAD Sharing Policy] [^grabcad-policy]                                  |
+| [`SW_D2FC-F-7N.step`] | [Omron D2FC-F-7N.step](https://grabcad.com/library/omron-d2fc-f-7n-microswitch-1) by [Brendon Serack](https://grabcad.com/brendon.serack-1)                           |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
 | [`SW_D2LS-11.step`]   | [D2LS_11.step](https://github.com/plants-tech/Zinnia/blob/master/PCB/Models%20and%20Such/d2ls11.models/D2LS_11.step) by [plants-tech](https://github.com/plants-tech) | [CERN-OHL-S-2.0](https://github.com/plants-tech/Zinnia/blob/master/LICENSE) |
 
 [`SW_D2FC-F-7N.step`]: ./LKBD_MicroSwitch.3dshapes/SW_D2FC-F-7N.step
@@ -52,13 +54,13 @@ These models are sourced from various authors and distributed under their respec
 
 | File                                      | Attribution                                                                                                                                  | License / Usage Terms |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------: |
-| [`OLED_SSD1306_128x32_0.91inch_I2C.step`] | [OLED-Module-with-Pins.step](https://github.com/foostan/kbd/blob/main/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step) by [foostan] | [MIT][kbd MIT]        |
+| [`OLED_SSD1306_128x32_0.91inch_I2C.step`] | [OLED-Module-with-Pins.step](https://github.com/foostan/kbd/blob/main/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step) by [foostan] |    [MIT][kbd MIT]     |
 
 [`OLED_SSD1306_128x32_0.91inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SSD1306_128x32_0.91inch_I2C.step
 
 ## `LKBD_OpticalSensor.3dshapes`
 
-| File                     | Attribution                                                                                                                                                | License / Usage Terms                                                         |
+| File                     | Attribution                                                                                                                                                |                             License / Usage Terms                             |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
 | [`PMW3360DM.{wrl,step}`] | [PXI-DIP-16.wrl](https://github.com/openinput-fw/openinput-kicad-library/blob/main/3dmodels/openinput.3dshapes/PXI-DIP-16.wrl) by [openinput contributors] | [MIT][openinput MIT] & [CC-BY-SA 4.0][openinput CC-BY-SA 4.0] [^dual-license] |
 
