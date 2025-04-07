@@ -1,12 +1,13 @@
-(footprint "OLED_SSD1306_128x32_0.91inch_I2C"
+(footprint "OLED_SSD1107_64x128_0.96inch_I2C"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SSD1306 based OLED module (0.91 inch)")
-	(tags "OLED SSD1306 I2C Display 128x32 0.91inch")
+	(descr "SSD1107 based OLED module (0.96 inch)")
+	(tags "OLED SSD1107 I2C Display 64x128 0.96inch")
 	(property "Reference" "REF**"
-		(at -17.78 -6.35 180)
+		(at 6.1 -17.26 270)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "890760cb-90c1-4992-8726-bd04cedb0bfa")
 		(effects
@@ -16,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "OLED_SSD1306_128x32_0.91inch_I2C"
-		(at 0 6.8 0)
+	(property "Value" "OLED_SSD1107_64x128_0.96inch_I2C"
+		(at 0 18.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b84e7afc-db25-429b-8649-ce29d0045235")
@@ -56,41 +57,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -19.697 -5.33)
-		(end -15.76 -2.79)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "c3fcffce-e8c6-426a-919b-388220edf457")
-	)
-	(fp_rect
-		(start -19.697 -2.79)
-		(end -15.76 -0.25)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "84fe2384-9af9-4188-8129-b1e5c962567a")
-	)
-	(fp_rect
-		(start -19.697 -0.25)
-		(end -15.76 2.29)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "88f07393-64c9-4959-867d-0c55b5f418bf")
-	)
-	(fp_rect
-		(start -19.697 2.29)
-		(end -15.76 4.83)
+		(start -5.08 -19.177)
+		(end -2.54 -15.24)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -100,8 +68,8 @@
 		(uuid "dfaed3a0-22bb-42be-9551-e308223a0a6a")
 	)
 	(fp_rect
-		(start -18.3 -5.33)
-		(end -15.76 4.83)
+		(start -5.08 -17.78)
+		(end 5.08 -15.24)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -111,51 +79,106 @@
 		(uuid "e37aca16-9a59-4ae3-8079-bc28e22498ee")
 	)
 	(fp_rect
-		(start -12.19 -3.79)
-		(end 12.19 3.79)
+		(start -2.54 -19.177)
+		(end 0 -15.24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "88f07393-64c9-4959-867d-0c55b5f418bf")
+	)
+	(fp_rect
+		(start 0 -19.177)
+		(end 2.54 -15.24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84fe2384-9af9-4188-8129-b1e5c962567a")
+	)
+	(fp_rect
+		(start 2.54 -19.177)
+		(end 5.08 -15.24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c3fcffce-e8c6-426a-919b-388220edf457")
+	)
+	(fp_rect
+		(start -5.93 -11.37)
+		(end 5.93 11.37)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "fc3fac61-ad4b-46a9-b5c9-9758413664ee")
+		(uuid "4113ae4b-c28c-4b87-bf7f-4ff6b49f0a6e")
 	)
 	(fp_rect
-		(start -18.3 -6.25)
-		(end 19.7 5.75)
+		(start -9.5 -17.93)
+		(end 9.5 17.07)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d92ef795-d8cf-496a-94a0-757003862310")
+		(uuid "a8ab3796-1ddf-4ea4-9071-555fa66168eb")
 	)
 	(fp_rect
-		(start -13.3 -5.75)
-		(end 16.7 5.75)
+		(start -7 -12.47)
+		(end 7 15.53)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7516d61b-475b-4276-84e4-52164574522f")
+		(uuid "cb0524b8-79aa-4b6e-adf0-d262513f9d60")
 	)
 	(fp_rect
-		(start -12.19 -3.79)
-		(end 12.19 3.79)
+		(start -5.93 -11.37)
+		(end 5.93 11.37)
 		(stroke
 			(width 0.1)
 			(type dash)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "aefa1071-6362-45b4-acbc-c278f8c82ee4")
+		(uuid "533420bb-e940-4ba9-80f0-d9db08b5b6ba")
+	)
+	(fp_circle
+		(center -7.5 -15.93)
+		(end -7.5 -17.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9066cfee-7291-4d3a-b182-532078037e5b")
+	)
+	(fp_circle
+		(center 7.5 -15.93)
+		(end 7.5 -17.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c27c064a-9a7c-4c50-afb2-7e31a3617388")
 	)
 	(fp_text user "SDA"
-		(at -18.6436 -4.064 90)
+		(at 3.814 -18.1236 0)
 		(layer "F.SilkS")
 		(uuid "11e376a4-03f1-476e-aeee-983fa6290014")
 		(effects
@@ -168,7 +191,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -18.6436 3.556 90)
+		(at -3.806 -18.1236 0)
 		(layer "F.SilkS")
 		(uuid "4be1a723-864e-47d2-96cf-cd421ea2ab6b")
 		(effects
@@ -181,7 +204,7 @@
 		)
 	)
 	(fp_text user "SCL"
-		(at -18.6436 -1.524 90)
+		(at 1.274 -18.1236 0)
 		(layer "F.SilkS")
 		(uuid "aa49e896-ef2b-4b68-964e-681020a69dcf")
 		(effects
@@ -194,7 +217,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -18.6436 1.016 90)
+		(at -1.266 -18.1236 0)
 		(layer "F.SilkS")
 		(uuid "d691fa92-ff6f-4781-82cb-21073ce270e5")
 		(effects
@@ -207,7 +230,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 8.3 0)
+		(at 0 19.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3ff09b70-602c-45cd-8640-6bc94af87ce1")
@@ -219,7 +242,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -17.03 -4.06 270)
+		(at 3.81 -16.51 180)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -227,7 +250,7 @@
 		(uuid "d3fa5a74-6bca-43c7-ab61-fa419eb5cbe6")
 	)
 	(pad "2" thru_hole circle
-		(at -17.03 -1.52 270)
+		(at 1.27 -16.51 180)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -235,7 +258,7 @@
 		(uuid "e64e511e-67cb-44b5-9df0-624a922f50eb")
 	)
 	(pad "3" thru_hole circle
-		(at -17.03 1.02 270)
+		(at -1.27 -16.51 180)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -243,7 +266,7 @@
 		(uuid "cd31a276-ec04-4c4a-a3a3-d09534dce952")
 	)
 	(pad "4" thru_hole circle
-		(at -17.03 3.56 270)
+		(at -3.81 -16.51 180)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -251,15 +274,15 @@
 		(uuid "571a1200-816b-4df4-a3df-4f57596be4b0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_OLED.3dshapes/OLED_SSD1306_128x32_0.91inch_I2C.step"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_OLED.3dshapes/OLED_SSD1107_64x128_0.96inch_I2C.step"
 		(offset
-			(xyz -17 0.3 0)
+			(xyz 0 16.65 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 90)
 		)
 	)
 )

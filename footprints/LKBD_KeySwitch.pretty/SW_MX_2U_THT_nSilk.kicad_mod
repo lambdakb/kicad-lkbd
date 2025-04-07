@@ -7,7 +7,6 @@
 	(tags "MX Cherry Gateron Kailh THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
-		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "20bd63f3-2800-4b91-8a21-8165f1ff203d")
 		(effects
@@ -199,6 +198,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "87a12a87-9f1c-41d8-b8c8-7646102cd637")
+	)
+	(fp_rect
+		(start -1.75 3.579999)
+		(end 1.75 6.579999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "ee584ea8-bea7-43a4-ad69-ed11e0017070")
 	)
 	(fp_rect
 		(start -16.525 -7)

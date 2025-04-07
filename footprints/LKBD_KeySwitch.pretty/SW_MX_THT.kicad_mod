@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(layer "B.SilkS")
-		(uuid "20bd63f3-2800-4b91-8a21-8165f1ff203d")
+		(uuid "84141fda-267d-403c-a798-5c489063e922")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "SW_MX_THT"
 		(at 0 8.275 0)
 		(layer "B.Fab")
-		(uuid "d7d4c882-c032-43fb-8809-90f1b838ab79")
+		(uuid "12fc6806-5d4c-44fc-b4c2-0da955c77ec8")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "a06424ec-67aa-4663-9c6b-33e2776cc17b")
+		(uuid "654e38f1-0ac5-44c8-8bc8-36dba71047cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "03fde2d0-0ca1-4dae-a7be-7b9d33227de7")
+		(uuid "600851a4-82c5-427b-93e7-fe6936a1a2f3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -280,6 +280,17 @@
 		(uuid "58fbd24c-b4ff-4d97-9c35-df26db79f3db")
 	)
 	(fp_rect
+		(start -1.75 3.579999)
+		(end 1.75 6.579999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "1fcb23ba-6238-477c-b0fb-b5b2e5f0349b")
+	)
+	(fp_rect
 		(start -7 -7)
 		(end 7 7)
 		(stroke
@@ -313,8 +324,8 @@
 		(at 0 0)
 		(size 4 4)
 		(drill 4)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "821ce25d-1c56-4eb2-8233-bf6973c7b58e")
+		(layers "*.Cu" "*.Mask")
+		(uuid "2536bc8d-2864-40d2-9773-f2c64d76e3b0")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)

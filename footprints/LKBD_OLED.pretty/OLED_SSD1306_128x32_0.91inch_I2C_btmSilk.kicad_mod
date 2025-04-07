@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "OLED_SSD1306_I2C_0.91inch"
+	(property "Value" "OLED_SSD1306_128x32_0.91inch_I2C"
 		(at 0 6.8 0)
 		(unlocked yes)
 		(layer "F.Fab")

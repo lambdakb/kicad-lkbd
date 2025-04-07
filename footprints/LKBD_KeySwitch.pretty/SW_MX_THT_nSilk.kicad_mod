@@ -200,6 +200,17 @@
 		(uuid "e55e6f46-4ea8-4788-94a8-34be768970c9")
 	)
 	(fp_rect
+		(start -1.75 3.589999)
+		(end 1.75 6.589999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "f91fdb84-4b3a-4f2f-9902-5575e12ecae8")
+	)
+	(fp_rect
 		(start -7 -7)
 		(end 7 7)
 		(stroke
@@ -233,8 +244,8 @@
 		(at 0 0.01)
 		(size 4 4)
 		(drill 4)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "a69a21a9-cc0c-4dcb-b404-35dda085a34f")
+		(layers "*.Cu" "*.Mask")
+		(uuid "bbdd3814-abf5-4e6d-a1eb-155f55dfc7a1")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0.01)

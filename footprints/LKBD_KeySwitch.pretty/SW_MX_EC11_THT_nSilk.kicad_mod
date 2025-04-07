@@ -166,22 +166,6 @@
 		(uuid "f2d5d1fe-7a68-477f-b1b4-98178cf71d66")
 	)
 	(pad "S1" thru_hole circle
-		(at 2.5 -7)
-		(size 1.2 1.2)
-		(drill oval 1 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cb059375-6c11-4adc-a563-299a9a629771")
-	)
-	(pad "S1" thru_hole circle
-		(at 2.54 -5.08)
-		(size 2.3 2.3)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "06be1d78-21dd-42b7-b2fc-826a44b21c21")
-	)
-	(pad "S2" thru_hole circle
 		(at -3.81 -2.54)
 		(size 2.3 2.3)
 		(drill 1.5)
@@ -189,13 +173,29 @@
 		(remove_unused_layers no)
 		(uuid "3768b68c-af14-4124-8982-151065101378")
 	)
-	(pad "S2" thru_hole circle
+	(pad "S1" thru_hole circle
 		(at -2.5 -7)
 		(size 1.2 1.2)
 		(drill oval 1 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fe2a40c6-3e9b-4d06-abf5-196713bf6b25")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.5 -7)
+		(size 1.2 1.2)
+		(drill oval 1 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb059375-6c11-4adc-a563-299a9a629771")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06be1d78-21dd-42b7-b2fc-826a44b21c21")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"
