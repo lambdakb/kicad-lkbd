@@ -36,10 +36,13 @@ fp-info-cache
 ### Project Specific
 
 # KBPlacer
-/pcb/kbplacer.log
+/kbplacer.log
 
-# KiCad
+# Fabrication Toolkit
+/fabrication-toolkit-options.json
+/production/
+
+# KiCad Export
 /jlcpcb/
 /bom/
 /output/
-/fp-info-cache
