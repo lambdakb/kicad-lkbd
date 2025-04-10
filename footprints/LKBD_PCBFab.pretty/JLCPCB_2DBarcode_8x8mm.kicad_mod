@@ -1,9 +1,9 @@
 (footprint "JLCPCB_2DBarcode_8x8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "2D barcode (8mm × 8mm) placeholder for JLCPCB")
+	(descr "2D barcode (8 × 8 mm) placeholder for JLCPCB")
 	(tags "JLCPCB 2DBardcode")
 	(property "Reference" "REF**"
 		(at 0 9.024 0)
@@ -23,19 +23,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "82260a01-9630-488f-a275-a3aaca8ac691")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1aac2f46-d4e5-4e64-bf64-512378c101aa")
 		(effects
 			(font
 				(size 1 1)
@@ -77,7 +64,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a4d3f9e0-9caa-46a5-ad6a-498fc66fc601")
 	)
@@ -88,7 +75,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "41173798-efcf-48ae-9d88-97940c6726cc")
 	)
@@ -99,7 +86,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d56fa8ff-8928-42bc-8b63-e6829eba654b")
 	)
@@ -139,4 +126,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

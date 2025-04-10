@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Dual footprint for SOD123 SMD Diode and DO35 THT Diode (Pitch 7.62mm)")
+	(descr "Dual footprint for SOD123 SMD Diode and DO35 THT Diode (Pitch 7.62 mm)")
 	(tags "D Diode SMD SOD123 THT DO35 pitch 7.62mm")
 	(property "Reference" "REF**"
 		(at 0 2.15 0)

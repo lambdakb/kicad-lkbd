@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "DIP-24 (Wide, 15.24mm) socket for Generic ProMicro style MCU (Reverse)")
+	(descr "DIP-24 (Wide, 15.24 mm) socket for Generic ProMicro style MCU (Reverse)")
 	(tags "MCU Socket Generic KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket Reverse")
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)

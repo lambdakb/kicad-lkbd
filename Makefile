@@ -19,15 +19,15 @@ output/symbols/%.kicad_sym: symbols/%.kicad_sym
 	kicad-cli sym export svg \
 	    --output=$@ $<
 
-# footprints: $(FPTARGETS)
+footprints: $(FPTARGETS)
 
-# output/footprints/%.pretty: footprints/%.pretty
-# 	$(info + [$(NAME)] export $* footprints)
-# 	mkdir -p $(dir $@)
-# 	# NOTE: This doesn't export holes in pads properly, export are done manually for now
-# 	kicad-cli fp export svg \
-# 	    --layers=F.SilkS,B.SilkS,F.Paste,B.Paste,F.Mask,B.Mask,F.Cu,B.Cu \
-# 	    --output=$@ $<
+output/footprints/%.pretty: footprints/%.pretty
+	$(info + [$(NAME)] export $* footprints)
+	mkdir -p $(dir $@)
+	kicad-cli fp export svg \
+	    --sketch-pads-on-fab-layers \
+	    --layers=F.SilkS,B.SilkS,F.Paste,B.Paste,F.Cu,B.Cu,F.Fab,B.Fab,Edge.Cuts,User.Drawings \
+	    --output=$@ $<
 
 clean:
 	$(info + [$(NAME)] $@)
