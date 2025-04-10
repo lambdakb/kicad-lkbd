@@ -1,9 +1,9 @@
 (footprint "JLCPCB_OrderNumber_H0.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Order number placeholder (0.8mm text) for JLCPCB")
+	(descr "Order number placeholder (0.8 mm text) for JLCPCB")
 	(tags "JLCPCB")
 	(property "Reference" "REF**"
 		(at 0 4.024 0)
@@ -28,20 +28,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(property "Footprint" ""
-		(at -15.5 4 0)
-		(unlocked yes)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "1aac2f46-d4e5-4e64-bf64-512378c101aa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -80,7 +66,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d56fa8ff-8928-42bc-8b63-e6829eba654b")
 	)
@@ -108,4 +94,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

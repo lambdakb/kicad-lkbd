@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Tactile Push Button (6x3.5mm)")
+	(descr "Tactile Push Button (6 × 3.5 mm)")
 	(tags "SW Push 1P1T MJTP PHAP3362 6mm 3.5mm THT")
 	(property "Reference" "REF**"
 		(at 0 2.9 0)
