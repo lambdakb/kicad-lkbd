@@ -9,9 +9,11 @@ This repository includes the different symbol and footprint libraries used to cr
 
 | Name                             | Description                                                                 |
 | -------------------------------- | --------------------------------------------------------------------------- |
+| [`LKBD_LED.kicad_sym`]           | LED symbols (SK6812MINI-E, WS2812B, ...)                                    |
 | [`LKBD_MCU.kicad_sym`]           | Micro controller symbols (RP2040, Arduino Pro Micro, SeeedStudio XIAO, ...) |
 | [`LKBD_OpticalSensor.kicad_sym`] | Mouse & trackball optical sensor symbols (PMW3360, ...)                     |
 
+[`LKBD_LED.kicad_sym`]: symbols/README.md#lkbd_ledkicad_sym
 [`LKBD_MCU.kicad_sym`]: symbols/README.md#lkbd_mcukicad_sym
 [`LKBD_OpticalSensor.kicad_sym`]: symbols/README.md#lkbd_opticalsensorkicad_sym
 
@@ -45,4 +47,4 @@ This repository includes the different symbol and footprint libraries used to cr
 
 ## License
 
-This KiCad library is distributed under the [MIT License](/LICENSE). However, the 3D models located in the `3dmodels/` folder are licensed separately. Please refer to the [`3dmodels/README.md`](3dmodels/README.md) file for the their specific licensing terms.
+This KiCad library is distributed under the [MIT License](/LICENSE). However, the 3D models located in the `3dmodels/` folder are licensed separately. Please refer to the [`3dmodels/README.md`](3dmodels/README.md) file for their specific licensing terms.
