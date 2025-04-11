@@ -29,17 +29,21 @@ def gen_fplib_table(fp_path: str, lib: str) -> str | None:
 
 
 def gen_fp_doc(fp_path: str, title: str = "LKBD Footprints") -> None:
+    print(
+        "<!-- This file is generated using `%s`, do not edit manually. -->"
+        % path.relpath(__file__, ".")
+    )
+    print("<!-- markdownlint-disable MD045 MD033 -->")
     print("# %s" % title)
-    print()
     for lib in sorted(os.listdir(fp_path)):
         if not os.path.isdir(os.path.join(fp_path, lib)) or not lib.endswith(".pretty"):
             continue
         table = gen_fplib_table(fp_path, lib)
         if table is not None:
+            print()
             print("## `%s`" % lib)
             print()
             print(table)
-            print()
 
 
 if __name__ == "__main__":

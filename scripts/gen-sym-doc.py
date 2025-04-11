@@ -44,8 +44,12 @@ def gen_symlib_table(lib_name: str, sym_lib: SymbolLib) -> str | None:
 
 
 def gen_sym_doc(sym_path: str, title: str = "LKBD Symbols") -> None:
+    print(
+        "<!-- This file is generated using `%s`, do not edit manually. -->"
+        % path.relpath(__file__, ".")
+    )
+    print("<!-- markdownlint-disable MD045 MD033 -->")
     print("# %s" % title)
-    print()
     for lib in sorted(os.listdir(sym_path)):
         if not os.path.isfile(os.path.join(sym_path, lib)) or not lib.endswith(
             ".kicad_sym"
@@ -54,10 +58,10 @@ def gen_sym_doc(sym_path: str, title: str = "LKBD Symbols") -> None:
         sym_lib = SymbolLib().from_file(os.path.join(sym_path, lib))
         table = gen_symlib_table(lib, sym_lib)
         if table is not None:
+            print()
             print("## `%s`" % lib)
             print()
             print(table)
-            print()
 
 
 if __name__ == "__main__":

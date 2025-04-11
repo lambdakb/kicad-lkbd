@@ -1,3 +1,5 @@
+<!-- This file is generated using `scripts/gen-fp-doc.py`, do not edit manually. -->
+<!-- markdownlint-disable MD045 MD033 -->
 # LKBD Footprints
 
 ## `LKBD_Common.pretty`
@@ -98,4 +100,3 @@
 | `JLCPCB_2DBarcode_8x8mm`     | 2D barcode (8 × 8 mm) placeholder for JLCPCB                 | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_2DBarcode_8x8mm.svg" width="160" height="160" />     |
 | `JLCPCB_OrderNumber_H0.8mm`  | Order number placeholder (0.8 mm text) for JLCPCB            | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_OrderNumber_H0.8mm.svg" width="160" height="160" />  |
 | `JLCPCB_SerialNumber_2x10mm` | Number only serial number (2 × 10 mm) placeholder for JLCPCB | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_SerialNumber_2x10mm.svg" width="160" height="160" /> |
-
