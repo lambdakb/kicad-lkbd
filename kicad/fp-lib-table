@@ -6,4 +6,5 @@
   (lib (name "LKBD_Common")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_Common.pretty")(options "")(descr ""))
   (lib (name "LKBD_KeySwitch")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_KeySwitch.pretty")(options "")(descr ""))
   (lib (name "LKBD_OLED")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_OLED.pretty")(options "")(descr ""))
+  (lib (name "LKBD_PCBFab")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_PCBFab.pretty")(options "")(descr ""))
 )
