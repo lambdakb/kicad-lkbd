@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX style keyswitch (SMD HotSwap mount)")
+	(descr "Cherry MX style keyswitch (SMD HotSwap)")
 	(tags "MX Cherry Gateron Kailh HotSwap SMD")
 	(property "Reference" "REF**"
 		(at 1.778 -5.08 180)

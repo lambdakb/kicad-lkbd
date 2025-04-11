@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico through-hole footprint (supports Raspberry Pi Pico 2)")
+	(descr "Raspberry Pi Pico & Pico 2 (THT)")
 	(tags "MCU RaspberryPi Pico THT")
 	(property "Reference" "A1"
 		(at -0.0127 2.11 0)

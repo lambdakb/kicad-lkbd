@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "ALPS EC11 style encoder (Through-Hole mount)")
+	(descr "ALPS EC11 style encoder (THT)")
 	(tags "ALPS EC11 EC12 THT")
 	(property "Reference" "REF**"
 		(at 0 0 0)

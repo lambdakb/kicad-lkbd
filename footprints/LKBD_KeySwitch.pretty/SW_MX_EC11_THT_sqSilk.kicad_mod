@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (Through-Hole mount)")
+	(descr "Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)")
 	(tags "MX Cherry Gateron Kailh ALPS EC11 EC12 THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX style keyswitch (Through-Hole mount)")
+	(descr "Cherry MX style keyswitch (THT)")
 	(tags "MX Cherry Gateron Kailh THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)

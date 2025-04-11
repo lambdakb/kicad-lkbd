@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + Through-Hole mount)")
+	(descr "Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + THT)")
 	(tags "MX Cherry Gateron Kailh HotSwap SMD THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
