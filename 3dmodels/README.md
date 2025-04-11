@@ -64,6 +64,8 @@ These models are sourced from various authors and distributed under their respec
 [`OLED_SSD1107_64x128_0.96inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SSD1107_64x128_0.96inch_I2C.step
 [`OLED_SH1107_64x128_1.3inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SH1107_64x128_1.3inch_I2C.step
 
+## `LKBD_OpticalSensor.3dshapes`
+
 | File                     | Attribution                                                                                                                                                |                             License / Usage Terms                             |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
 | [`PMW3360DM.{wrl,step}`] | [PXI-DIP-16.wrl](https://github.com/openinput-fw/openinput-kicad-library/blob/main/3dmodels/openinput.3dshapes/PXI-DIP-16.wrl) by [openinput contributors] | [MIT][openinput MIT] & [CC-BY-SA 4.0][openinput CC-BY-SA 4.0] [^dual-license] |
