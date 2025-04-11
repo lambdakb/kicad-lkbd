@@ -1,3 +1,5 @@
+<!-- This file is generated using `scripts/gen-sym-doc.py`, do not edit manually. -->
+<!-- markdownlint-disable MD045 MD033 -->
 # LKBD Symbols
 
 ## `LKBD_LED.kicad_sym`
@@ -20,4 +22,3 @@
 | Symbol           | Description                          | Links                                                                                                   | Preview                                                                                                        |
 |------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | `PMW3360DM-T2QU` | PixArt PMW3360DM-T2QU Optical Sensor | [Datasheet](https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf) | <img src="../output/symbols/LKBD_OpticalSensor.kicad_sym/PMW3360DM-T2QU_unit1.svg" width="160" height="160" /> |
-
