@@ -32,13 +32,15 @@ These models are sourced from various authors and distributed under their respec
 
 ## `LKBD_MCU.3dshapes`
 
-| File                     | Attribution                                                                                                                                           |           License / Usage Terms            |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------: |
-| [`MCU_KB2040.step`]      | [Adafruit KB2040 v7.step](https://grabcad.com/library/adafruit-kb2040-1) by [DeltaWhy](https://grabcad.com/deltawhy-1)                                | [GrabCAD Sharing Policy] [^grabcad-policy] |
-| [`MCU_XIAO-RP2040.step`] | [Seeed Studio XIAO RP2040 v26.step](https://grabcad.com/library/seeed-studio-xiao-rp2040-1) by [mirac gulgonul](https://grabcad.com/mirac.gulgonul-1) | [GrabCAD Sharing Policy] [^grabcad-policy] |
+| File                           | Attribution                                                                                                                                             |           License / Usage Terms            |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------: |
+| [`MCU_KB2040.step`]            | [Adafruit KB2040 v7.step](https://grabcad.com/library/adafruit-kb2040-1) by [DeltaWhy](https://grabcad.com/deltawhy-1)                                  | [GrabCAD Sharing Policy] [^grabcad-policy] |
+| [`MCU_XIAO-RP2040.step`]       | [Seeed Studio XIAO RP2040 v26.step](https://grabcad.com/library/seeed-studio-xiao-rp2040-1) by [mirac gulgonul](https://grabcad.com/mirac.gulgonul-1)   | [GrabCAD Sharing Policy] [^grabcad-policy] |
+| [`MCU_RaspberryPi_Pico_H.step] | [raspberry pi pico with contacts.step](https://grabcad.com/library/raspberry-pi-pico-3) by [Alexander Mandron](https://grabcad.com/alexander.mandron-1) | [GrabCAD Sharing Policy] [^grabcad-policy] |
 
 [`MCU_KB2040.step`]: ./LKBD_MCU.3dshapes/MCU_KB2040.step
 [`MCU_XIAO-RP2040.step`]: ./LKBD_MCU.3dshapes/MCU_XIAO-RP2040.step
+[`MCU_RaspberryPi_Pico_H.step]: ./LKBD_MCU.3dshapes/MCU_RaspberryPi_Pico_H.step
 
 ## `LKBD_MicroSwitch.3dshapes`
 
@@ -55,10 +57,12 @@ These models are sourced from various authors and distributed under their respec
 | File                                      | Attribution                                                                                                                                  | License / Usage Terms |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------: |
 | [`OLED_SSD1306_128x32_0.91inch_I2C.step`] | [OLED-Module-with-Pins.step](https://github.com/foostan/kbd/blob/main/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step) by [foostan] |    [MIT][kbd MIT]     |
+| [`OLED_SSD1107_64x128_0.96inch_I2C.step`] | Model made for LambdaKB.dev by [0rax](https://github.com/0rax)                                                                               |    [CC-BY-SA 4.0]     |
+| [`OLED_SH1107_64x128_1.3inch_I2C.step`]   | Model made for LambdaKB.dev by [0rax](https://github.com/0rax)                                                                               |    [CC-BY-SA 4.0]     |
 
 [`OLED_SSD1306_128x32_0.91inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SSD1306_128x32_0.91inch_I2C.step
-
-## `LKBD_OpticalSensor.3dshapes`
+[`OLED_SSD1107_64x128_0.96inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SSD1107_64x128_0.96inch_I2C.step
+[`OLED_SH1107_64x128_1.3inch_I2C.step`]: ./LKBD_OLED.3dshapes/OLED_SH1107_64x128_1.3inch_I2C.step
 
 | File                     | Attribution                                                                                                                                                |                             License / Usage Terms                             |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
@@ -78,3 +82,4 @@ These models are sourced from various authors and distributed under their respec
 [openinput MIT]: https://github.com/openinput-fw/openinput-kicad-library/blob/main/LICENSE-MIT
 [openinput CC-BY-SA 4.0]: https://github.com/openinput-fw/openinput-kicad-library/blob/main/LICENSE-CC-BY-SA
 [GrabCAD Sharing Policy]: https://help.grabcad.com/article/246-how-can-models-be-used-and-shared
+[CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/

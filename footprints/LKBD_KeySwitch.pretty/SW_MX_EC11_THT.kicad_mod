@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (Through-Hole mount)")
+	(descr "Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)")
 	(tags "MX Cherry Gateron Kailh ALPS EC11 EC12 THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -246,22 +246,6 @@
 		(uuid "3108e8bf-7d15-47fb-b970-48449463b0d0")
 	)
 	(pad "S1" thru_hole circle
-		(at 2.5 -7)
-		(size 1.2 1.2)
-		(drill oval 1 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cb059375-6c11-4adc-a563-299a9a629771")
-	)
-	(pad "S1" thru_hole circle
-		(at 2.54 -5.08)
-		(size 2.3 2.3)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "eef8da8d-3b94-4157-b3db-c76318039ce2")
-	)
-	(pad "S2" thru_hole circle
 		(at -3.81 -2.54)
 		(size 2.3 2.3)
 		(drill 1.5)
@@ -269,13 +253,29 @@
 		(remove_unused_layers no)
 		(uuid "e993d0b1-e04d-464c-9484-29414ab115ad")
 	)
-	(pad "S2" thru_hole circle
+	(pad "S1" thru_hole circle
 		(at -2.5 -7)
 		(size 1.2 1.2)
 		(drill oval 1 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fe2a40c6-3e9b-4d06-abf5-196713bf6b25")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.5 -7)
+		(size 1.2 1.2)
+		(drill oval 1 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb059375-6c11-4adc-a563-299a9a629771")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eef8da8d-3b94-4157-b3db-c76318039ce2")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"

@@ -3,11 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX style keyswitch with 2U Stabilizer (Through-Hole mount)")
+	(descr "Cherry MX style keyswitch with 2U Stabilizer (THT)")
 	(tags "MX Cherry Gateron Kailh THT")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
-		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "20bd63f3-2800-4b91-8a21-8165f1ff203d")
 		(effects
@@ -279,6 +278,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "52c3fa06-a959-4ec8-9798-9ead042b8347")
+	)
+	(fp_rect
+		(start -1.75 3.579999)
+		(end 1.75 6.579999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "7fead9bf-f2a9-4aca-a969-d33488cf15af")
 	)
 	(fp_rect
 		(start -16.525 -7)
