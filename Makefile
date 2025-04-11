@@ -7,11 +7,17 @@ SYMTARGETS	:= $(SYMBOLS:symbols/%=output/symbols/%)
 FOOTPRINTS	:= $(wildcard footprints/*.pretty)
 FPTARGETS	:= $(FOOTPRINTS:footprints/%=output/footprints/%)
 
-default: clean export
+default: clean export documentation
 
-export: symbols footprints
+export: $(SYMTARGETS) $(FPTARGETS)
 
-symbols: $(SYMTARGETS)
+documentation: symbols/README.md footprints/README.md
+
+symbols: $(SYMTARGETS) symbols/README.md
+
+symbols/README.md:
+	$(info + [$(NAME)] generate $@)
+	python scripts/gen-sym-doc.py > $@
 
 output/symbols/%.kicad_sym: symbols/%.kicad_sym
 	$(info + [$(NAME)] export $* symbols)
@@ -19,7 +25,11 @@ output/symbols/%.kicad_sym: symbols/%.kicad_sym
 	kicad-cli sym export svg \
 	    --output=$@ $<
 
-footprints: $(FPTARGETS)
+footprints: $(FPTARGETS) footprints/README.md
+
+footprints/README.md:
+	$(info + [$(NAME)] generate $@)
+	python scripts/gen-fp-doc.py > $@
 
 output/footprints/%.pretty: footprints/%.pretty
 	$(info + [$(NAME)] export $* footprints)
@@ -34,4 +44,4 @@ clean:
 	rm -rf output/footprints/*.svg
 	rm -rf output/symbols/*.svg
 
-.PHONY: default export symbols $(SYMBOLS) footprints $(FOOTPRINTS) clean
+.PHONY: default export documentation symbols $(SYMBOLS) symbols/README.md footprints footprints/README.md $(FOOTPRINTS) clean

@@ -1,36 +1,23 @@
 # LKBD Symbols
 
-<!-- markdownlint-disable MD033 MD045 -->
-
 ## `LKBD_LED.kicad_sym`
 
-| Symbol         | Description          |                Links                | Preview [^preview]                                                                               |
-| :------------- | :------------------- | :---------------------------------: | :----------------------------------------------------------------------------------------------- |
-| `SK6812MINI-E` | SK6812MINI-E RGB LED | [Datasheet][SK6812MINI-E Datasheet] | <img src="../output/symbols/LKBD_LED.kicad_sym/SK6812MINI-E_unit1.svg" width="160" height="160"> |
-
-[SK6812MINI-E Datasheet]: https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf
+| Symbol         | Description                          | Links                                                                                        | Preview                                                                                            |
+|----------------|--------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| `SK6812MINI-E` | SK6812MINI-E Reverse Mounted RGB LED | [Datasheet](https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf) | <img src="../output/symbols/LKBD_LED.kicad_sym/SK6812MINI-E_unit1.svg" width="160" height="160" /> |
 
 ## `LKBD_MCU.kicad_sym`
 
-| Symbol                | Description             |                             Links                              | Preview [^preview]                                                                                      |
-| :-------------------- | :---------------------- | :------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------ |
-| `KB2040`              | Adafruit KB2040         |     [Pinout][KB2040 Pinout], [Datasheet][KB2040 Datasheet]     | <img src="../output/symbols/LKBD_MCU.kicad_sym/KB2040_unit1.svg" width="160" height="160">              |
-| `ProMicro_ATmega32U4` | ATmega32U4 Pro Micro    | [Graphical Datasheet][ProMicro ATmega32U4 Graphical Datasheet] | <img src="../output/symbols/LKBD_MCU.kicad_sym/ProMicro_ATmega32U4_unit1.svg" width="160" height="160"> |
-| `ProMicro_RP2040`     | RP2040 Pro Micro        |   [Graphical Datasheet][ProMicro RP2040 Graphical Datasheet]   | <img src="../output/symbols/LKBD_MCU.kicad_sym/ProMicro_RP2040_unit1.svg" width="160" height="160">     |
-| `XIAO-RP2040`         | SeeedStudio XIAO RP2040 |           [Documentation][XIAO RP2040 Documentation]           | <img src="../output/symbols/LKBD_MCU.kicad_sym/XIAO-RP2040_unit1.svg" width="160" height="160">         |
-
-[KB2040 Datasheet]: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-kb2040.pdf
-[KB2040 Pinout]: https://github.com/adafruit/Adafruit-KB2040-PCB/blob/main/Adafruit%20KB2040%20Pinout.pdf
-[ProMicro ATmega32U4 Graphical Datasheet]: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
-[ProMicro RP2040 Graphical Datasheet]: https://cdn.sparkfun.com/assets/e/2/7/6/b/ProMicroRP2040_Graphical_Datasheet.pdf
-[XIAO RP2040 Documentation]: https://wiki.seeedstudio.com/XIAO-RP2040/
+| Symbol                | Description                   | Links                                                                                                                                                                                                  | Preview                                                                                                   |
+|-----------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `KB2040`              | Adafruit KB2040               | [Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-kb2040.pdf), [Pinout](https://raw.githubusercontent.com/adafruit/Adafruit-KB2040-PCB/refs/heads/main/Adafruit%20KB2040%20Pinout.pdf) | <img src="../output/symbols/LKBD_MCU.kicad_sym/KB2040_unit1.svg" width="160" height="160" />              |
+| `ProMicro_ATmega32U4` | Sparkfun Pro Micro ATmega32U4 | [Datasheet](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf)                                                                                                                | <img src="../output/symbols/LKBD_MCU.kicad_sym/ProMicro_ATmega32U4_unit1.svg" width="160" height="160" /> |
+| `ProMicro_RP2040`     | Sparkfun Pro Micro RP2040     | [Datasheet](https://cdn.sparkfun.com/assets/e/2/7/6/b/ProMicroRP2040_Graphical_Datasheet.pdf)                                                                                                          | <img src="../output/symbols/LKBD_MCU.kicad_sym/ProMicro_RP2040_unit1.svg" width="160" height="160" />     |
+| `XIAO-RP2040`         | SeeedStudio XIAO RP2040       | [Documentation](https://wiki.seeedstudio.com/XIAO-RP2040/), [Pinout](https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg)                                                                    | <img src="../output/symbols/LKBD_MCU.kicad_sym/XIAO-RP2040_unit1.svg" width="160" height="160" />         |
 
 ## `LKBD_OpticalSensor.kicad_sym`
 
-| Symbol           | Description           |                 Links                 | Preview [^preview]                                                                                           |
-| :--------------- | :-------------------- | :-----------------------------------: | :----------------------------------------------------------------------------------------------------------- |
-| `PMW3360DM-T2QU` | PixArt PMW3360DM-T2QU | [Datasheet][PMW3360DM-T2QU Datasheet] | <img src="../output/symbols/LKBD_OpticalSensor.kicad_sym/PMW3360DM-T2QU_unit1.svg" width="160" height="160"> |
+| Symbol           | Description                          | Links                                                                                                   | Preview                                                                                                        |
+|------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `PMW3360DM-T2QU` | PixArt PMW3360DM-T2QU Optical Sensor | [Datasheet](https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf) | <img src="../output/symbols/LKBD_OpticalSensor.kicad_sym/PMW3360DM-T2QU_unit1.svg" width="160" height="160" /> |
 
-[PMW3360DM-T2QU Datasheet]: https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf
-
-[^preview]: Preview images are generated automatically using `kicad-cli sym export` and may not represent exactly the reality. Use them for reference only.

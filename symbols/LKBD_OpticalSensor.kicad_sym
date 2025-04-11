@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 13.97 0)
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "PMW3360DM-T2QU"
-			(at 0 -13.716 0)
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_OpticalSensor:PMW3360DM-T2QU"
-			(at 0 -18.542 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.epsglobal.com/Media-Library/EPSGlobal/Products/files/pixart/PMW3360DM-T2QU.pdf"
-			(at 0 -16.256 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,8 +43,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "PixArt PMW3360DM-T2QU Optical Sensor"
+			(at 0 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Optical Gaming Navigation Sensor"
+		(property "ki_keywords" "PixArt PMW3360 PMW3360DM-T2QU"
 			(at 0 0 0)
 			(effects
 				(font

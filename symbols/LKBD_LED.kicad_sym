@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at -0.254 -13.97 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,8 +42,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 0 -11.684 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
