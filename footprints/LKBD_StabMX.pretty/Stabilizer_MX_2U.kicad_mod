@@ -600,7 +600,8 @@
 		(at -11.938 8.239998)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0)
 		(uuid "c4802c11-8af5-4e6b-80e0-d290c6bb34c4")
 	)
 	(pad "" np_thru_hole circle
@@ -652,13 +653,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_MX_2.00u.wrl"
 		(offset
-			(xyz 0 0 -1.6)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -180 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
