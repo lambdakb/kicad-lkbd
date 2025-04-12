@@ -36,12 +36,12 @@ output/footprints/%.pretty: footprints/%.pretty
 	mkdir -p $(dir $@)
 	kicad-cli fp export svg \
 	    --sketch-pads-on-fab-layers \
-	    --layers=F.SilkS,B.SilkS,F.Paste,B.Paste,F.Cu,B.Cu,F.Fab,B.Fab,Edge.Cuts,User.Drawings \
+	    --layers=B.SilkS,F.SilkS,B.Paste,F.Paste,B.Cu,F.Cu,B.Fab,F.Fab,Edge.Cuts,User.Drawings \
 	    --output=$@ $<
 
 clean:
 	$(info + [$(NAME)] $@)
-	rm -rf output/footprints/*.svg
-	rm -rf output/symbols/*.svg
+	rm -rf output/footprints/*.pretty/*.svg
+	rm -rf output/symbols/*.kicad_sym/*.svg
 
 .PHONY: default export documentation symbols $(SYMBOLS) symbols/README.md footprints footprints/README.md $(FOOTPRINTS) clean

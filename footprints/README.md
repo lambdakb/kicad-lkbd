@@ -13,46 +13,35 @@
 | `Diode_SMD_SOD-123_inSilk`                 | Diode SOD-123                                                                   | <img src="../output/footprints/LKBD_Common.pretty/Diode_SMD_SOD-123_inSilk.svg" width="160" height="160" />                 |
 | `LED_SK6812MINI-E`                         | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E.svg" width="160" height="160" />                         |
 | `LED_SK6812MINI-E_Rotated`                 | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E_Rotated.svg" width="160" height="160" />                 |
+| `MouseBite_2.0x3.2mm`                      |                                                                                 | <img src="../output/footprints/LKBD_Common.pretty/MouseBite_2.0x3.2mm.svg" width="160" height="160" />                      |
 | `Resistor_SMD_1206_inSilk`                 | Resistor SMD 1206                                                               | <img src="../output/footprints/LKBD_Common.pretty/Resistor_SMD_1206_inSilk.svg" width="160" height="160" />                 |
 | `SW_Push_1P1T_6x3.5mm`                     | Tactile Push Button (6 × 3.5 mm)                                                | <img src="../output/footprints/LKBD_Common.pretty/SW_Push_1P1T_6x3.5mm.svg" width="160" height="160" />                     |
 
 ## `LKBD_KeySwitch.pretty`
 
-| Footprint                        | Description                                                                            | Preview                                                                                                              |
-|----------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| `EC11_THT`                       | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT.svg" width="160" height="160" />                       |
-| `EC11_THT_nSilk`                 | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT_nSilk.svg" width="160" height="160" />                 |
-| `EC11_THT_sqSilk`                | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT_sqSilk.svg" width="160" height="160" />                |
-| `SW_MX_2U_HotSwap`               | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap)                             | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap.svg" width="160" height="160" />               |
-| `SW_MX_2U_HotSwap_THT`           | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + THT)                       | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_THT.svg" width="160" height="160" />           |
-| `SW_MX_2U_HotSwap_THT_nSilk`     | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + THT)                       | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_THT_nSilk.svg" width="160" height="160" />     |
-| `SW_MX_2U_HotSwap_THT_sqSilk`    | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + THT)                       | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_THT_sqSilk.svg" width="160" height="160" />    |
-| `SW_MX_2U_HotSwap_THT_sqSilkAlt` | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap + THT)                       | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_THT_sqSilkAlt.svg" width="160" height="160" /> |
-| `SW_MX_2U_HotSwap_nSilk`         | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap)                             | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_nSilk.svg" width="160" height="160" />         |
-| `SW_MX_2U_HotSwap_sqSilk`        | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap)                             | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_sqSilk.svg" width="160" height="160" />        |
-| `SW_MX_2U_HotSwap_sqSilkAlt`     | Cherry MX style keyswitch with 2U Stabilizer (SMD HotSwap)                             | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_HotSwap_sqSilkAlt.svg" width="160" height="160" />     |
-| `SW_MX_2U_THT`                   | Cherry MX style keyswitch with 2U Stabilizer (THT)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_THT.svg" width="160" height="160" />                   |
-| `SW_MX_2U_THT_nSilk`             | Cherry MX style keyswitch with 2U Stabilizer (THT)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_THT_nSilk.svg" width="160" height="160" />             |
-| `SW_MX_2U_THT_sqSilk`            | Cherry MX style keyswitch with 2U Stabilizer (THT)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_THT_sqSilk.svg" width="160" height="160" />            |
-| `SW_MX_2U_THT_sqSilkAlt`         | Cherry MX style keyswitch with 2U Stabilizer (THT)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_2U_THT_sqSilkAlt.svg" width="160" height="160" />         |
-| `SW_MX_Choc_HotSwap`             | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap.svg" width="160" height="160" />             |
-| `SW_MX_Choc_HotSwap_nSilk`       | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap_nSilk.svg" width="160" height="160" />       |
-| `SW_MX_Choc_HotSwap_sqSilk`      | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap_sqSilk.svg" width="160" height="160" />      |
-| `SW_MX_EC11_HotSwap`             | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap.svg" width="160" height="160" />             |
-| `SW_MX_EC11_HotSwap_nSilk`       | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap_nSilk.svg" width="160" height="160" />       |
-| `SW_MX_EC11_HotSwap_sqSilk`      | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap_sqSilk.svg" width="160" height="160" />      |
-| `SW_MX_EC11_THT`                 | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT.svg" width="160" height="160" />                 |
-| `SW_MX_EC11_THT_nSilk`           | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT_nSilk.svg" width="160" height="160" />           |
-| `SW_MX_EC11_THT_sqSilk`          | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT_sqSilk.svg" width="160" height="160" />          |
-| `SW_MX_HotSwap`                  | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap.svg" width="160" height="160" />                  |
-| `SW_MX_HotSwap_THT`              | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT.svg" width="160" height="160" />              |
-| `SW_MX_HotSwap_THT_nSilk`        | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_nSilk.svg" width="160" height="160" />        |
-| `SW_MX_HotSwap_THT_sqSilk`       | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_sqSilk.svg" width="160" height="160" />       |
-| `SW_MX_HotSwap_nSilk`            | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_nSilk.svg" width="160" height="160" />            |
-| `SW_MX_HotSwap_sqSilk`           | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_sqSilk.svg" width="160" height="160" />           |
-| `SW_MX_THT`                      | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT.svg" width="160" height="160" />                      |
-| `SW_MX_THT_nSilk`                | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_nSilk.svg" width="160" height="160" />                |
-| `SW_MX_THT_sqSilk`               | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_sqSilk.svg" width="160" height="160" />               |
+| Footprint                   | Description                                                                            | Preview                                                                                                         |
+|-----------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| `EC11_THT`                  | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT.svg" width="160" height="160" />                  |
+| `EC11_THT_nSilk`            | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT_nSilk.svg" width="160" height="160" />            |
+| `EC11_THT_sqSilk`           | ALPS EC11 style encoder (THT)                                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/EC11_THT_sqSilk.svg" width="160" height="160" />           |
+| `SW_MX_Choc_HotSwap`        | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap.svg" width="160" height="160" />        |
+| `SW_MX_Choc_HotSwap_nSilk`  | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap_nSilk.svg" width="160" height="160" />  |
+| `SW_MX_Choc_HotSwap_sqSilk` | Dual footprint for Cherry MX style keyswitch and Choc style switches (SMD HotSwap)     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Choc_HotSwap_sqSilk.svg" width="160" height="160" /> |
+| `SW_MX_EC11_HotSwap`        | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap.svg" width="160" height="160" />        |
+| `SW_MX_EC11_HotSwap_nSilk`  | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap_nSilk.svg" width="160" height="160" />  |
+| `SW_MX_EC11_HotSwap_sqSilk` | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (SMD HotSwap) | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_HotSwap_sqSilk.svg" width="160" height="160" /> |
+| `SW_MX_EC11_THT`            | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT.svg" width="160" height="160" />            |
+| `SW_MX_EC11_THT_nSilk`      | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT_nSilk.svg" width="160" height="160" />      |
+| `SW_MX_EC11_THT_sqSilk`     | Dual footprint for Cherry MX style keyswitch and ALPS EC11 style encoder (THT)         | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_EC11_THT_sqSilk.svg" width="160" height="160" />     |
+| `SW_MX_HotSwap`             | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap.svg" width="160" height="160" />             |
+| `SW_MX_HotSwap_THT`         | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT.svg" width="160" height="160" />         |
+| `SW_MX_HotSwap_THT_nSilk`   | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_nSilk.svg" width="160" height="160" />   |
+| `SW_MX_HotSwap_THT_sqSilk`  | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_sqSilk.svg" width="160" height="160" />  |
+| `SW_MX_HotSwap_nSilk`       | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_nSilk.svg" width="160" height="160" />       |
+| `SW_MX_HotSwap_sqSilk`      | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_sqSilk.svg" width="160" height="160" />      |
+| `SW_MX_THT`                 | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT.svg" width="160" height="160" />                 |
+| `SW_MX_THT_nSilk`           | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_nSilk.svg" width="160" height="160" />           |
+| `SW_MX_THT_sqSilk`          | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_sqSilk.svg" width="160" height="160" />          |
 
 ## `LKBD_MCU.pretty`
 
@@ -100,3 +89,19 @@
 | `JLCPCB_2DBarcode_8x8mm`     | 2D barcode (8 × 8 mm) placeholder for JLCPCB                 | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_2DBarcode_8x8mm.svg" width="160" height="160" />     |
 | `JLCPCB_OrderNumber_H0.8mm`  | Order number placeholder (0.8 mm text) for JLCPCB            | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_OrderNumber_H0.8mm.svg" width="160" height="160" />  |
 | `JLCPCB_SerialNumber_2x10mm` | Number only serial number (2 × 10 mm) placeholder for JLCPCB | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_SerialNumber_2x10mm.svg" width="160" height="160" /> |
+
+## `LKBD_PlateMX.pretty`
+
+| Footprint        | Description                                          | Preview                                                                                            |
+|------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| `Plate_MX_1U`    | Plate cutout for Cherry MX style keyswitches (1U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />    |
+| `Plate_MX_2.25U` | Plate cutout for Cherry MX style keyswitches (2.25U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" /> |
+| `Plate_MX_2.5U`  | Plate cutout for Cherry MX style keyswitches (2.5U)  | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />  |
+| `Plate_MX_2.75U` | Plate cutout for Cherry MX style keyswitches (2.75U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" /> |
+| `Plate_MX_2U`    | Plate cutout for Cherry MX style keyswitches (2U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />    |
+
+## `LKBD_StabMX.pretty`
+
+| Footprint          | Description                                                          | Preview                                                                                             |
+|--------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `Stabilizer_MX_2U` | Stabilizer for Cherry MX style keyswitches (2U, 2.25U, 2.5U & 2.75U) | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_2U.svg" width="160" height="160" /> |
