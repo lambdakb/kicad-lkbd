@@ -13,6 +13,7 @@
 | `Diode_SMD_SOD-123_inSilk`                 | Diode SOD-123                                                                   | <img src="../output/footprints/LKBD_Common.pretty/Diode_SMD_SOD-123_inSilk.svg" width="160" height="160" />                 |
 | `LED_SK6812MINI-E`                         | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E.svg" width="160" height="160" />                         |
 | `LED_SK6812MINI-E_Rotated`                 | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E_Rotated.svg" width="160" height="160" />                 |
+| `MouseBite_2.0x3.2mm`                      |                                                                                 | <img src="../output/footprints/LKBD_Common.pretty/MouseBite_2.0x3.2mm.svg" width="160" height="160" />                      |
 | `Resistor_SMD_1206_inSilk`                 | Resistor SMD 1206                                                               | <img src="../output/footprints/LKBD_Common.pretty/Resistor_SMD_1206_inSilk.svg" width="160" height="160" />                 |
 | `SW_Push_1P1T_6x3.5mm`                     | Tactile Push Button (6 × 3.5 mm)                                                | <img src="../output/footprints/LKBD_Common.pretty/SW_Push_1P1T_6x3.5mm.svg" width="160" height="160" />                     |
 
@@ -100,3 +101,19 @@
 | `JLCPCB_2DBarcode_8x8mm`     | 2D barcode (8 × 8 mm) placeholder for JLCPCB                 | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_2DBarcode_8x8mm.svg" width="160" height="160" />     |
 | `JLCPCB_OrderNumber_H0.8mm`  | Order number placeholder (0.8 mm text) for JLCPCB            | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_OrderNumber_H0.8mm.svg" width="160" height="160" />  |
 | `JLCPCB_SerialNumber_2x10mm` | Number only serial number (2 × 10 mm) placeholder for JLCPCB | <img src="../output/footprints/LKBD_PCBFab.pretty/JLCPCB_SerialNumber_2x10mm.svg" width="160" height="160" /> |
+
+## `LKBD_PlateMX.pretty`
+
+| Footprint        | Description                                          | Preview                                                                                            |
+|------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| `Plate_MX_1U`    | Plate cutout for Cherry MX style keyswitches (1U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />    |
+| `Plate_MX_2.25U` | Plate cutout for Cherry MX style keyswitches (2.25U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" /> |
+| `Plate_MX_2.5U`  | Plate cutout for Cherry MX style keyswitches (2.5U)  | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />  |
+| `Plate_MX_2.75U` | Plate cutout for Cherry MX style keyswitches (2.75U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" /> |
+| `Plate_MX_2U`    | Plate cutout for Cherry MX style keyswitches (2U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />    |
+
+## `LKBD_StabMX.pretty`
+
+| Footprint          | Description                                                          | Preview                                                                                             |
+|--------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `Stabilizer_MX_2U` | Stabilizer for Cherry MX style keyswitches (2U, 2.25U, 2.5U & 2.75U) | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_2U.svg" width="160" height="160" /> |

@@ -28,6 +28,8 @@ This repository includes the different symbol and footprint libraries used to cr
 | [`LKBD_OLED.pretty`]          | I²C OLED modules footprint (0.91" SSD1306 module, ...)                                                  |
 | [`LKBD_OpticalSensor.pretty`] | Mouse & trackball optical sensor footprints (PMW3360, ...)                                              |
 | [`LKBD_PCBFab.pretty`]        | PCB fabrication related footprints (such as PCB marks or serial number placeholders)                    |
+| [`LKBD_PlateMX.pretty`]       | Plate cutout for Cherry MX style keyswitches (various sizes)                                            |
+| [`LKBD_StabMX.pretty`]        | Stabilizer for Cherry MX style keyswitches (various sizes)                                              |
 
 [`LKBD_Common.pretty`]: footprints/README.md#lkbd_commonpretty
 [`LKBD_KeySwitch.pretty`]: footprints/README.md#lkbd_keyswitchpretty
@@ -35,7 +37,9 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty
 [`LKBD_OLED.pretty`]: footprints/README.md#lkbd_oledpretty
 [`LKBD_OpticalSensor.pretty`]: footprints/README.md#lkbd_opticalsensorpretty
-[`LKBD_PCBFab.pretty`]: footprints/README.md#lkbd_pcbfab
+[`LKBD_PCBFab.pretty`]: footprints/README.md#lkbd_pcbfabpretty
+[`LKBD_PlateMX.pretty`]: footprints/README.md#lkbd_platemxpretty
+[`LKBD_StabMX.pretty`]: footprints/README.md#lkbd_stabmxpretty
 
 ## Templates
 
