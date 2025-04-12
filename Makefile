@@ -41,7 +41,7 @@ output/footprints/%.pretty: footprints/%.pretty
 
 clean:
 	$(info + [$(NAME)] $@)
-	rm -rf output/footprints/*.svg
-	rm -rf output/symbols/*.svg
+	rm -rf output/footprints/*.pretty/*.svg
+	rm -rf output/symbols/*.kicad_sym/*.svg
 
 .PHONY: default export documentation symbols $(SYMBOLS) symbols/README.md footprints footprints/README.md $(FOOTPRINTS) clean
