@@ -650,17 +650,6 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
-		(offset
-			(xyz 0 0 -1.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -180 -0)
-		)
-	)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/Stabilizer_MX_2.00u.wrl"
 		(offset
 			(xyz 0 0 -1.6)
@@ -670,17 +659,6 @@
 		)
 		(rotate
 			(xyz -0 -180 -0)
-		)
-	)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_PCB.wrl"
-		(offset
-			(xyz 0 0 -1.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 180 -0)
 		)
 	)
 )
