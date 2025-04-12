@@ -36,7 +36,7 @@ output/footprints/%.pretty: footprints/%.pretty
 	mkdir -p $(dir $@)
 	kicad-cli fp export svg \
 	    --sketch-pads-on-fab-layers \
-	    --layers=F.SilkS,B.SilkS,F.Paste,B.Paste,F.Cu,B.Cu,F.Fab,B.Fab,Edge.Cuts,User.Drawings \
+	    --layers=B.SilkS,F.SilkS,B.Paste,F.Paste,B.Cu,F.Cu,B.Fab,F.Fab,Edge.Cuts,User.Drawings \
 	    --output=$@ $<
 
 clean:
