@@ -64,6 +64,14 @@
 | `SW_D2FC_OMR` | Omron D2FC Ultra Subminiature Basic Switch (THT) | <img src="../output/footprints/LKBD_MicroSwitch.pretty/SW_D2FC_OMR.svg" width="160" height="160" /> |
 | `SW_D2LS_OMR` | Omron D2LS Ultra Subminiature Basic Switch (SMD) | <img src="../output/footprints/LKBD_MicroSwitch.pretty/SW_D2LS_OMR.svg" width="160" height="160" /> |
 
+## `LKBD_MountingHole.pretty`
+
+| Footprint              | Description                                | Preview                                                                                                       |
+|------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| `MountingHole_M2`      | Mounting Hole M2 (ø 2.2 mm, Pad 4mm)       | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2.svg" width="160" height="160" />      |
+| `MountingHole_M2_Oval` | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval.svg" width="160" height="160" /> |
+| `MountingHole_M2_Slot` | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Slot.svg" width="160" height="160" /> |
+
 ## `LKBD_OLED.pretty`
 
 | Footprint                                  | Description                                                                             | Preview                                                                                                                   |
