@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a21b81d1-7582-47d6-8a1b-08dd59d17454")
+		(uuid "bdd48301-ce30-49f3-a8c2-d33466acb4d6")
 		(effects
 			(font
 				(size 1 1)
@@ -19,10 +19,10 @@
 		)
 	)
 	(property "Value" "JLCPCB_2DBarcode_8x8mm"
-		(at 0 7.5 0)
+		(at 0 7.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "82260a01-9630-488f-a275-a3aaca8ac691")
+		(uuid "5a15a7ce-4205-4a49-8f99-47c3bec562c4")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dd6e3de3-ccf7-4d7f-ab07-f8eaa8e51cfb")
+		(uuid "250791f2-3143-4dde-ba40-0d92d3dc9574")
 		(effects
 			(font
 				(size 1 1)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a5c8d7b-55e3-426e-a52a-57ecf31ae6eb")
+		(uuid "35f1e1b6-93b0-4d46-84d0-d88faf6019b2")
 		(effects
 			(font
 				(size 1 1)
@@ -107,18 +107,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "75e9387c-1043-43c6-9545-06e490c53b21")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 9 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "e0e012c4-0b5a-4f72-a544-2256d8be2370")
 		(effects
 			(font
 				(size 1 1)

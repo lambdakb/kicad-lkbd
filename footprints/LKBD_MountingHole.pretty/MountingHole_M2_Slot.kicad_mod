@@ -1,0 +1,176 @@
+(footprint "MountingHole_M2_Slot"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)")
+	(tags "mounting hole 2.2mm m2")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce7d630f-a82d-4903-bc39-5d9aa239f387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2_Slot"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d8759f4-db19-48fb-acea-e33b125822b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e66b3b8-96fb-48d1-be12-5464316be2a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b62922-63a2-423b-a47a-225154bf48e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 -2)
+		(end 0 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "53ee0831-23ff-43a0-ae47-3618fdde3f67")
+	)
+	(fp_line
+		(start 0 -2)
+		(end 3 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "49648358-64ef-4aa4-8b5a-2bd63ebc350e")
+	)
+	(fp_line
+		(start 0 2)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "53674433-33a2-4e59-8b03-f581076d3aea")
+	)
+	(fp_arc
+		(start 3 -2)
+		(mid 5 0)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e0e78534-21e6-48e0-a87f-93fa62d57fc1")
+	)
+	(fp_line
+		(start -1.45 -2.199999)
+		(end 3 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0979f65c-0bba-4110-b428-a02f839fc273")
+	)
+	(fp_line
+		(start -1.45 2.2)
+		(end -1.45 -2.199999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c39c1fd-3d34-468e-ac2c-035c59b8ccc9")
+	)
+	(fp_line
+		(start 3 2.2)
+		(end -1.45 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "63007983-b3a9-4c67-a08a-4be19cffa6fc")
+	)
+	(fp_arc
+		(start 3 -2.2)
+		(mid 5.2 0)
+		(end 3 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66a010c2-1ccd-47f5-a23a-0302f80d1f14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.51 0 0)
+		(layer "F.Fab")
+		(uuid "fb60c7d4-ee60-4bb5-be85-fdb4e042df6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at 1.5 0)
+		(size 4 4)
+		(drill oval 5.2 2.2
+			(offset 1.5 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -4.25 -2)
+				(end 0 2)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "90cdb690-db03-4e4a-a93a-96f8db447b77")
+	)
+	(embedded_fonts no)
+)

@@ -25,6 +25,7 @@ This repository includes the different symbol and footprint libraries used to cr
 | [`LKBD_KeySwitch.pretty`]     | Mechanical keyboard switches footprints (Cherry MX, Kailh hot-swap socket, ...)                         |
 | [`LKBD_MCU.pretty`]           | Micro controller footprints including socketed and soldered footprints (Arduino Pro Micro, KB2040, ...) |
 | [`LKBD_MicroSwitch.pretty`]   | Mouse micro-switch footprints (Omron SMD & THT switches, ...)                                           |
+| [`LKBD_MountingHole.pretty`]  | Common mounting hole footprints (pads, slots, ...)                                                      |
 | [`LKBD_OLED.pretty`]          | I²C OLED modules footprint (0.91" SSD1306 module, ...)                                                  |
 | [`LKBD_OpticalSensor.pretty`] | Mouse & trackball optical sensor footprints (PMW3360, ...)                                              |
 | [`LKBD_PCBFab.pretty`]        | PCB fabrication related footprints (such as PCB marks or serial number placeholders)                    |
@@ -35,6 +36,7 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_KeySwitch.pretty`]: footprints/README.md#lkbd_keyswitchpretty
 [`LKBD_MCU.pretty`]: footprints/README.md#lkbd_mcupretty
 [`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty
+[`LKBD_MountingHole.pretty`]: footprints/README.md#lkbd_mountingholepretty
 [`LKBD_OLED.pretty`]: footprints/README.md#lkbd_oledpretty
 [`LKBD_OpticalSensor.pretty`]: footprints/README.md#lkbd_opticalsensorpretty
 [`LKBD_PCBFab.pretty`]: footprints/README.md#lkbd_pcbfabpretty
