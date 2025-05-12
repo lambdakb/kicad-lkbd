@@ -363,7 +363,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.64375 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ee0fbb40-7220-48ae-98c7-4f225207a679")
 		(effects

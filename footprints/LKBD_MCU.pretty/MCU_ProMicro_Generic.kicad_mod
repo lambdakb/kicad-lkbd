@@ -142,7 +142,7 @@
 		(uuid "c36301dd-2d9a-4390-a28b-bb38f992b4cb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.7 90)
+		(at 0 12.7 0)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects

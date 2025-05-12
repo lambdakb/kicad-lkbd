@@ -142,8 +142,7 @@
 		(uuid "4aa5c127-c5b6-4b03-b44c-a5bb7db83908")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.7 90)
-		(unlocked yes)
+		(at 0 12.7 0)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects

@@ -154,7 +154,7 @@
 		(uuid "129c54b8-efeb-451a-a4fc-1f8634d6a87a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.7 90)
+		(at 0 12.7 0)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects
