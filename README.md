@@ -32,6 +32,7 @@ If you find any errors in this library, please open an issue or pull-request. We
 | Name                          | Description                                                                                             |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [`LKBD_Common.pretty`]        | Common footprint used across all types of devices (THT+SMD diodes / resistors, reset switches, ...)     |
+| [`LKBD_Connector.pretty`]     | Connector footprints (Pin Headers, JST-SH, ...)     |
 | [`LKBD_KeySwitch.pretty`]     | Mechanical keyboard switches footprints (Cherry MX, Kailh hot-swap socket, ...)                         |
 | [`LKBD_MCU.pretty`]           | Micro controller footprints including socketed and soldered footprints (Arduino Pro Micro, KB2040, ...) |
 | [`LKBD_MicroSwitch.pretty`]   | Mouse micro-switch footprints (Omron SMD & THT switches, ...)                                           |
@@ -43,6 +44,7 @@ If you find any errors in this library, please open an issue or pull-request. We
 | [`LKBD_StabMX.pretty`]        | Stabilizer for Cherry MX style keyswitches (various sizes)                                              |
 
 [`LKBD_Common.pretty`]: footprints/README.md#lkbd_commonpretty
+[`LKBD_Connector.pretty`]: footprints/README.md#lkbd_connectorpretty
 [`LKBD_KeySwitch.pretty`]: footprints/README.md#lkbd_keyswitchpretty
 [`LKBD_MCU.pretty`]: footprints/README.md#lkbd_mcupretty
 [`LKBD_MicroSwitch.pretty`]: footprints/README.md#lkbd_microswitchpretty

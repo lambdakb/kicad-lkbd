@@ -13,9 +13,20 @@
 | `Diode_SMD_SOD-123_inSilk`                 | Diode SOD-123                                                                   | <img src="../output/footprints/LKBD_Common.pretty/Diode_SMD_SOD-123_inSilk.svg" width="160" height="160" />                 |
 | `LED_SK6812MINI-E`                         | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E.svg" width="160" height="160" />                         |
 | `LED_SK6812MINI-E_Rotated`                 | SK6812MINI-E reverse mount footprint                                            | <img src="../output/footprints/LKBD_Common.pretty/LED_SK6812MINI-E_Rotated.svg" width="160" height="160" />                 |
-| `MouseBite_2.0x3.2mm`                      |                                                                                 | <img src="../output/footprints/LKBD_Common.pretty/MouseBite_2.0x3.2mm.svg" width="160" height="160" />                      |
 | `Resistor_SMD_1206_inSilk`                 | Resistor SMD 1206                                                               | <img src="../output/footprints/LKBD_Common.pretty/Resistor_SMD_1206_inSilk.svg" width="160" height="160" />                 |
 | `SW_Push_1P1T_6x3.5mm`                     | Tactile Push Button (6 × 3.5 mm)                                                | <img src="../output/footprints/LKBD_Common.pretty/SW_Push_1P1T_6x3.5mm.svg" width="160" height="160" />                     |
+
+## `LKBD_Connector.pretty`
+
+| Footprint                          | Description                                                      | Preview                                                                                                                |
+|------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| `PinHeader_1x02_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x02, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x02_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x03_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x03, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x03_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x04_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x04, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x04_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x05_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x05, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x05_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x06_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x06, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x06_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x07_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x07, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x07_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
+| `PinHeader_1x08_THT_P2.54mm_nSilk` | Through hole straight pin header, 1x08, 2.54mm pitch, single row | <img src="../output/footprints/LKBD_Connector.pretty/PinHeader_1x08_THT_P2.54mm_nSilk.svg" width="160" height="160" /> |
 
 ## `LKBD_KeySwitch.pretty`
 
@@ -40,8 +51,15 @@
 | `SW_MX_HotSwap_THT`             | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT.svg" width="160" height="160" />             |
 | `SW_MX_HotSwap_THT_nSilk`       | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_nSilk.svg" width="160" height="160" />       |
 | `SW_MX_HotSwap_THT_sqSilk`      | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_sqSilk.svg" width="160" height="160" />      |
+| `SW_MX_HotSwap_THT_sqSlim`      | Cherry MX style keyswitch (SMD HotSwap + THT)                                          | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_THT_sqSlim.svg" width="160" height="160" />      |
 | `SW_MX_HotSwap_nSilk`           | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_nSilk.svg" width="160" height="160" />           |
 | `SW_MX_HotSwap_sqSilk`          | Cherry MX style keyswitch (SMD HotSwap)                                                | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_HotSwap_sqSilk.svg" width="160" height="160" />          |
+| `SW_MX_Slim_HotSwap`            | Cherry MX style keyswitch (SMD HotSwap, Slim Pads)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap.svg" width="160" height="160" />            |
+| `SW_MX_Slim_HotSwap_THT`        | Cherry MX style keyswitch (SMD HotSwap + THT, Slim Pads)                               | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap_THT.svg" width="160" height="160" />        |
+| `SW_MX_Slim_HotSwap_THT_nSilk`  | Cherry MX style keyswitch (SMD HotSwap + THT, Slim Pads)                               | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap_THT_nSilk.svg" width="160" height="160" />  |
+| `SW_MX_Slim_HotSwap_THT_sqSilk` | Cherry MX style keyswitch (SMD HotSwap + THT, Slim Pads)                               | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap_THT_sqSilk.svg" width="160" height="160" /> |
+| `SW_MX_Slim_HotSwap_nSilk`      | Cherry MX style keyswitch (SMD HotSwap, Slim Pads)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap_nSilk.svg" width="160" height="160" />      |
+| `SW_MX_Slim_HotSwap_sqSilk`     | Cherry MX style keyswitch (SMD HotSwap, Slim Pads)                                     | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_Slim_HotSwap_sqSilk.svg" width="160" height="160" />     |
 | `SW_MX_THT`                     | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT.svg" width="160" height="160" />                     |
 | `SW_MX_THT_nSilk`               | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_nSilk.svg" width="160" height="160" />               |
 | `SW_MX_THT_sqSilk`              | Cherry MX style keyswitch (THT)                                                        | <img src="../output/footprints/LKBD_KeySwitch.pretty/SW_MX_THT_sqSilk.svg" width="160" height="160" />              |

@@ -83,6 +83,28 @@
 			(type default)
 		)
 		(fill no)
+		(layer "B.CrtYd")
+		(uuid "c41e2824-f151-46f4-8ad4-8296990dd286")
+	)
+	(fp_rect
+		(start 8.89 -1.27)
+		(end 6.35 31.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "e9bcfdc2-779c-46d0-bf79-bd960e037bf0")
+	)
+	(fp_rect
+		(start -6.35 -1.27)
+		(end -8.89 31.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7d23eef1-d9da-481b-8dc4-897d5f4a5879")
 	)
