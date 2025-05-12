@@ -95,8 +95,8 @@
 		(uuid "b95f1c49-c5e0-422c-ac43-3419e42b71d4")
 	)
 	(fp_line
-		(start -0.7 -0.91)
-		(end 0.7 -0.91)
+		(start -0.7 -0.9)
+		(end 0.7 -0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "69619a8e-cd1c-44e9-bb8f-6e65a4065beb")
 	)
 	(fp_line
-		(start -0.7 0.91)
-		(end 0.7 0.91)
+		(start -0.7 0.9)
+		(end 0.7 0.9)
 		(stroke
 			(width 0.12)
 			(type solid)

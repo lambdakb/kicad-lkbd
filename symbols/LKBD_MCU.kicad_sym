@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_KB2040_DIP-24_Socket_Reverse"
+		(property "Footprint" "LKBD_MCU:MCU_KB2040"
 			(at 0 -28.956 0)
 			(effects
 				(font
@@ -62,6 +62,15 @@
 			)
 		)
 		(property "ki_keywords" "Adafruit RP2040 KB2040 ProMicro"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_KB2040 LKBD_MCU:MCU_KB2040_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -578,7 +587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_Generic_DIP-24_Socket_Reverse"
+		(property "Footprint" "LKBD_MCU:MCU_ProMicro_Generic"
 			(at 0 -25.908 0)
 			(effects
 				(font
@@ -606,6 +615,15 @@
 			)
 		)
 		(property "ki_keywords" "ProMicro ATmega32U4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_ProMicro_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1086,7 +1104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_Generic_DIP-24_Socket_Reverse"
+		(property "Footprint" "LKBD_MCU:MCU_ProMicro_Generic"
 			(at 0 -25.908 0)
 			(effects
 				(font
@@ -1114,6 +1132,15 @@
 			)
 		)
 		(property "ki_keywords" "Sparkfun ProMicro RP2040"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_ProMicro_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1571,7 +1598,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "XIAO-RP2040"
+	(symbol "XIAO_Generic"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1583,16 +1610,16 @@
 				)
 			)
 		)
-		(property "Value" "XIAO-RP2040"
-			(at 0 -12.192 0)
+		(property "Value" "XIAO_Generic"
+			(at 0 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_XIAO-RP2040"
-			(at 0.254 -21.59 0)
+		(property "Footprint" "LKBD_MCU:MCU_XIAO_Generic"
+			(at 0.254 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,8 +1636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SeeedStudio XIAO RP2040"
-			(at 0 -14.478 0)
+		(property "Description" "Generic SeeedStudio XIAO (Common Pins)"
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,8 +1645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Documentation" "https://wiki.seeedstudio.com/XIAO-RP2040/"
-			(at 0 -19.05 0)
+		(property "Documentation" "https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series_Introduction/"
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,16 +1654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg"
-			(at 0 -16.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "SeeedStudio XIAO RP2040"
+		(property "ki_keywords" "SeeedStudio XIAO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1645,10 +1663,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "XIAO-RP2040_0_1"
+		(property "ki_fp_filters" "LKBD_MCU:MCU_XIAO_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XIAO_Generic_0_1"
 			(rectangle
-				(start -11.43 10.16)
-				(end 11.43 -10.16)
+				(start -11.43 9.525)
+				(end 11.43 -9.525)
 				(stroke
 					(width 0)
 					(type default)
@@ -1658,7 +1685,7 @@
 				)
 			)
 		)
-		(symbol "XIAO-RP2040_1_1"
+		(symbol "XIAO_Generic_1_1"
 			(pin bidirectional line
 				(at -13.97 7.62 0)
 				(length 2.54)
@@ -1785,7 +1812,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 13.97 7.62 180)
 				(length 2.54)
 				(name "5V"
@@ -1803,7 +1830,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 13.97 5.08 180)
 				(length 2.54)
 				(name "GND"
@@ -1821,7 +1848,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "3V3"
@@ -1913,5 +1940,559 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "XIAO_nRF52840_BAT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO_nRF52840_BAT"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_MCU:MCU_XIAO_nRF52840_BAT"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SeeedStudio XIAO nRF52840 (with Battery pins)"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://wiki.seeedstudio.com/XIAO_BLE/"
+			(at 0 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-BLE/pinout2.png"
+			(at 0 -24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SeeedStudio XIAO nRF52840"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_XIAO_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XIAO_nRF52840_BAT_0_1"
+			(rectangle
+				(start -11.43 9.525)
+				(end 11.43 -15.875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "XIAO_nRF52840_BAT_1_0"
+			(pin power_in line
+				(at -13.97 -11.43 0)
+				(length 2.54)
+				(name "BAT-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -13.97 0)
+				(length 2.54)
+				(name "BAT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "XIAO_nRF52840_BAT_1_1"
+			(pin bidirectional line
+				(at -13.97 7.62 0)
+				(length 2.54)
+				(name "D0/A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 5.08 0)
+				(length 2.54)
+				(name "D1/A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 2.54 0)
+				(length 2.54)
+				(name "D2/A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "D3/A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "D4/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "D5/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 -7.62 0)
+				(length 2.54)
+				(name "D6/TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 7.62 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 2.54 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "MOSI/D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "MISO/D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "SCK/D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "RX/D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XIAO_RP2040"
+		(extends "XIAO_Generic")
+		(property "Reference" "U"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO_RP2040"
+			(at 0 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_MCU:MCU_XIAO_RP2040"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SeeedStudio XIAO RP2040"
+			(at 0 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://wiki.seeedstudio.com/XIAO-RP2040/"
+			(at 0 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SeeedStudio XIAO RP2040"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_XIAO_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "XIAO_nRF52840"
+		(extends "XIAO_Generic")
+		(property "Reference" "U"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO_nRF52840"
+			(at 0 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_MCU:MCU_XIAO_nRF52840"
+			(at 0.254 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SeeedStudio nRF52840"
+			(at 0 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-BLE/pinout2.png"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://wiki.seeedstudio.com/XIAO_BLE/"
+			(at 0 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SeeedStudio XIAO nRF52840"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_XIAO_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 )

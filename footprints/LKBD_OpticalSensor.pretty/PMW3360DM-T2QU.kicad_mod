@@ -6,7 +6,7 @@
 	(descr "Optical Gaming Navigation Chip")
 	(tags "Optical Sensor Gaming Navigation Chip Tracking")
 	(property "Reference" "REF**"
-		(at 5.35 -3.81 0)
+		(at 0 -10.66 0)
 		(layer "F.SilkS")
 		(uuid "f9ca9e6f-1708-4523-b59d-5dbd4bde17bd")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "PMW3360DM‐T2QU"
-		(at 5.35 15.875 0)
+		(at 0 9.025 0)
 		(layer "F.Fab")
 		(uuid "e38de8c5-3c29-4bff-bd0e-c7323397ee9a")
 		(effects
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0.7 -1.25)
-		(end -0.7 -1.25)
+		(start -4.65 -8.1)
+		(end -6.05 -8.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "dc70a934-3737-46a4-b733-9dc93f42b2de")
 	)
 	(fp_line
-		(start 3.35 1.66)
-		(end 7.35 1.66)
+		(start -2 -5.19)
+		(end 2 -5.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "a8b6cb9c-67b9-4a70-bcd7-a9c78268a888")
 	)
 	(fp_line
-		(start 3.35 5.66)
-		(end 3.35 1.66)
+		(start -2 -1.19)
+		(end -2 -5.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "5a306432-0bc7-466c-a5d1-bda4be68482e")
 	)
 	(fp_line
-		(start 7.35 1.66)
-		(end 7.35 5.66)
+		(start 2 -5.19)
+		(end 2 -1.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -93,9 +93,9 @@
 		(uuid "b0fc5b2f-c54d-4e9c-8988-669c815e68b0")
 	)
 	(fp_arc
-		(start 7.35 5.66)
-		(mid 5.35 7.66)
-		(end 3.35 5.66)
+		(start 2 -1.19)
+		(mid 0 0.81)
+		(end -2 -1.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -104,8 +104,8 @@
 		(uuid "c7586050-391d-470b-ad46-107a64fe5dff")
 	)
 	(fp_circle
-		(center 5.35 5.66)
-		(end 5.6 5.66)
+		(center 0 -1.19)
+		(end 0.25 -1.19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,20 +114,93 @@
 		(layer "Dwgs.User")
 		(uuid "acda6a6d-6c9f-4aa5-b3f1-7ba6afa75240")
 	)
-	(fp_rect
-		(start 1.05 -2.78)
-		(end 9.65 14.48)
+	(fp_line
+		(start -4.3 7.23)
+		(end -4.3 -9.23)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "dcdb6aaa-b6fa-4925-aea6-ef312ced8dc2")
+		(uuid "9f8a35b9-eb4f-48ee-9c32-6c4df5d6097f")
+	)
+	(fp_line
+		(start -3.9 -9.63)
+		(end 3.9 -9.63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d24c867-e657-4530-8849-dcd305b72bbd")
+	)
+	(fp_line
+		(start 3.9 7.63)
+		(end -3.9 7.63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0fa0169d-b938-44e6-a70c-24c15616f3e1")
+	)
+	(fp_line
+		(start 4.3 -9.23)
+		(end 4.3 7.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "463a639d-6470-4ab2-a7e4-c943bb7d875e")
+	)
+	(fp_arc
+		(start -4.3 -9.23)
+		(mid -4.182843 -9.512843)
+		(end -3.9 -9.63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6a68857b-6efa-4a73-8e10-7383173ecaca")
+	)
+	(fp_arc
+		(start -3.9 7.63)
+		(mid -4.182843 7.512843)
+		(end -4.3 7.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c68219f-79a2-4222-988a-252f367f70b1")
+	)
+	(fp_arc
+		(start 3.9 -9.63)
+		(mid 4.182843 -9.512843)
+		(end 4.3 -9.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c5f1f513-b9c8-42d2-b2c6-94c825c9c9a5")
+	)
+	(fp_arc
+		(start 4.3 7.23)
+		(mid 4.182843 7.512843)
+		(end 3.9 7.63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6491133b-96f4-4c95-b3a8-88778fbc29c1")
 	)
 	(fp_rect
-		(start -0.95 -3.78)
-		(end 11.65 15.47)
+		(start -6.3 -10.63)
+		(end 6.3 8.62)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -137,8 +210,8 @@
 		(uuid "61d568ec-f372-4979-b4c7-2518f2c3e44b")
 	)
 	(fp_rect
-		(start -0.95 -3.78)
-		(end 11.65 15.47)
+		(start -6.3 -10.63)
+		(end 6.3 8.62)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -148,8 +221,8 @@
 		(uuid "90a853ce-bec0-4ea5-a2d0-1ae85dcb2237")
 	)
 	(fp_line
-		(start -4.075 9.185)
-		(end -4.075 2.135)
+		(start -9.425 2.335)
+		(end -9.425 -4.715)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +231,8 @@
 		(uuid "c7667e19-901c-449f-b58e-fc43b68768d9")
 	)
 	(fp_line
-		(start 3.85 16.235)
-		(end 2.975 16.235)
+		(start -1.5 9.385)
+		(end -2.375 9.385)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +241,8 @@
 		(uuid "6a4bb357-6da2-406a-b8b0-e1407b19a97b")
 	)
 	(fp_line
-		(start 3.85 16.485)
-		(end 3.85 16.235)
+		(start -1.5 9.635)
+		(end -1.5 9.385)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +251,8 @@
 		(uuid "49eddfe9-e3a1-4d0a-bcf5-dc02bbd47c26")
 	)
 	(fp_line
-		(start 6.85 16.485)
-		(end 3.85 16.485)
+		(start 1.5 9.635)
+		(end -1.5 9.635)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,8 +261,8 @@
 		(uuid "95242c95-a0a5-4b2d-8f79-aedc820a9e93")
 	)
 	(fp_line
-		(start 6.85 16.485)
-		(end 6.85 16.235)
+		(start 1.5 9.635)
+		(end 1.5 9.385)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,8 +271,8 @@
 		(uuid "f06aeb29-d02e-47ca-aec8-382a742c5fcc")
 	)
 	(fp_line
-		(start 7.725 -4.915)
-		(end 2.975 -4.915)
+		(start 2.375 -11.765)
+		(end -2.375 -11.765)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -208,8 +281,8 @@
 		(uuid "a8ee2f20-493c-4ffe-a34a-01f47b826eb6")
 	)
 	(fp_line
-		(start 7.725 16.235)
-		(end 6.85 16.235)
+		(start 2.375 9.385)
+		(end 1.5 9.385)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -218,8 +291,8 @@
 		(uuid "f613de17-5004-4a01-b3f4-c1a30730f4e8")
 	)
 	(fp_line
-		(start 14.775 9.185)
-		(end 14.775 2.135)
+		(start 9.425 2.335)
+		(end 9.425 -4.715)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -228,9 +301,9 @@
 		(uuid "7755ca15-f620-4205-a346-ac445613d204")
 	)
 	(fp_arc
-		(start -4.075 2.135)
-		(mid -2.010103 -2.850103)
-		(end 2.975 -4.915)
+		(start -9.425 -4.715)
+		(mid -7.360103 -9.700103)
+		(end -2.375 -11.765)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -239,9 +312,9 @@
 		(uuid "0e606dc9-9144-4c90-9948-c83f358ce0c8")
 	)
 	(fp_arc
-		(start 2.975 16.235)
-		(mid -2.010103 14.170103)
-		(end -4.075 9.185)
+		(start -2.375 9.385)
+		(mid -7.360103 7.320103)
+		(end -9.425 2.335)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -250,9 +323,9 @@
 		(uuid "8ea3e5ab-b56e-4ddd-9bfd-305fce5c95fc")
 	)
 	(fp_arc
-		(start 7.725 -4.915)
-		(mid 12.710103 -2.850103)
-		(end 14.775 2.135)
+		(start 2.375 -11.765)
+		(mid 7.360103 -9.700103)
+		(end 9.425 -4.715)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -261,9 +334,9 @@
 		(uuid "0472f0f8-3e93-468d-80be-646d22cc3836")
 	)
 	(fp_arc
-		(start 14.775 9.185)
-		(mid 12.710103 14.170103)
-		(end 7.725 16.235)
+		(start 9.425 2.335)
+		(mid 7.360103 7.320103)
+		(end 2.375 9.385)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -272,8 +345,8 @@
 		(uuid "e253a6a7-e9fb-4add-a0c0-b955c15d3bcb")
 	)
 	(fp_rect
-		(start 0.8 -1.25)
-		(end 9.9 14.95)
+		(start -4.55 -8.1)
+		(end 4.55 8.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -283,7 +356,7 @@
 		(uuid "588ac02b-1d8e-43ee-b458-712871cc40b3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.35 6.85 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "d1965579-8d3d-4e0d-b05f-5fa50c190cd4")
 		(effects
@@ -294,7 +367,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 0 0)
+		(at -5.35 -6.85)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -303,7 +376,7 @@
 		(uuid "e48eede0-0d66-4c0e-805e-2fa90ea1dd0d")
 	)
 	(pad "2" thru_hole circle
-		(at 0 1.78)
+		(at -5.35 -5.07)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -311,7 +384,7 @@
 		(uuid "100a9e12-fce4-4745-ace7-846970d844e4")
 	)
 	(pad "3" thru_hole circle
-		(at 0 3.56)
+		(at -5.35 -3.29)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -319,7 +392,7 @@
 		(uuid "dd1a1d33-2ae3-4a56-b25a-ebc04723ede5")
 	)
 	(pad "4" thru_hole circle
-		(at 0 5.34)
+		(at -5.35 -1.51)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -327,7 +400,7 @@
 		(uuid "8a53c094-4014-47e7-bb54-947074a6d70a")
 	)
 	(pad "5" thru_hole circle
-		(at 0 7.12)
+		(at -5.35 0.27)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -335,7 +408,7 @@
 		(uuid "0ea6fc33-4a4a-45e9-aa28-fc823cc41499")
 	)
 	(pad "6" thru_hole circle
-		(at 0 8.9)
+		(at -5.35 2.05)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -343,7 +416,7 @@
 		(uuid "300211f5-8a96-4682-80df-362584516235")
 	)
 	(pad "7" thru_hole circle
-		(at 0 10.68)
+		(at -5.35 3.83)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -351,7 +424,7 @@
 		(uuid "7a23046b-c027-4946-a2df-03d17911020f")
 	)
 	(pad "8" thru_hole circle
-		(at 0 12.46)
+		(at -5.35 5.61)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -359,7 +432,7 @@
 		(uuid "bc5958f0-e577-44a1-b21b-5b6bf80a5b80")
 	)
 	(pad "9" thru_hole circle
-		(at 10.7 13.35)
+		(at 5.35 6.5)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -367,7 +440,7 @@
 		(uuid "d1f5f5b4-cfe6-4e4e-b14a-c45aa8810207")
 	)
 	(pad "10" thru_hole circle
-		(at 10.7 11.57)
+		(at 5.35 4.72)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -375,7 +448,7 @@
 		(uuid "e83a123e-c6db-4ed4-8d5b-c23ef007ad15")
 	)
 	(pad "11" thru_hole circle
-		(at 10.7 9.79)
+		(at 5.35 2.94)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -383,7 +456,7 @@
 		(uuid "0b137a9e-8ad7-4285-b2a5-579ef05f60f1")
 	)
 	(pad "12" thru_hole circle
-		(at 10.7 8.01)
+		(at 5.35 1.16)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -391,7 +464,7 @@
 		(uuid "de6db6bd-91c0-4c80-8cc1-b894cca9bb1b")
 	)
 	(pad "13" thru_hole circle
-		(at 10.7 6.23)
+		(at 5.35 -0.62)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -399,7 +472,7 @@
 		(uuid "425140f0-1ccd-4558-8c37-4e159d2b5abb")
 	)
 	(pad "14" thru_hole circle
-		(at 10.7 4.45)
+		(at 5.35 -2.4)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -407,7 +480,7 @@
 		(uuid "ee42ffec-d4ed-4030-a88d-5da9207903b3")
 	)
 	(pad "15" thru_hole circle
-		(at 10.7 2.67)
+		(at 5.35 -4.18)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -415,7 +488,7 @@
 		(uuid "4d4c14ed-c9c0-4136-bfd1-eed6211af3cf")
 	)
 	(pad "16" thru_hole circle
-		(at 10.7 0.89)
+		(at 5.35 -5.96)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -423,26 +496,15 @@
 		(uuid "fe41907f-7e73-4d3c-ae91-9f5027f18b68")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/PMW3360.pretty/PMW3360DM.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_OpticalSensor.3dshapes/PMW3360DM.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5.35 6.85 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

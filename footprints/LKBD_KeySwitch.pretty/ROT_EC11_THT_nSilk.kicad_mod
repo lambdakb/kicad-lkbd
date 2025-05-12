@@ -1,4 +1,4 @@
-(footprint "EC11_THT"
+(footprint "ROT_EC11_THT_nSilk"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "EC11_THT"
+	(property "Value" "ROT_EC11_THT_nSilk"
 		(at 0 9.4 0)
 		(layer "B.Fab")
 		(uuid "d7d4c882-c032-43fb-8809-90f1b838ab79")
@@ -56,117 +56,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -5.9 -6.1)
-		(end -5.9 -5.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "191488d8-c6bd-412e-b48d-b0fc01ffeb05")
-	)
-	(fp_line
-		(start -5.9 5.1)
-		(end -5.9 6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "db45d277-3e52-4a22-b14a-60ac3d0b6d96")
-	)
-	(fp_line
-		(start -5.9 6.1)
-		(end -4.9 6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3884962f-1ecf-4348-bdb3-efc500561d64")
-	)
-	(fp_line
-		(start -4.9 -6.1)
-		(end -5.9 -6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c60249d3-ab12-43af-ace3-01bf28f30deb")
-	)
-	(fp_line
-		(start 0 0.5)
-		(end 0 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "29282e52-b29f-4105-afb8-4df894dc8072")
-	)
-	(fp_line
-		(start 0.5 0)
-		(end -0.5 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "757ff1b2-770f-4380-98ef-f9883e51be05")
-	)
-	(fp_line
-		(start 4.9 6.1)
-		(end 5.9 6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "17089989-4e50-433d-bd8f-78d5b024caa7")
-	)
-	(fp_line
-		(start 5.9 -6.1)
-		(end 4.9 -6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a6bdb934-7923-4a04-ac12-36b3cd7c3619")
-	)
-	(fp_line
-		(start 5.9 -5.1)
-		(end 5.9 -6.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4f89221e-7a61-4552-8e51-1594261a2538")
-	)
-	(fp_line
-		(start 5.9 6.1)
-		(end 5.9 5.1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bfc5c330-ba80-401f-b1d7-5fbeff79a1b1")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 -3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "567f4073-df42-4c7b-9f8a-e798bf8c11b2")
-	)
 	(fp_rect
 		(start -9.525 -9.525)
 		(end 9.525 9.525)
@@ -191,7 +80,7 @@
 	)
 	(fp_rect
 		(start -3.25 -7.75)
-		(end 3.25 -6.25)
+		(end 3.25 -6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -243,7 +132,7 @@
 		(uuid "819a685f-15f4-439c-a574-b80403f1def6")
 	)
 	(fp_line
-		(start -6.05 -6.25)
+		(start -6.05 -6.2)
 		(end -6.05 -1.75)
 		(stroke
 			(width 0.05)
@@ -264,7 +153,7 @@
 	)
 	(fp_line
 		(start -6.05 1.75)
-		(end -6.05 6.25)
+		(end -6.05 6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -273,8 +162,8 @@
 		(uuid "81ec4c57-e400-4fc3-bbba-38ad25e120d8")
 	)
 	(fp_line
-		(start -6.05 6.25)
-		(end -3.25 6.25)
+		(start -6.05 6.2)
+		(end -3.25 6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -284,7 +173,7 @@
 	)
 	(fp_line
 		(start -3.25 -7.75)
-		(end -3.25 -6.25)
+		(end -3.25 -6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -293,8 +182,8 @@
 		(uuid "9ef77c79-3eea-415d-8b89-1a3c95a76524")
 	)
 	(fp_line
-		(start -3.25 -6.25)
-		(end -6.05 -6.25)
+		(start -3.25 -6.2)
+		(end -6.05 -6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -303,7 +192,7 @@
 		(uuid "f7df9651-a89f-45c3-ba59-00625310b36a")
 	)
 	(fp_line
-		(start -3.25 6.25)
+		(start -3.25 6.2)
 		(end -3.25 8.25)
 		(stroke
 			(width 0.05)
@@ -333,7 +222,7 @@
 		(uuid "39938b41-3945-4603-955d-d0169ad71913")
 	)
 	(fp_line
-		(start 3.25 -6.25)
+		(start 3.25 -6.2)
 		(end 3.25 -7.75)
 		(stroke
 			(width 0.05)
@@ -343,8 +232,8 @@
 		(uuid "7acc48e3-48f5-4967-8409-40c95daea6b2")
 	)
 	(fp_line
-		(start 3.25 6.25)
-		(end 6.05 6.25)
+		(start 3.25 6.2)
+		(end 6.05 6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -354,7 +243,7 @@
 	)
 	(fp_line
 		(start 3.25 8.25)
-		(end 3.25 6.25)
+		(end 3.25 6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -363,8 +252,8 @@
 		(uuid "8fdff706-2fd4-4d40-910c-22a2f0d75144")
 	)
 	(fp_line
-		(start 6.05 -6.25)
-		(end 3.25 -6.25)
+		(start 6.05 -6.2)
+		(end 3.25 -6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -374,7 +263,7 @@
 	)
 	(fp_line
 		(start 6.05 -1.75)
-		(end 6.05 -6.25)
+		(end 6.05 -6.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -393,7 +282,7 @@
 		(uuid "f413df3f-80ed-4ddd-8a6b-74dbfceee981")
 	)
 	(fp_line
-		(start 6.05 6.25)
+		(start 6.05 6.2)
 		(end 6.05 1.75)
 		(stroke
 			(width 0.05)
@@ -423,10 +312,10 @@
 		(uuid "d3ae26ab-8fb6-4342-b26a-7b245be88ebc")
 	)
 	(fp_rect
-		(start -5.9 -6.1)
-		(end 5.9 6.1)
+		(start -5.85 -6)
+		(end 5.85 6)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -519,7 +408,7 @@
 		(uuid "fe2a40c6-3e9b-4d06-abf5-196713bf6b25")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/ROT_EC11.step"
 		(offset
 			(xyz 0 0 0)
 		)

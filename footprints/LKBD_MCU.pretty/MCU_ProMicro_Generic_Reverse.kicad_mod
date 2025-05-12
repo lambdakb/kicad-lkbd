@@ -4,9 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic ProMicro style MCU (Reverse)")
-	(tags "MCU Generic KB2040 RP2040 ProMicro THT pitch 2.54mm 15.24mm 600mil Reverse")
+	(tags "MCU Generic ProMicro THT pitch 2.54mm 15.24mm 600mil Reverse")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "7075898a-f1c5-4563-9080-debd25afab68")
 		(effects
@@ -65,15 +65,15 @@
 		(uuid "834ec607-89dd-4e86-93a5-f6a8aecbcaf2")
 	)
 	(fp_rect
-		(start -8.89 -1.27)
-		(end 8.89 29.21)
+		(start -8.99 -3.91)
+		(end 8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e89a9fa2-a8cd-4ca1-98f3-20e3ab255046")
+		(uuid "4dc44669-c439-4994-988f-ed348c878e11")
 	)
 	(fp_rect
 		(start -8.89 -1.27)
@@ -120,30 +120,29 @@
 		(uuid "bd5b0228-6981-4858-bdc5-96fa578ea178")
 	)
 	(fp_rect
-		(start 4.5 -4.99)
-		(end -4.5 -3.81)
+		(start -8.89 -3.81)
+		(end 8.89 29.21)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5118b4e4-679e-48c6-abb9-03b1a69ec9af")
+		(uuid "4f89a0f2-4765-4386-82c7-c1ea31f64ea3")
 	)
 	(fp_rect
-		(start 8.89 -3.81)
-		(end -8.89 29.21)
+		(start -4.5 -4.99)
+		(end 4.5 -3.81)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f963343e-b45a-4740-a8af-8c9d54efa99c")
+		(uuid "34c07422-48f0-4390-bd94-122b299cce81")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 32 0)
-		(unlocked yes)
+		(at 0 12.7 0)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects
