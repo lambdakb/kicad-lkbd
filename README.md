@@ -5,7 +5,17 @@
 
 This repository includes the different symbol and footprint libraries used to create devices at LambdaKB.dev as well as our KiCad project templates.
 
-## Symbols
+## Disclaimer
+
+**This repository is provided AS IS, without any warranty. Use at your own risk.**
+**We do not assume any responsibility for damages or broken PCBs due to the use of the libraries present in this repository and any potential errors in it.**
+
+We try to keep every library as up-to-date and accurate as possible, but we cannot guarantee that it is always correct.
+If you find any errors in this library, please open an issue or pull-request. We will try to fix them as soon as possible.
+
+## Libraries
+
+### Symbols
 
 | Name                             | Description                                                                 |
 | -------------------------------- | --------------------------------------------------------------------------- |
@@ -17,7 +27,7 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_MCU.kicad_sym`]: symbols/README.md#lkbd_mcukicad_sym
 [`LKBD_OpticalSensor.kicad_sym`]: symbols/README.md#lkbd_opticalsensorkicad_sym
 
-## Footprints
+### Footprints
 
 | Name                          | Description                                                                                             |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -43,13 +53,27 @@ This repository includes the different symbol and footprint libraries used to cr
 [`LKBD_PlateMX.pretty`]: footprints/README.md#lkbd_platemxpretty
 [`LKBD_StabMX.pretty`]: footprints/README.md#lkbd_stabmxpretty
 
-## Templates
+### Templates
 
 | Name                    | Description                                                                               |
 | ----------------------- | ----------------------------------------------------------------------------------------- |
 | [`Mechanical-Keyboard`] | Basic template for mechanical keyboards, including standardized design rules & BOM fields |
 
 [`Mechanical-Keyboard`]: templates/Mechanical-Keyboard
+
+## Contributing
+
+### Best practices
+
+To ensure consistency and maintain quality, follow these best practices when adding or modifying components:
+
+- Symbols and footprints must be in the official KiCad format (v6+ recommended).
+- All names (library items, fields, files) and descriptions must be in English.
+- Component outlines should be drawn on the appropriate Fabrication layer (`F.Fab` or `B.Fab`) with accurate dimensions.
+- Silkscreen around a component should be spaced at least 0.1 mm from the component's outline on the `F.Fab`/`B.Fab` layer.
+- If a variant of a component is needed, it should be named `<component_name>_<variant_suffix>`, where the suffix describes the variant (e.g., `nSilk` for no silkscreen, `sqSilk` for square silkscreen).
+- Use `REF**` as the default reference designator in symbols.
+- Validate symbols and footprints with KiCad's built-in tools before adding them.
 
 ## License
 

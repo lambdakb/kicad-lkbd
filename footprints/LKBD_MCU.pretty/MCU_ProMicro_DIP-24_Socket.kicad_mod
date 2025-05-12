@@ -4,11 +4,11 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DIP-24 (Wide, 15.24 mm) socket for Generic ProMicro style MCU")
-	(tags "MCU Socket Generic KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket")
+	(tags "MCU Socket Generic ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 2.54 0)
 		(layer "F.SilkS")
-		(uuid "7075898a-f1c5-4563-9080-debd25afab68")
+		(uuid "33f6bd9d-a09d-451d-8802-c90441044c4b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "MCU_ProMicro_DIP-24_Socket"
 		(at 0 30.4 0)
 		(layer "F.Fab")
-		(uuid "3897afff-b46e-4912-b11b-ce19728852cd")
+		(uuid "f12d7d76-b415-4243-b414-5050df9f4607")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "31f898b5-b7b1-4ec9-b026-5cb857ca05f5")
+		(uuid "a1ed3075-d9ff-4363-91c2-9e9886449a39")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44c51d98-878a-49d4-804f-e0a653f3f6e0")
+		(uuid "abf3baa9-8355-4ce0-83a2-b0d054dd9910")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,29 +54,20 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start 6.35 -1.27)
-		(end -6.35 -1.27)
+	(fp_rect
+		(start -8.99 -1.37)
+		(end 8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "42da1ecd-3fb8-48a4-9fd1-ccdf6fcfca88")
-	)
-	(fp_line
-		(start 6.35 29.21)
-		(end -6.35 29.21)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6273bcce-3b0d-447d-9788-a0e14e68e1f5")
+		(uuid "ebaa32da-ba1f-457c-b150-5cbfdfb463a1")
 	)
 	(fp_rect
-		(start -6.35 -1.27)
-		(end -8.89 29.21)
+		(start -6.25 -1.37)
+		(end -8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -86,15 +77,15 @@
 		(uuid "b28c9b18-d874-4082-8e35-9a60974329cd")
 	)
 	(fp_rect
-		(start 8.89 -1.27)
-		(end 6.35 29.21)
+		(start 8.99 -1.37)
+		(end 6.25 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bc6177a5-968c-4d1f-b628-14fdd9cec0b0")
+		(uuid "ecb2c9f6-dbbd-4173-9e42-3423a1d12b56")
 	)
 	(fp_rect
 		(start -6.72 -1.2)
@@ -141,30 +132,29 @@
 		(uuid "d98aeb6e-886b-4b4d-973f-5f4ba0100190")
 	)
 	(fp_rect
-		(start 4.5 -4.99)
-		(end -4.5 -3.81)
+		(start -8.89 -3.82)
+		(end 8.89 29.2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5118b4e4-679e-48c6-abb9-03b1a69ec9af")
+		(uuid "506244ea-67e8-4c84-8826-e64634715fbe")
 	)
 	(fp_rect
-		(start 8.89 -3.81)
-		(end -8.89 29.21)
+		(start -4.5 -5)
+		(end 4.5 -3.82)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f963343e-b45a-4740-a8af-8c9d54efa99c")
+		(uuid "29c0ec1d-180f-4cdd-9cc9-464390671fe0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 32 0)
-		(unlocked yes)
+		(at 0 12.7 90)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects
@@ -180,7 +170,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.15)
 		(uuid "9f0d30c0-7147-4cb9-ada4-9abd25c39a54")
 	)
 	(pad "2" thru_hole oval

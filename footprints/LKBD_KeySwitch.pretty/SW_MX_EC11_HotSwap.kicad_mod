@@ -57,8 +57,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7 -7)
-		(end -7 -6)
+		(start -7.1 -7.1)
+		(end -7.1 -6.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -67,8 +67,8 @@
 		(uuid "191488d8-c6bd-412e-b48d-b0fc01ffeb05")
 	)
 	(fp_line
-		(start -7 6)
-		(end -7 7)
+		(start -7.1 6.1)
+		(end -7.1 7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -77,8 +77,8 @@
 		(uuid "90c358f7-b70f-42c4-bc13-1b31fa435057")
 	)
 	(fp_line
-		(start -7 7)
-		(end -6 7)
+		(start -7.1 7.1)
+		(end -6.1 7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "13168d03-6aeb-47e3-b84f-d4e20c4cbc7a")
 	)
 	(fp_line
-		(start -6 -7)
-		(end -7 -7)
+		(start -6.1 -7.1)
+		(end -7.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "c60249d3-ab12-43af-ace3-01bf28f30deb")
 	)
 	(fp_line
-		(start 6 7)
-		(end 7 7)
+		(start 6.1 7.1)
+		(end 7.1 7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +107,8 @@
 		(uuid "6aabcd2f-db67-40ab-a887-e5621eb26426")
 	)
 	(fp_line
-		(start 7 -7)
-		(end 6 -7)
+		(start 7.1 -7.1)
+		(end 6.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "c76b25fb-4050-45bf-bc9c-7b1102b438df")
 	)
 	(fp_line
-		(start 7 -6)
-		(end 7 -7)
+		(start 7.1 -6.1)
+		(end 7.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "e0ddfd9b-2fd4-426e-a254-0ad5f870fbf4")
 	)
 	(fp_line
-		(start 7 7)
-		(end 7 6)
+		(start 7.1 7.1)
+		(end 7.1 6.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -416,7 +416,7 @@
 		(start -8.890001 -3.810002)
 		(end -6.350001 -3.810002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -426,7 +426,7 @@
 		(start -8.890001 -1.270002)
 		(end -8.890001 -3.810002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -436,7 +436,7 @@
 		(start -6.350001 -1.270002)
 		(end -8.890001 -1.270002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -446,7 +446,7 @@
 		(start -6.350001 -0.635002)
 		(end -6.350001 -4.445002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -456,7 +456,7 @@
 		(start -6.350001 -0.635002)
 		(end -2.540001 -0.635002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -466,7 +466,7 @@
 		(start -3.810001 -6.985002)
 		(end 5.079999 -6.985002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -476,7 +476,7 @@
 		(start 5.079999 -6.985002)
 		(end 5.079999 -2.540002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -486,7 +486,7 @@
 		(start 5.079999 -6.350002)
 		(end 7.619999 -6.350002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -496,7 +496,7 @@
 		(start 5.079999 -2.540002)
 		(end -0.000001 -2.540002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -506,7 +506,7 @@
 		(start 7.619999 -6.350002)
 		(end 7.619999 -3.810002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -516,18 +516,29 @@
 		(start 7.619999 -3.810002)
 		(end 5.079999 -3.810002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
 		(uuid "99c1d9ff-0add-4b14-ace3-658b886e741e")
+	)
+	(fp_rect
+		(start -1.75 3.579999)
+		(end 1.75 6.579999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "58e6404d-309e-4ea2-a61f-f4630dfb1bd0")
 	)
 	(fp_arc
 		(start -6.350001 -4.445002)
 		(mid -5.606052 -6.241053)
 		(end -3.810001 -6.985002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -538,7 +549,7 @@
 		(mid -1.563148 -2.002044)
 		(end -0.000001 -2.540002)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "B.Fab")
@@ -548,7 +559,7 @@
 		(start -7 -7)
 		(end 7 7)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -680,7 +691,7 @@
 		(uuid "2e58a628-f5cc-4283-a4e3-b893ef4d09f8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step"
+	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/ROT_EC11.step"
 		(offset
 			(xyz 0 0 0)
 		)

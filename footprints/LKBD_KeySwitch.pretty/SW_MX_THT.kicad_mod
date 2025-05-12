@@ -57,8 +57,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7 -7)
-		(end -7 -6)
+		(start -7.1 -7.1)
+		(end -7.1 -6.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -67,8 +67,8 @@
 		(uuid "30a2b0b7-1c25-4775-a404-7a18c1c97eb4")
 	)
 	(fp_line
-		(start -7 7)
-		(end -7 6)
+		(start -7.1 7.1)
+		(end -7.1 6.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -77,8 +77,8 @@
 		(uuid "6a8acd69-af96-40c3-bbb5-4ad8015ae268")
 	)
 	(fp_line
-		(start -7 7)
-		(end -6 7)
+		(start -7.1 7.1)
+		(end -6.1 7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "dbb6c42d-03ac-46d6-a3d2-fbe6e196c64e")
 	)
 	(fp_line
-		(start -6 -7)
-		(end -7 -7)
+		(start -6.1 -7.1)
+		(end -7.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "b9a72fe7-725b-42ab-9888-9ad1c7e72f7d")
 	)
 	(fp_line
-		(start 6 7)
-		(end 7 7)
+		(start 6.1 7.1)
+		(end 7.1 7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +107,8 @@
 		(uuid "08d293eb-290d-442e-b06d-c6c2d17fc27a")
 	)
 	(fp_line
-		(start 7 -7)
-		(end 6 -7)
+		(start 7.1 -7.1)
+		(end 6.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "d4396fa0-86df-4a1f-a98d-f1a95a944ee2")
 	)
 	(fp_line
-		(start 7 -6)
-		(end 7 -7)
+		(start 7.1 -6.1)
+		(end 7.1 -7.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "8f8833ae-9d65-4d28-964d-85c594c04b88")
 	)
 	(fp_line
-		(start 7 7)
-		(end 7 6)
+		(start 7.1 7.1)
+		(end 7.1 6.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -294,7 +294,7 @@
 		(start -7 -7)
 		(end 7 7)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)

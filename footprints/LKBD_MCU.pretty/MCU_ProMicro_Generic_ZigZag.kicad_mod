@@ -4,9 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic ProMicro style MCU (ZigZag)")
-	(tags "MCU Generic KB2040 RP2040 ProMicro THT pitch 2.54mm 15.24mm 600mil ZigZag")
+	(tags "MCU Generic ProMicro THT pitch 2.54mm 15.24mm 600mil ZigZag")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "7075898a-f1c5-4563-9080-debd25afab68")
 		(effects
@@ -65,15 +65,15 @@
 		(uuid "7671f8f2-2e04-4e5f-bd24-5f70e8693620")
 	)
 	(fp_rect
-		(start 8.89 -1.27)
-		(end -8.89 29.21)
+		(start -8.99 -3.91)
+		(end 8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4ac08e40-74a6-46e1-9316-2d5e4b7d24c5")
+		(uuid "143fc0d2-8889-41dc-8b1b-dc4e0d939d7f")
 	)
 	(fp_rect
 		(start -6.35 -1.27)
@@ -128,7 +128,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f963343e-b45a-4740-a8af-8c9d54efa99c")
+		(uuid "7c7e5ea3-f57d-47e3-a2c3-a9a8b8e1f414")
 	)
 	(fp_rect
 		(start -4.5 -4.99)
@@ -139,11 +139,10 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5118b4e4-679e-48c6-abb9-03b1a69ec9af")
+		(uuid "bbcfb1a0-2954-4261-8aef-090c7f29b1a9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 32 0)
-		(unlocked yes)
+		(at 0 12.7 90)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects

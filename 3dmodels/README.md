@@ -18,17 +18,24 @@ These models are sourced from various authors and distributed under their respec
 
 ## `LKBD_KeySwitch.3dshapes`
 
-| File                               | Attribution                                                                                                                                                       |                            License / Usage Terms                            |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
-| [`RotaryEncoder_EC12_SW.step`]     | [RotarryEncoder_EC12-SW.step](https://github.com/foostan/kbd/blob/main/kicad-packages3D/kbd.3dshapes/RotarryEncoder_EC12-SW.step) by [foostan]                    |                               [MIT][kbd MIT]                                |
-| [`Stabilizer_MX_2.00u.{wrl,step}`] | [Stabilizer_MX_2.00u.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/Stabilizer_MX_2.00u.wrl) by [kiswitch contributors] | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
-| [`SW_MX_HotSwap.{wrl,step}`]       | [SW_Hotswap_Kailh_MX.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl) by [kiswitch contributors] | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
-| [`SW_MX_PCB.{wrl,step}`]           | [SW_Cherry_MX_PCB.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl) by [kiswitch contributors]       | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
+| File                         | Attribution                                                                                                                                                                   |                            License / Usage Terms                            |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
+| [`ROT_EC11.step`]            | [EC11-THT-15F-green.step](https://grabcad.com/library/11mm-metal-shaft-rotary-encoders-tht-vertical-w-push-on-switch-1) by [Dmitry Levin](https://grabcad.com/dmitry.levin-6) |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
+| [`SW_MX_HotSwap.{wrl,step}`] | [SW_Hotswap_Kailh_MX.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl) by [kiswitch contributors]             | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
+| [`SW_MX_PCB.{wrl,step}`]     | [SW_Cherry_MX_PCB.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl) by [kiswitch contributors]                   | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
+| [`SW_Choc_HotSwap.step`]     | [PG1350-socket.STEP](https://grabcad.com/library/kailh-1350-socket-2) by [Denis Lee](https://grabcad.com/dennis.lee-23)                                                       |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
 
-[`RotaryEncoder_EC12_SW.step`]: ./LKBD_KeySwitch.3dshapes/RotaryEncoder_EC12_SW.step
-[`Stabilizer_MX_2.00u.{wrl,step}`]: ./LKBD_KeySwitch.3dshapes/Stabilizer_MX_2.00u.wrl
+[`ROT_EC11.step`]: ./LKBD_KeySwitch.3dshapes/ROT_EC11.step
 [`SW_MX_HotSwap.{wrl,step}`]: ./LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl
 [`SW_MX_PCB.{wrl,step}`]: ./LKBD_KeySwitch.3dshapes/SW_MX_PCB.wrl
+
+## `LKBD_StabMX.3dshapes`
+
+| File                               | Attribution                                                                                                                                                       |                            License / Usage Terms                            |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
+| [`Stabilizer_MX_2.00u.{wrl,step}`] | [Stabilizer_MX_2.00u.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/Stabilizer_MX_2.00u.wrl) by [kiswitch contributors] | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
+
+[`Stabilizer_MX_2.00u.{wrl,step}`]: ./LKBD_StabMX.3dshapes/Stabilizer_MX_2.00u.wrl
 
 ## `LKBD_MCU.3dshapes`
 

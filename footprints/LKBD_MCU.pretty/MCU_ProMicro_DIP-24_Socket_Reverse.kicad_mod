@@ -4,9 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DIP-24 (Wide, 15.24 mm) socket for Generic ProMicro style MCU (Reverse)")
-	(tags "MCU Socket Generic KB2040 RP2040 ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket Reverse")
+	(tags "MCU Socket Generic ProMicro DIP-24 THT DIP pitch 2.54mm 15.24mm 600mil Socket Reverse")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 2.54 0)
 		(layer "F.SilkS")
 		(uuid "7075898a-f1c5-4563-9080-debd25afab68")
 		(effects
@@ -54,47 +54,38 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -6.35 -1.27)
-		(end 6.35 -1.27)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "42da1ecd-3fb8-48a4-9fd1-ccdf6fcfca88")
-	)
-	(fp_line
-		(start -6.35 29.21)
-		(end 6.35 29.21)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6273bcce-3b0d-447d-9788-a0e14e68e1f5")
-	)
 	(fp_rect
-		(start -8.89 -1.27)
-		(end -6.35 29.21)
+		(start -8.99 -1.37)
+		(end 8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bc6177a5-968c-4d1f-b628-14fdd9cec0b0")
+		(uuid "679bccf8-dd7a-44bc-a599-96ebe82721ac")
 	)
 	(fp_rect
-		(start 6.35 -1.27)
-		(end 8.89 29.21)
+		(start -6.25 -1.37)
+		(end -8.99 29.31)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b28c9b18-d874-4082-8e35-9a60974329cd")
+		(uuid "1303550e-3826-4dbb-887c-cb66083cf027")
+	)
+	(fp_rect
+		(start 8.99 -1.37)
+		(end 6.25 29.31)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4f10afcc-697a-45b6-ae7d-dd065dc97d08")
 	)
 	(fp_rect
 		(start -6.72 -1.2)
@@ -149,7 +140,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f963343e-b45a-4740-a8af-8c9d54efa99c")
+		(uuid "20824c39-2437-414d-9d34-a6db41a7963c")
 	)
 	(fp_rect
 		(start -4.5 -4.99)
@@ -160,11 +151,10 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5118b4e4-679e-48c6-abb9-03b1a69ec9af")
+		(uuid "129c54b8-efeb-451a-a4fc-1f8634d6a87a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 32 0)
-		(unlocked yes)
+		(at 0 12.7 90)
 		(layer "F.Fab")
 		(uuid "e1779fd3-71f8-4494-abc9-7f448f1aedbc")
 		(effects
@@ -180,7 +170,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.15)
 		(uuid "9f0d30c0-7147-4cb9-ada4-9abd25c39a54")
 	)
 	(pad "2" thru_hole oval
