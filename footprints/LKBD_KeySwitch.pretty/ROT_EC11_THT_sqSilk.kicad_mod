@@ -19,14 +19,13 @@
 	)
 	(property "Value" "ROT_EC11_THT_sqSilk"
 		(at 0 9.4 0)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "d7d4c882-c032-43fb-8809-90f1b838ab79")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -470,14 +469,13 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 11 0)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "3524517f-4ea7-400f-a1cd-6a057384f727")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(pad "A" thru_hole circle
