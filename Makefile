@@ -24,6 +24,7 @@ output/symbols/%.kicad_sym: symbols/%.kicad_sym
 	mkdir -p $(dir $@)
 	kicad-cli sym export svg \
 	    --output=$@ $<
+	svgo -qrf $@
 
 footprints: $(FPTARGETS) footprints/README.md
 
@@ -38,6 +39,7 @@ output/footprints/%.pretty: footprints/%.pretty
 	    --sketch-pads-on-fab-layers \
 	    --layers=B.SilkS,F.SilkS,B.Paste,F.Paste,B.Cu,F.Cu,B.Fab,F.Fab,Edge.Cuts,User.Drawings \
 	    --output=$@ $<
+	svgo -qrf $@
 
 clean:
 	$(info + [$(NAME)] $@)
