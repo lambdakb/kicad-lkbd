@@ -18,15 +18,14 @@
 		)
 	)
 	(property "Value" "SW_MX_EC11_THT_sqSilk"
-		(at 0 9.4 0)
-		(layer "B.Fab")
+		(at 0 9.4 180)
+		(layer "F.Fab")
 		(uuid "d7d4c882-c032-43fb-8809-90f1b838ab79")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -376,15 +375,14 @@
 		(uuid "49d073f9-85da-492d-89df-0337ca124e65")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 11 0)
-		(layer "B.Fab")
+		(at 0 11 180)
+		(layer "F.Fab")
 		(uuid "3524517f-4ea7-400f-a1cd-6a057384f727")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(pad "" np_thru_hole circle
