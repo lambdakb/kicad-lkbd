@@ -125,13 +125,14 @@
 
 ## `LKBD_PlateMX.pretty`
 
-| Footprint        | Description                                          | Preview                                                                                            |
-|------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| `Plate_MX_1U`    | Plate cutout for Cherry MX style keyswitches (1U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />    |
-| `Plate_MX_2.25U` | Plate cutout for Cherry MX style keyswitches (2.25U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" /> |
-| `Plate_MX_2.5U`  | Plate cutout for Cherry MX style keyswitches (2.5U)  | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />  |
-| `Plate_MX_2.75U` | Plate cutout for Cherry MX style keyswitches (2.75U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" /> |
-| `Plate_MX_2U`    | Plate cutout for Cherry MX style keyswitches (2U)    | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />    |
+| Footprint          | Description                                                 | Preview                                                                                              |
+|--------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| `Plate_MX_1U`      | Plate cutout for Cherry MX style keyswitches (1U)           | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />      |
+| `Plate_MX_2.25U`   | Plate cutout for Cherry MX style keyswitches (2.25U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" />   |
+| `Plate_MX_2.5U`    | Plate cutout for Cherry MX style keyswitches (2.5U)         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />    |
+| `Plate_MX_2.75U`   | Plate cutout for Cherry MX style keyswitches (2.75U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" />   |
+| `Plate_MX_2U`      | Plate cutout for Cherry MX style keyswitches (2U)           | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />      |
+| `Plate_MX_2U_2x1U` | Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U_2x1U.svg" width="160" height="160" /> |
 
 ## `LKBD_StabMX.pretty`
 
