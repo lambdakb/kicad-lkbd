@@ -1,0 +1,153 @@
+(footprint "MountingHole_M2_NPTH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole M2 (ø 2.2 mm, Pad 4mm)")
+	(tags "mounting hole 2.2mm m2")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "04f681cf-527e-4929-943d-4952fd6cd3fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2_NPTH"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0c4710-9593-475c-a271-ed36979d4e65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2222cafb-0029-4f9e-a882-be506e22f413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d7be15-c81f-48b0-a7e5-c05c26867375")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e74136d7-a962-42fb-b743-ef04564e05ff")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2958a401-91d7-4f1a-af50-a4166bb26c52")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1addcbf4-2334-462f-b831-d0d48f10b778")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fb60c7d4-ee60-4bb5-be85-fdb4e042df6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2.2)
+		(layers "*.Mask")
+		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "29dc8dc3-1487-4d75-bba2-9fbe94b243b0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.19529 -0.143887) (xy 2.157728 -0.429199) (xy 2.083246 -0.707167) (xy 1.97312 -0.973035) (xy 1.829233 -1.222255)
+				(xy 1.654048 -1.450561) (xy 1.450561 -1.654048) (xy 1.222255 -1.829233) (xy 0.973035 -1.97312) (xy 0.707167 -2.083246)
+				(xy 0.429199 -2.157728) (xy 0.143887 -2.19529) (xy -0.143887 -2.19529) (xy -0.429199 -2.157728)
+				(xy -0.707167 -2.083246) (xy -0.973035 -1.97312) (xy -1.222255 -1.829233) (xy -1.450561 -1.654048)
+				(xy -1.654048 -1.450561) (xy -1.829233 -1.222255) (xy -1.97312 -0.973035) (xy -2.083246 -0.707167)
+				(xy -2.157728 -0.429199) (xy -2.19529 -0.143887) (xy -2.19529 0.143887) (xy -2.157728 0.429199)
+				(xy -2.083246 0.707167) (xy -1.97312 0.973035) (xy -1.829233 1.222255) (xy -1.654048 1.450561) (xy -1.450561 1.654048)
+				(xy -1.222255 1.829233) (xy -0.973035 1.97312) (xy -0.707167 2.083246) (xy -0.429199 2.157728) (xy -0.143887 2.19529)
+				(xy 0.143887 2.19529) (xy 0.429199 2.157728) (xy 0.707167 2.083246) (xy 0.973035 1.97312) (xy 1.222255 1.829233)
+				(xy 1.450561 1.654048) (xy 1.654048 1.450561) (xy 1.829233 1.222255) (xy 1.97312 0.973035) (xy 2.083246 0.707167)
+				(xy 2.157728 0.429199) (xy 2.19529 0.143887)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

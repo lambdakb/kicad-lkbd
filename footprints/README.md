@@ -90,11 +90,16 @@
 
 ## `LKBD_MountingHole.pretty`
 
-| Footprint              | Description                                | Preview                                                                                                       |
-|------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| `MountingHole_M2`      | Mounting Hole M2 (ø 2.2 mm, Pad 4mm)       | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2.svg" width="160" height="160" />      |
-| `MountingHole_M2_Oval` | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval.svg" width="160" height="160" /> |
-| `MountingHole_M2_Slot` | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Slot.svg" width="160" height="160" /> |
+| Footprint                   | Description                                                     | Preview                                                                                                            |
+|-----------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| `MountingHole_M2`           | Mounting Hole M2 (ø 2.2 mm, Pad 4mm)                            | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2.svg" width="160" height="160" />           |
+| `MountingHole_M2_NPTH`      | Mounting Hole M2 (ø 2.2 mm, Pad 4mm)                            | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_NPTH.svg" width="160" height="160" />      |
+| `MountingHole_M2_Oval`      | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval.svg" width="160" height="160" />      |
+| `MountingHole_M2_Oval_NPTH` | Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval_NPTH.svg" width="160" height="160" /> |
+| `MountingSlot_M2`           | Mounting Slot M2 (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2.svg" width="160" height="160" />           |
+| `MountingSlot_M2_NTPH`      | Mounting Slot M2 (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH.svg" width="160" height="160" />      |
+| `MountingSlot_M2_NTPH_Half` | Mounting Slot M2 (Half Slot, ø 2.2 × 2.6 mm, Pad 4 × 3.5 mm)    | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH_Half.svg" width="160" height="160" /> |
+| `MountingSlot_M2_NTPH_Long` | Mounting Slot M2 (Long Half Slot, ø 2.2 × 4.1 mm, Pad 4 × 5 mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH_Long.svg" width="160" height="160" /> |
 
 ## `LKBD_OLED.pretty`
 

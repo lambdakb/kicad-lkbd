@@ -56,16 +56,47 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_circle
-		(center 0 0)
-		(end 2 0)
+	(fp_line
+		(start -0.7 -1.1)
+		(end 0.7 -1.1)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "1addcbf4-2334-462f-b831-d0d48f10b778")
+		(layer "Dwgs.User")
+		(uuid "807c11f5-df91-40ab-ad1d-901ccb4e374b")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9492eaaf-f072-4c06-a58d-14fd58f62d6a")
+	)
+	(fp_arc
+		(start -0.7 1.1)
+		(mid -1.8 0)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ca41eb10-7d89-4a0c-a395-37231f4459e0")
+	)
+	(fp_arc
+		(start 0.7 -1.1)
+		(mid 1.8 0)
+		(end 0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b2b4cb9-98eb-4c34-9b57-b10f295231d7")
 	)
 	(fp_circle
 		(center 0 0)
@@ -77,6 +108,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2958a401-91d7-4f1a-af50-a4166bb26c52")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1addcbf4-2334-462f-b831-d0d48f10b778")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

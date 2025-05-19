@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.64" height="16.8" viewBox="0 0 5.461 4.445">
+    <g class="stroked-text" style="fill:none;stroke:#afafaf;stroke-width:.15;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m1.167 2.68-.334-.476M.595 2.68v-1M.595 1.68h.381M.976 1.68l.095.047M1.071 1.727l.048.048M1.119 1.775l.048.095M1.167 1.87v.143M1.167 2.013l-.048.095M1.119 2.108l-.048.048M1.071 2.156l-.095.048M.976 2.204h-.38M1.595 2.156h.334M2.071 2.68h-.476M1.595 2.68v-1M1.595 1.68h.476M2.833 2.156H2.5M2.5 2.68v-1M2.5 1.68h.476M3.5 1.68v.238M3.262 1.823l.238.095M3.5 1.918l.238-.095M3.357 2.108l.143-.19M3.5 1.918l.143.19M4.262 1.68v.238M4.024 1.823l.238.095M4.262 1.918l.238-.095M4.119 2.108l.143-.19M4.262 1.918l.143.19"/>
+    </g>
+    <g style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M.25.225v4M.25.225h3M.25 4.225h3M3.25 4.225a2 2 0 0 0 0-4"/>
+    </g>
+    <g style="fill:none;stroke:#d0d2cd;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M.25 1.125h3M.25 3.325h3M3.25 3.325a1.1 1.1 0 0 0 0-2.2"/>
+    </g>
+</svg>
