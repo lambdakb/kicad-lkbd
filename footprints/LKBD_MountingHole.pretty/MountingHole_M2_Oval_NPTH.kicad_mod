@@ -1,0 +1,246 @@
+(footprint "MountingHole_M2_Oval_NPTH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)")
+	(tags "mounting hole 2.2mm m2")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce7d630f-a82d-4903-bc39-5d9aa239f387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2_Oval_NPTH"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d8759f4-db19-48fb-acea-e33b125822b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e66b3b8-96fb-48d1-be12-5464316be2a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b62922-63a2-423b-a47a-225154bf48e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.7 -1.1)
+		(end 0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5dc72873-d61d-4c21-a6f8-e73c4a581a53")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7d30f449-0bc8-4e79-9b77-01431c881d0c")
+	)
+	(fp_arc
+		(start -0.7 1.1)
+		(mid -1.8 0)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbabb303-cf34-4ec7-bbad-e39477dff515")
+	)
+	(fp_arc
+		(start 0.7 -1.1)
+		(mid 1.8 0)
+		(end 0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7c90555d-3af4-4609-b3f6-707283ced797")
+	)
+	(fp_line
+		(start -0.7 -2.2)
+		(end 0.7 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b2fecad-9c6b-43c5-a6de-a8016c4175f8")
+	)
+	(fp_line
+		(start -0.7 2.2)
+		(end 0.7 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fff322b-fcbf-4dc1-a0f6-5ac3d7d3d18c")
+	)
+	(fp_arc
+		(start -0.7 2.2)
+		(mid -2.9 0)
+		(end -0.7 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7655308b-9665-4377-8db1-85ce9f482496")
+	)
+	(fp_arc
+		(start 0.7 -2.2)
+		(mid 2.9 0)
+		(end 0.7 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a795de5d-3000-454a-b6b0-d272455c4a5f")
+	)
+	(fp_line
+		(start -0.7 -2)
+		(end 0.7 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c35961f1-97f1-4b15-9f00-b407a7f3a6ed")
+	)
+	(fp_line
+		(start -0.7 2)
+		(end 0.7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "76948752-adfc-4437-81d3-fdd4ec70323b")
+	)
+	(fp_arc
+		(start -0.7 2)
+		(mid -2.7 0)
+		(end -0.7 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0841ede4-149d-4b63-bce4-5e0b1a86dd28")
+	)
+	(fp_arc
+		(start 0.7 -2)
+		(mid 2.7 0)
+		(end 0.7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "98b826d6-f098-4a56-9227-0f05ff084c29")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fb60c7d4-ee60-4bb5-be85-fdb4e042df6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 5.4 4)
+		(drill oval 3.6 2.2)
+		(layers "*.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "f89df63a-bddc-4164-b98f-804d3676329b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 0.7 2.2)
+					(mid 2.9 0)
+					(end 0.7 -2.2)
+				)
+				(arc
+					(start -0.7 -2.2)
+					(mid -2.9 0)
+					(end -0.7 2.2)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

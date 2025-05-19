@@ -1,10 +1,10 @@
-(footprint "MountingHole_M2_Slot"
+(footprint "MountingSlot_M2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)")
-	(tags "mounting hole 2.2mm m2")
+	(descr "Mounting Slot M2 (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)")
+	(tags "mounting slot 2.2mm m2")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_M2_Slot"
+	(property "Value" "MountingSlot_M2"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -57,49 +57,50 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start 0 -2)
-		(end 0 2)
+		(start -1.5 -1.1)
+		(end 1.5 -1.1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "53ee0831-23ff-43a0-ae47-3618fdde3f67")
+		(uuid "6c4efb06-138d-465d-9dad-0245356aead0")
 	)
 	(fp_line
-		(start 0 -2)
-		(end 3 -2)
+		(start 1.5 1.1)
+		(end -1.5 1.1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "49648358-64ef-4aa4-8b5a-2bd63ebc350e")
-	)
-	(fp_line
-		(start 0 2)
-		(end 3 2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "53674433-33a2-4e59-8b03-f581076d3aea")
+		(uuid "46183634-3761-42e8-b5b7-566d88cdc8d3")
 	)
 	(fp_arc
-		(start 3 -2)
-		(mid 5 0)
-		(end 3 2)
+		(start -1.5 1.1)
+		(mid -2.6 0)
+		(end -1.5 -1.1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "e0e78534-21e6-48e0-a87f-93fa62d57fc1")
+		(uuid "9ff42722-608a-4974-96f7-e82190024f85")
+	)
+	(fp_arc
+		(start 1.5 -1.1)
+		(mid 2.6 0)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bb164730-1eef-4836-a56a-e83b9399f7dc")
 	)
 	(fp_line
-		(start -1.45 -2.199999)
-		(end 3 -2.2)
+		(start -1.5 -2.2)
+		(end 1.5 -2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -108,18 +109,8 @@
 		(uuid "0979f65c-0bba-4110-b428-a02f839fc273")
 	)
 	(fp_line
-		(start -1.45 2.2)
-		(end -1.45 -2.199999)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "0c39c1fd-3d34-468e-ac2c-035c59b8ccc9")
-	)
-	(fp_line
-		(start 3 2.2)
-		(end -1.45 2.2)
+		(start 1.5 2.2)
+		(end -1.5 2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -128,9 +119,20 @@
 		(uuid "63007983-b3a9-4c67-a08a-4be19cffa6fc")
 	)
 	(fp_arc
-		(start 3 -2.2)
-		(mid 5.2 0)
-		(end 3 2.2)
+		(start -1.5 2.2)
+		(mid -3.7 0)
+		(end -1.5 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "08d08b15-dfcd-41f2-9b7a-258fe70edede")
+	)
+	(fp_arc
+		(start 1.5 -2.2)
+		(mid 3.7 0)
+		(end 1.5 2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -138,8 +140,50 @@
 		(layer "F.CrtYd")
 		(uuid "66a010c2-1ccd-47f5-a23a-0302f80d1f14")
 	)
+	(fp_line
+		(start -1.5 -2)
+		(end 1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "49648358-64ef-4aa4-8b5a-2bd63ebc350e")
+	)
+	(fp_line
+		(start -1.5 2)
+		(end 1.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "53674433-33a2-4e59-8b03-f581076d3aea")
+	)
+	(fp_arc
+		(start -1.5 2)
+		(mid -3.5 0)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2fd3e53d-4a4b-487c-a276-30f6f5655a8b")
+	)
+	(fp_arc
+		(start 1.5 -2)
+		(mid 3.5 0)
+		(end 1.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e0e78534-21e6-48e0-a87f-93fa62d57fc1")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 1.51 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "fb60c7d4-ee60-4bb5-be85-fdb4e042df6a")
 		(effects
@@ -149,27 +193,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole custom
-		(at 1.5 0)
-		(size 4 4)
-		(drill oval 5.2 2.2
-			(offset 1.5 0)
-		)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 7 4)
+		(drill oval 5.2 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_rect
-				(start -4.25 -2)
-				(end 0 2)
-				(width 0)
-				(fill yes)
-			)
-		)
+		(roundrect_rratio 0.5)
 		(uuid "90cdb690-db03-4e4a-a93a-96f8db447b77")
 	)
 	(embedded_fonts no)
