@@ -9,10 +9,10 @@
     </g>
     <g style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
         <path d="M19.244 2.575v1.5M19.244 2.575h1.5M19.244 15.075v1.5M20.744 16.575h-1.5M31.744 2.575h1.5M33.244 4.075v-1.5M33.244 16.575h-1.5M33.244 16.575v-1.5"/>
-        <path d="M10.806 3.575h7v15h-7ZM34.682 3.575h7v15h-7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+        <path d="M10.844 3.575h7v15h-7ZM34.644 3.575h7v15h-7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
     <g style="fill:none;stroke:#d0d2cd;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
-        <path d="M10.806 18.175v-14.2M11.206 3.575h6.2M17.406 18.575h-6.2M17.806 3.975v14.2M19.259 16.16V2.99M19.659 2.59h13.17M32.829 16.56h-13.17M33.229 2.99v13.17M34.682 18.175v-14.2M35.082 3.575h6.2M41.282 18.575h-6.2M41.682 3.975v14.2M11.206 3.575a.4.4 0 0 0-.4.4M10.806 18.175a.4.4 0 0 0 .4.4M17.806 3.975a.4.4 0 0 0-.4-.4M17.406 18.575a.4.4 0 0 0 .4-.4M19.659 2.59a.4.4 0 0 0-.4.4M19.259 16.16a.4.4 0 0 0 .4.4M33.229 2.99a.4.4 0 0 0-.4-.4M32.829 16.56a.4.4 0 0 0 .4-.4M35.082 3.575a.4.4 0 0 0-.4.4M34.682 18.175a.4.4 0 0 0 .4.4M41.682 3.975a.4.4 0 0 0-.4-.4M41.282 18.575a.4.4 0 0 0 .4-.4"/>
+        <path d="M10.844 18.175v-14.2M11.244 3.575h6.2M17.444 18.575h-6.2M17.844 3.975v14.2M19.259 16.16V2.99M19.659 2.59h13.17M32.829 16.56h-13.17M33.229 2.99v13.17M34.644 18.175v-14.2M35.044 3.575h6.2M41.244 18.575h-6.2M41.644 3.975v14.2M11.244 3.575a.4.4 0 0 0-.4.4M10.844 18.175a.4.4 0 0 0 .4.4M17.844 3.975a.4.4 0 0 0-.4-.4M17.444 18.575a.4.4 0 0 0 .4-.4M19.659 2.59a.4.4 0 0 0-.4.4M19.259 16.16a.4.4 0 0 0 .4.4M33.229 2.99a.4.4 0 0 0-.4-.4M32.829 16.56a.4.4 0 0 0 .4-.4M35.044 3.575a.4.4 0 0 0-.4.4M34.644 18.175a.4.4 0 0 0 .4.4M41.644 3.975a.4.4 0 0 0-.4-.4M41.244 18.575a.4.4 0 0 0 .4-.4"/>
         <path d="M.05.05h52.388V19.1H.05Z" style="stroke:#c2c2c2;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
 </svg>

@@ -159,6 +159,11 @@
 
 ## `LKBD_StabMX.pretty`
 
-| Footprint          | Description                                                          | Preview                                                                                             |
-|--------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| `Stabilizer_MX_2U` | Stabilizer for Cherry MX style keyswitches (2U, 2.25U, 2.5U & 2.75U) | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_2U.svg" width="160" height="160" /> |
+| Footprint             | Description                                                          | Preview                                                                                                |
+|-----------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| `Stabilizer_MX_2U`    | Stabilizer for Cherry MX style keyswitches (2U, 2.25U, 2.5U & 2.75U) | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_2U.svg" width="160" height="160" />    |
+| `Stabilizer_MX_3U`    | Stabilizer for Cherry MX style keyswitches (3U)                      | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_3U.svg" width="160" height="160" />    |
+| `Stabilizer_MX_6.25U` | Stabilizer for Cherry MX style keyswitches (6.25U)                   | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_6.25U.svg" width="160" height="160" /> |
+| `Stabilizer_MX_6U`    | Stabilizer for Cherry MX style keyswitches (6U)                      | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_6U.svg" width="160" height="160" />    |
+| `Stabilizer_MX_7U`    | Stabilizer for Cherry MX style keyswitches (7U)                      | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_7U.svg" width="160" height="160" />    |
+| `Stabilizer_MX_8U`    | Stabilizer for Cherry MX style keyswitches (8U)                      | <img src="../output/footprints/LKBD_StabMX.pretty/Stabilizer_MX_8U.svg" width="160" height="160" />    |

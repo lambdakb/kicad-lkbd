@@ -9,10 +9,10 @@
     </g>
     <g style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
         <path d="M16.863 2.575v1.5M16.863 2.575h1.5M16.863 15.075v1.5M18.363 16.575h-1.5M29.363 2.575h1.5M30.863 4.075v-1.5M30.863 16.575h-1.5M30.863 16.575v-1.5"/>
-        <path d="M8.425 3.575h7v15h-7ZM32.3 3.575h7v15h-7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+        <path d="M8.463 3.575h7v15h-7ZM32.263 3.575h7v15h-7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
     <g style="fill:none;stroke:#d0d2cd;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
-        <path d="M8.425 18.175v-14.2M8.825 3.575h6.2M15.025 18.575h-6.2M15.425 3.975v14.2M16.878 16.16V2.99M17.278 2.59h13.17M30.448 16.56h-13.17M30.848 2.99v13.17M32.3 18.175v-14.2M32.7 3.575h6.2M38.9 18.575h-6.2M39.3 3.975v14.2M8.825 3.575a.4.4 0 0 0-.4.4M8.425 18.175a.4.4 0 0 0 .4.4M15.425 3.975a.4.4 0 0 0-.4-.4M15.025 18.575a.4.4 0 0 0 .4-.4M17.278 2.59a.4.4 0 0 0-.4.4M16.878 16.16a.4.4 0 0 0 .4.4M30.848 2.99a.4.4 0 0 0-.4-.4M30.448 16.56a.4.4 0 0 0 .4-.4M32.7 3.575a.4.4 0 0 0-.4.4M32.3 18.175a.4.4 0 0 0 .4.4M39.3 3.975a.4.4 0 0 0-.4-.4M38.9 18.575a.4.4 0 0 0 .4-.4"/>
+        <path d="M8.463 18.175v-14.2M8.863 3.575h6.2M15.063 18.575h-6.2M15.463 3.975v14.2M16.878 16.16V2.99M17.278 2.59h13.17M30.448 16.56h-13.17M30.848 2.99v13.17M32.263 18.175v-14.2M32.663 3.575h6.2M38.863 18.575h-6.2M39.263 3.975v14.2M8.863 3.575a.4.4 0 0 0-.4.4M8.463 18.175a.4.4 0 0 0 .4.4M15.463 3.975a.4.4 0 0 0-.4-.4M15.063 18.575a.4.4 0 0 0 .4-.4M17.278 2.59a.4.4 0 0 0-.4.4M16.878 16.16a.4.4 0 0 0 .4.4M30.848 2.99a.4.4 0 0 0-.4-.4M30.448 16.56a.4.4 0 0 0 .4-.4M32.663 3.575a.4.4 0 0 0-.4.4M32.263 18.175a.4.4 0 0 0 .4.4M39.263 3.975a.4.4 0 0 0-.4-.4M38.863 18.575a.4.4 0 0 0 .4-.4"/>
         <path d="M.05.05h47.625V19.1H.05Z" style="stroke:#c2c2c2;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
 </svg>
