@@ -1,15 +1,15 @@
-(footprint "MountingHole_M2"
+(footprint "MountingHole_M2Head"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)")
-	(tags "mounting hole 2.2mm m2 screw")
+	(descr "Mounting Hole M2 Head Clearance (ø 4 mm)")
+	(tags "mounting hole 4mm m2 head clearance")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "04f681cf-527e-4929-943d-4952fd6cd3fb")
+		(uuid "c03c397b-b19e-4ac3-a5f8-9eb53a5081f5")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_M2"
+	(property "Value" "ClearanceHole_M2"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d0c4710-9593-475c-a271-ed36979d4e65")
+		(uuid "76591848-86f4-4d47-9f01-3df9f59c2386")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2222cafb-0029-4f9e-a882-be506e22f413")
+		(uuid "d1f87072-aabb-4549-9838-89a1c522e93f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30d7be15-c81f-48b0-a7e5-c05c26867375")
+		(uuid "68e069a4-24e4-4cd8-b833-61bd8b7f8412")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,14 +58,14 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
-		(end 0 -1.1)
+		(end 2 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "3ab4a5fc-5908-4c81-a7a1-8977caa7620a")
+		(uuid "04eee3f0-c913-45d7-8bb7-8d435b832df9")
 	)
 	(fp_circle
 		(center 0 0)
@@ -78,17 +78,6 @@
 		(layer "F.CrtYd")
 		(uuid "2958a401-91d7-4f1a-af50-a4166bb26c52")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 2 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "1addcbf4-2334-462f-b831-d0d48f10b778")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -100,12 +89,11 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 4 4)
-		(drill 2.2)
-		(layers "*.Cu" "*.Paste" "*.Mask")
-		(remove_unused_layers no)
+		(drill 4)
+		(layers)
 		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
 	)
 	(embedded_fonts no)

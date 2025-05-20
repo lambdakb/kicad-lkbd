@@ -1,10 +1,10 @@
-(footprint "MountingHole_M2_Oval_NPTH"
+(footprint "MountingSlot_M2_Small"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole M2 (ø 2.2 × 3.6 mm, Pad 4mm)")
-	(tags "mounting hole 2.2mm m2")
+	(descr "Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)")
+	(tags "mounting slot 2.2mm m2 screw")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_M2_Oval_NPTH"
+	(property "Value" "MountingSlot_M2_Small"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -193,54 +193,14 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole oval
+	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 5.4 4)
 		(drill oval 3.6 2.2)
-		(layers "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "f89df63a-bddc-4164-b98f-804d3676329b")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(arc
-					(start 0.7 2.2)
-					(mid 2.9 0)
-					(end 0.7 -2.2)
-				)
-				(arc
-					(start -0.7 -2.2)
-					(mid -2.9 0)
-					(end -0.7 2.2)
-				)
-			)
-		)
 	)
 	(embedded_fonts no)
 )

@@ -1,15 +1,15 @@
-(footprint "Plate_MX_1U"
+(footprint "Plate_MX_1.5U"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Plate cutout for Cherry MX style keyswitches (1U)")
-	(tags "MX Cherry Plate 1U")
+	(descr "Plate cutout for Cherry MX style keyswitches (1.5U)")
+	(tags "MX Cherry Plate 1.5U")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(layer "B.SilkS")
 		(hide yes)
-		(uuid "40473768-93d8-4867-8d26-da0efa92ed2e")
+		(uuid "84141fda-267d-403c-a798-5c489063e922")
 		(effects
 			(font
 				(size 1 1)
@@ -18,10 +18,10 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Plate_MX_1U"
+	(property "Value" "Plate_MX_1.5U"
 		(at 0 -0.8 0)
 		(layer "F.Fab")
-		(uuid "1358d21a-bbad-421f-b121-c3c450f5ff60")
+		(uuid "12fc6806-5d4c-44fc-b4c2-0da955c77ec8")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "fd5c4d0d-f66e-4d6a-9489-22b354a6be09")
+		(uuid "654e38f1-0ac5-44c8-8bc8-36dba71047cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "B.Fab")
 		(hide yes)
-		(uuid "7a74616b-84e7-45a3-a329-92b945b4bc07")
+		(uuid "600851a4-82c5-427b-93e7-fe6936a1a2f3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,8 +57,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
+		(start -14.2875 -9.525)
+		(end 14.2875 9.525)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -159,7 +159,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "1b4156ed-6edf-4b92-9653-8ffaf9a384bb")
+		(uuid "37aaa21d-614e-4eab-bbdf-562800c5d15e")
 	)
 	(fp_line
 		(start -7 -7)
@@ -169,7 +169,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d1a25a72-5184-4195-b314-dcfbf94e12cd")
+		(uuid "5c3453ea-0a55-4f3c-afc1-369c2a71ff99")
 	)
 	(fp_line
 		(start -7 5.5)
@@ -179,7 +179,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "b86bd13e-79bb-4c31-b301-d40e092c2d9b")
+		(uuid "31aa31b9-3606-4af6-b65a-5a845154ef06")
 	)
 	(fp_line
 		(start -5.5 7)
@@ -189,7 +189,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "c6ffc3eb-1931-4941-8e8e-10c40b8fdfbf")
+		(uuid "91fd24dc-bd25-4354-848d-d8d60e393075")
 	)
 	(fp_line
 		(start 5.5 -7)
@@ -199,7 +199,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "86c3e15a-8255-4d7d-bd6e-c20a936d2012")
+		(uuid "bee92e63-8154-4190-baa8-b573cbba1f2b")
 	)
 	(fp_line
 		(start 7 -5.5)
@@ -209,7 +209,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "802bab00-b49e-4877-84d9-9a7fe2ff0c10")
+		(uuid "4d451705-33ec-4d1d-b75e-0399a11fdd88")
 	)
 	(fp_line
 		(start 7 7)
@@ -219,7 +219,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "09acccb2-13c8-4b37-8dce-d360b9bfa7fe")
+		(uuid "c94cdb09-8ab7-49e0-bed8-cfb389cb7749")
 	)
 	(fp_line
 		(start 7 7)
@@ -229,7 +229,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "2159be5e-bbdc-46e1-9fbf-58857faec63f")
+		(uuid "ded004b1-a835-4abb-82b4-8a8d4678063a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.8 0)

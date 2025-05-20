@@ -1,15 +1,15 @@
-(footprint "MountingHole_M2"
+(footprint "MountingHole_M2_Oval_NTPH2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)")
+	(descr "Mounting Hole M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)")
 	(tags "mounting hole 2.2mm m2 screw")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "04f681cf-527e-4929-943d-4952fd6cd3fb")
+		(uuid "ce7d630f-a82d-4903-bc39-5d9aa239f387")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_M2"
+	(property "Value" "MountingHole_M2_Oval_NTPH2"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d0c4710-9593-475c-a271-ed36979d4e65")
+		(uuid "2d8759f4-db19-48fb-acea-e33b125822b2")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2222cafb-0029-4f9e-a882-be506e22f413")
+		(uuid "6e66b3b8-96fb-48d1-be12-5464316be2a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30d7be15-c81f-48b0-a7e5-c05c26867375")
+		(uuid "72b62922-63a2-423b-a47a-225154bf48e9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,16 +56,47 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_circle
-		(center 0 0)
-		(end 0 -1.1)
+	(fp_line
+		(start -0.7 -1.1)
+		(end 0.7 -1.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Dwgs.User")
-		(uuid "3ab4a5fc-5908-4c81-a7a1-8977caa7620a")
+		(uuid "807c11f5-df91-40ab-ad1d-901ccb4e374b")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9492eaaf-f072-4c06-a58d-14fd58f62d6a")
+	)
+	(fp_arc
+		(start -0.7 1.1)
+		(mid -1.8 0)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ca41eb10-7d89-4a0c-a395-37231f4459e0")
+	)
+	(fp_arc
+		(start 0.7 -1.1)
+		(mid 1.8 0)
+		(end 0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b2b4cb9-98eb-4c34-9b57-b10f295231d7")
 	)
 	(fp_circle
 		(center 0 0)
@@ -100,12 +131,11 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 4 4)
-		(drill 2.2)
-		(layers "*.Cu" "*.Paste" "*.Mask")
-		(remove_unused_layers no)
+		(drill oval 3.6 2.2)
+		(layers "*.Mask")
 		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
 	)
 	(embedded_fonts no)
