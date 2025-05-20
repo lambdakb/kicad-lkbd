@@ -1,9 +1,9 @@
-(footprint "Plate_MX_1U"
+(footprint "Plate_MX_1.75U"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+	(descr "Plate cutout for Cherry MX style keyswitches (1.75U)")
 	(tags "MX Cherry Plate 1U")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -18,7 +18,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Plate_MX_1U"
+	(property "Value" "Plate_MX_1.75U"
 		(at 0 -0.8 0)
 		(layer "F.Fab")
 		(uuid "1358d21a-bbad-421f-b121-c3c450f5ff60")
@@ -57,8 +57,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
+		(start -16.66875 -9.525)
+		(end 16.66875 9.525)
 		(stroke
 			(width 0.1)
 			(type default)

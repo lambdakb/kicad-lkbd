@@ -6,7 +6,9 @@
         <g class="stroked-text">
             <path d="m8.242 10.83-.334-.476M7.67 10.83v-1M7.67 9.83h.381M8.051 9.83l.095.047M8.146 9.877l.048.048M8.194 9.925l.048.095M8.242 10.02v.143M8.242 10.163l-.048.095M8.194 10.258l-.048.048M8.146 10.306l-.095.048M8.051 10.354h-.38M8.67 10.306h.334M9.146 10.83H8.67M8.67 10.83v-1M8.67 9.83h.476M9.908 10.306h-.333M9.575 10.83v-1M9.575 9.83h.476M10.575 9.83v.238M10.337 9.973l.238.095M10.575 10.068l.238-.095M10.432 10.258l.143-.19M10.575 10.068l.143.19M11.337 9.83v.238M11.099 9.973l.238.095M11.337 10.068l.238-.095M11.194 10.258l.143-.19M11.337 10.068l.143.19"/>
         </g>
-        <path d="M2.59 2.59h13.97v13.97H2.59Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+    </g>
+    <g style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M2.575 2.575v1.5M2.575 2.575h1.5M2.575 15.075v1.5M4.075 16.575h-1.5M15.075 2.575h1.5M16.575 4.075v-1.5M16.575 16.575h-1.5M16.575 16.575v-1.5"/>
     </g>
     <g style="fill:none;stroke:#d0d2cd;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
         <path d="M2.59 16.16V2.99M2.99 2.59h13.17M16.16 16.56H2.99M16.56 2.99v13.17M2.99 2.59a.4.4 0 0 0-.4.4M2.59 16.16a.4.4 0 0 0 .4.4M16.56 2.99a.4.4 0 0 0-.4-.4M16.16 16.56a.4.4 0 0 0 .4-.4"/>

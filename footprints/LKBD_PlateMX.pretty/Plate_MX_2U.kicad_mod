@@ -55,7 +55,7 @@
 			(justify mirror)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
 		(start -19.05 -9.525)
 		(end 19.05 9.525)
