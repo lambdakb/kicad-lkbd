@@ -9,10 +9,10 @@
     </g>
     <g style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
         <path d="M4.956 4.075v-1.5M4.956 16.575v-1.5M4.956 16.575h1.5M6.456 2.575h-1.5M16.481 6.075v-1.5M16.481 14.575v-1.5M16.481 14.575h1.5M17.456 16.575h1.5M17.981 4.575h-1.5M18.956 2.575h-1.5M18.956 2.575v1.5M18.956 15.075v1.5M24.981 14.575h1.5M26.388 4.075v-1.5M26.388 16.575v-1.5M26.388 16.575h1.5M26.481 4.575h-1.5M26.481 4.575v1.5M26.481 13.075v1.5M27.888 2.575h-1.5M38.888 16.575h1.5M40.388 2.575h-1.5M40.388 2.575v1.5M40.388 15.075v1.5"/>
-        <path d="M13.043 3.575h-7v15h7ZM36.92 3.575h-7v15h7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+        <path d="M13.081 3.575h-7v15h7ZM36.881 3.575h-7v15h7Z" style="stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
     <g style="fill:none;stroke:#d0d2cd;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
-        <path d="M4.971 2.99v13.17M5.371 16.56h.272M6.043 16.96v1.215M6.443 18.575h6.2M13.043 18.175V16.96M13.443 16.56H29.52M29.92 16.96v1.215M30.32 18.575h6.2M36.92 18.175V16.96M37.32 16.56h2.652M39.973 2.59H5.37M40.373 16.16V2.99M5.371 2.59a.4.4 0 0 0-.4.4M4.971 16.16a.4.4 0 0 0 .4.4M6.043 16.96a.4.4 0 0 0-.4-.4M6.043 18.175a.4.4 0 0 0 .4.4M13.443 16.56a.4.4 0 0 0-.4.4M12.643 18.575a.4.4 0 0 0 .4-.4M29.92 16.96a.4.4 0 0 0-.4-.4M29.92 18.175a.4.4 0 0 0 .4.4M37.32 16.56a.4.4 0 0 0-.4.4M36.52 18.575a.4.4 0 0 0 .4-.4M40.373 2.99a.4.4 0 0 0-.4-.4M39.973 16.56a.4.4 0 0 0 .4-.4"/>
+        <path d="M4.971 2.99v13.17M5.371 16.56h.31M6.081 16.96v1.215M6.481 18.575h6.2M13.081 18.175V16.96M13.481 16.56h16M29.881 16.96v1.215M30.281 18.575h6.2M36.881 18.175V16.96M37.281 16.56h2.691M39.973 2.59H5.37M40.373 16.16V2.99M5.371 2.59a.4.4 0 0 0-.4.4M4.971 16.16a.4.4 0 0 0 .4.4M6.081 16.96a.4.4 0 0 0-.4-.4M6.081 18.175a.4.4 0 0 0 .4.4M13.481 16.56a.4.4 0 0 0-.4.4M12.681 18.575a.4.4 0 0 0 .4-.4M29.881 16.96a.4.4 0 0 0-.4-.4M29.881 18.175a.4.4 0 0 0 .4.4M37.281 16.56a.4.4 0 0 0-.4.4M36.481 18.575a.4.4 0 0 0 .4-.4M40.373 2.99a.4.4 0 0 0-.4-.4M39.973 16.56a.4.4 0 0 0 .4-.4"/>
         <path d="M.05.05h23.813V19.1H.05Z" style="stroke:#c2c2c2;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
         <path d="M23.863.05h19.05V19.1h-19.05Z" style="stroke:#c2c2c2;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
     </g>
