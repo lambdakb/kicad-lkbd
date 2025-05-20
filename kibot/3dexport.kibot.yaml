@@ -7,7 +7,7 @@ outputs:
     comment: "Export PCB 3D model"
     type: export_3d
     dir: step
-    run_by_default: false
+    run_by_default: true
     options:
       origin: grid
       output: '%f-%i%I%v.%x'
