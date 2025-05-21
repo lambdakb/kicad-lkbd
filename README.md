@@ -19,10 +19,12 @@ If you find any errors in this library, please open an issue or pull-request. We
 
 | Name                             | Description                                                                 |
 | -------------------------------- | --------------------------------------------------------------------------- |
+| [`LKBD_Connector.kicad_sym`]     | Generic connector and header symbols (Grove, Qwiic, I2C, ARGB LEDs, ...)    |
 | [`LKBD_LED.kicad_sym`]           | LED symbols (SK6812MINI-E, WS2812B, ...)                                    |
 | [`LKBD_MCU.kicad_sym`]           | Micro controller symbols (RP2040, Arduino Pro Micro, SeeedStudio XIAO, ...) |
 | [`LKBD_OpticalSensor.kicad_sym`] | Mouse & trackball optical sensor symbols (PMW3360, ...)                     |
 
+[`LKBD_Connector.kicad_sym`]: symbols/README.md#lkbd_connectorkicad_sym
 [`LKBD_LED.kicad_sym`]: symbols/README.md#lkbd_ledkicad_sym
 [`LKBD_MCU.kicad_sym`]: symbols/README.md#lkbd_mcukicad_sym
 [`LKBD_OpticalSensor.kicad_sym`]: symbols/README.md#lkbd_opticalsensorkicad_sym
@@ -32,7 +34,7 @@ If you find any errors in this library, please open an issue or pull-request. We
 | Name                          | Description                                                                                             |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [`LKBD_Common.pretty`]        | Common footprint used across all types of devices (THT+SMD diodes / resistors, reset switches, ...)     |
-| [`LKBD_Connector.pretty`]     | Connector footprints (Pin Headers, JST-SH, ...)     |
+| [`LKBD_Connector.pretty`]     | Connector footprints (Pin Headers, JST-SH, ...)                                                         |
 | [`LKBD_KeySwitch.pretty`]     | Mechanical keyboard switches footprints (Cherry MX, Kailh hot-swap socket, ...)                         |
 | [`LKBD_MCU.pretty`]           | Micro controller footprints including socketed and soldered footprints (Arduino Pro Micro, KB2040, ...) |
 | [`LKBD_MicroSwitch.pretty`]   | Mouse micro-switch footprints (Omron SMD & THT switches, ...)                                           |
