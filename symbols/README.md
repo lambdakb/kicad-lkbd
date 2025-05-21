@@ -2,6 +2,23 @@
 <!-- markdownlint-disable MD045 MD033 -->
 # LKBD Symbols
 
+## `LKBD_Connector.kicad_sym`
+
+| Symbol                | Description                                                  | Links                                                                     | Preview                                                                                                         |
+|-----------------------|--------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| `Conn_Grove_Analog`   | Grove Analog Connector                                       | [Documentation](https://wiki.seeedstudio.com/Grove_System/#grove-analog)  | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_Grove_Analog_unit1.svg" width="160" height="160" />   |
+| `Conn_Grove_Digital`  | Grove Digital Connector                                      | [Documentation](https://wiki.seeedstudio.com/Grove_System/#grove-digital) | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_Grove_Digital_unit1.svg" width="160" height="160" />  |
+| `Conn_Grove_I2C`      | Grove I2C Connector (Compatible STEMMA 4Pin)                 | [Documentation](https://wiki.seeedstudio.com/Grove_System/#grove-i2c)     | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_Grove_I2C_unit1.svg" width="160" height="160" />      |
+| `Conn_Grove_UART`     | Grove UART Connector                                         | [Documentation](https://wiki.seeedstudio.com/Grove_System/#grove-uart)    | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_Grove_UART_unit1.svg" width="160" height="160" />     |
+| `Conn_PimoroniBG_I2C` | Pimoroni Breakout Garden I2C Connector                       | [Documentation](https://github.com/pimoroni/breakout-garden)              | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_PimoroniBG_I2C_unit1.svg" width="160" height="160" /> |
+| `Conn_PimoroniBG_SPI` | Pimoroni Breakout Garden SPI Connector                       | [Documentation](https://github.com/pimoroni/breakout-garden)              | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_PimoroniBG_SPI_unit1.svg" width="160" height="160" /> |
+| `Conn_Qwiic_I2C`      | StemmaQT / Qwiic I2C Connector                               | [Documentation](https://www.sparkfun.com/qwiic)                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/Conn_Qwiic_I2C_unit1.svg" width="160" height="160" />      |
+| `PINHD_1x03_ARGB`     | Adressable RGB LED Pin Header for WS2812B style LED strips   |                                                                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/PINHD_1x03_ARGB_unit1.svg" width="160" height="160" />     |
+| `PINHD_1x04_I2C`      | Generic I2C Pin Header                                       |                                                                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/PINHD_1x04_I2C_unit1.svg" width="160" height="160" />      |
+| `PINHD_1x04_I2C_OLED` | OLED I2C Pin Header for SSD1107, SSD1306 and SH1107 displays |                                                                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/PINHD_1x04_I2C_OLED_unit1.svg" width="160" height="160" /> |
+| `PINHD_1x05_I2C`      | Generic I2C Pin Header with 1 extra IO pin                   |                                                                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/PINHD_1x05_I2C_unit1.svg" width="160" height="160" />      |
+| `PINHD_1x06_I2C`      | Generic I2C Pin Header with 2 extra IO pins                  |                                                                           | <img src="../output/symbols/LKBD_Connector.kicad_sym/PINHD_1x06_I2C_unit1.svg" width="160" height="160" />      |
+
 ## `LKBD_LED.kicad_sym`
 
 | Symbol         | Description                          | Links                                                                                        | Preview                                                                                            |
