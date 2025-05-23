@@ -21,11 +21,13 @@ These models are sourced from various authors and distributed under their respec
 | File                         | Attribution                                                                                                                                                                   |                            License / Usage Terms                            |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------: |
 | [`ROT_EC11.step`]            | [EC11-THT-15F-green.step](https://grabcad.com/library/11mm-metal-shaft-rotary-encoders-tht-vertical-w-push-on-switch-1) by [Dmitry Levin](https://grabcad.com/dmitry.levin-6) |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
+| [`ROT_EC11_SMD.step`]        | [EC11-SMD-15F-green.step](https://grabcad.com/library/11mm-metal-shaft-rotary-encoders-smd-vertical-w-push-on-switch-1) by [Dmitry Levin](https://grabcad.com/dmitry.levin-6) |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
 | [`SW_MX_HotSwap.{wrl,step}`] | [SW_Hotswap_Kailh_MX.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl) by [kiswitch contributors]             | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
 | [`SW_MX_PCB.{wrl,step}`]     | [SW_Cherry_MX_PCB.wrl](https://github.com/kiswitch/kiswitch/blob/main/library/3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl) by [kiswitch contributors]                   | [MIT][kiswitch MIT] & [CC-BY-SA 4.0][kiswitch CC-BY-SA 4.0] [^dual-license] |
 | [`SW_Choc_HotSwap.step`]     | [PG1350-socket.STEP](https://grabcad.com/library/kailh-1350-socket-2) by [Denis Lee](https://grabcad.com/dennis.lee-23)                                                       |                 [GrabCAD Sharing Policy] [^grabcad-policy]                  |
 
 [`ROT_EC11.step`]: ./LKBD_KeySwitch.3dshapes/ROT_EC11.step
+[`ROT_EC11_SMD.step`]: ./LKBD_KeySwitch.3dshapes/ROT_EC11_SMD.step
 [`SW_MX_HotSwap.{wrl,step}`]: ./LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl
 [`SW_MX_PCB.{wrl,step}`]: ./LKBD_KeySwitch.3dshapes/SW_MX_PCB.wrl
 

@@ -2205,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_* LKBD_Connector:PinHeader_1x04_THT_P2.54mm_*"
+		(property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_* LKBD_Connector:PinHeader_1x04_THT_P2.54mm_* LKBD_OLED:OLED_*_I2C"
 			(at 0 0 0)
 			(effects
 				(font

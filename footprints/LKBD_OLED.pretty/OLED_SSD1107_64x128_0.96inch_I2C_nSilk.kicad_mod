@@ -1,4 +1,4 @@
-(footprint "OLED_SSD1107_64x128_0.96inch_I2C"
+(footprint "OLED_SSD1107_64x128_0.96inch_I2C_nSilk"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,10 +6,10 @@
 	(descr "SSD1107 based OLED module (0.96 inch)")
 	(tags "OLED SSD1107 I2C Display 64x128 0.96inch")
 	(property "Reference" "REF**"
-		(at 6.1 -17.26 270)
+		(at 0 -19.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "890760cb-90c1-4992-8726-bd04cedb0bfa")
+		(uuid "4d747362-e74c-4856-ac11-13ad46ad31db")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "OLED_SSD1107_64x128_0.96inch_I2C"
+	(property "Value" "OLED_SSD1107_64x128_0.96inch_I2C_nSilk"
 		(at 0 18.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b84e7afc-db25-429b-8649-ce29d0045235")
+		(uuid "3e954af2-92bf-4a86-82a6-dc564a2762f4")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75821b46-d873-410e-91a0-80deb39942e0")
+		(uuid "8784c0f2-0866-47ed-8461-a4924b18daf7")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29a2a1da-b2de-4d84-b9c7-595f922133ff")
+		(uuid "e83377fa-106c-4dba-b723-0d77a4899412")
 		(effects
 			(font
 				(size 1 1)
@@ -56,61 +56,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -5.08 -19.177)
-		(end -2.54 -15.24)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "dfaed3a0-22bb-42be-9551-e308223a0a6a")
-	)
-	(fp_rect
-		(start -5.08 -17.78)
-		(end 5.08 -15.24)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "e37aca16-9a59-4ae3-8079-bc28e22498ee")
-	)
-	(fp_rect
-		(start -2.54 -19.177)
-		(end 0 -15.24)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "88f07393-64c9-4959-867d-0c55b5f418bf")
-	)
-	(fp_rect
-		(start 0 -19.177)
-		(end 2.54 -15.24)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "84fe2384-9af9-4188-8129-b1e5c962567a")
-	)
-	(fp_rect
-		(start 2.54 -19.177)
-		(end 5.08 -15.24)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "c3fcffce-e8c6-426a-919b-388220edf457")
-	)
 	(fp_rect
 		(start -5.93 -11.37)
 		(end 5.93 11.37)
@@ -176,58 +121,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "c27c064a-9a7c-4c50-afb2-7e31a3617388")
-	)
-	(fp_text user "SDA"
-		(at 3.814 -18.1236 0)
-		(layer "F.SilkS")
-		(uuid "11e376a4-03f1-476e-aeee-983fa6290014")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "GND"
-		(at -3.806 -18.1236 0)
-		(layer "F.SilkS")
-		(uuid "4be1a723-864e-47d2-96cf-cd421ea2ab6b")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "SCL"
-		(at 1.274 -18.1236 0)
-		(layer "F.SilkS")
-		(uuid "aa49e896-ef2b-4b68-964e-681020a69dcf")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "VCC"
-		(at -1.266 -18.1236 0)
-		(layer "F.SilkS")
-		(uuid "d691fa92-ff6f-4781-82cb-21073ce270e5")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 19.7 0)

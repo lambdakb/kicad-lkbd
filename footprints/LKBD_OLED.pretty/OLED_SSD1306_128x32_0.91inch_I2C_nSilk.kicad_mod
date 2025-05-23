@@ -1,4 +1,4 @@
-(footprint "OLED_SSD1306_128x32_0.91inch_I2C"
+(footprint "OLED_SSD1306_128x32_0.91inch_I2C_nSilk"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "SSD1306 based OLED module (0.91 inch)")
 	(tags "OLED SSD1306 I2C Display 128x32 0.91inch")
 	(property "Reference" "REF**"
-		(at -17.78 -6.35 180)
+		(at -19.57 0 270)
 		(layer "F.SilkS")
 		(uuid "890760cb-90c1-4992-8726-bd04cedb0bfa")
 		(effects
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "OLED_SSD1306_128x32_0.91inch_I2C"
+	(property "Value" "OLED_SSD1306_128x32_0.91inch_I2C_nSilk"
 		(at 0 6.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,61 +55,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -19.697 -5.33)
-		(end -15.76 -2.79)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "c3fcffce-e8c6-426a-919b-388220edf457")
-	)
-	(fp_rect
-		(start -19.697 -2.79)
-		(end -15.76 -0.25)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "84fe2384-9af9-4188-8129-b1e5c962567a")
-	)
-	(fp_rect
-		(start -19.697 -0.25)
-		(end -15.76 2.29)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "88f07393-64c9-4959-867d-0c55b5f418bf")
-	)
-	(fp_rect
-		(start -19.697 2.29)
-		(end -15.76 4.83)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "dfaed3a0-22bb-42be-9551-e308223a0a6a")
-	)
-	(fp_rect
-		(start -18.3 -5.33)
-		(end -15.76 4.83)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "e37aca16-9a59-4ae3-8079-bc28e22498ee")
-	)
 	(fp_rect
 		(start -12.19 -3.79)
 		(end 12.19 3.79)
@@ -153,58 +98,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "aefa1071-6362-45b4-acbc-c278f8c82ee4")
-	)
-	(fp_text user "SDA"
-		(at -18.6436 -4.064 90)
-		(layer "F.SilkS")
-		(uuid "11e376a4-03f1-476e-aeee-983fa6290014")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "GND"
-		(at -18.6436 3.556 90)
-		(layer "F.SilkS")
-		(uuid "4be1a723-864e-47d2-96cf-cd421ea2ab6b")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "SCL"
-		(at -18.6436 -1.524 90)
-		(layer "F.SilkS")
-		(uuid "aa49e896-ef2b-4b68-964e-681020a69dcf")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "VCC"
-		(at -18.6436 1.016 90)
-		(layer "F.SilkS")
-		(uuid "d691fa92-ff6f-4781-82cb-21073ce270e5")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 8.3 0)
