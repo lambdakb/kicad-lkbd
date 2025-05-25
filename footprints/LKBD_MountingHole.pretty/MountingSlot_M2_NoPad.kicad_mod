@@ -1,9 +1,9 @@
-(footprint "MountingSlot_M2_NTPH_Half"
+(footprint "MountingSlot_M2_NoPad"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Slot M2 Screw (Half Slot, ø 2.2 × 2.6 mm, Pad 4 × 3.5 mm)")
+	(descr "Mounting Slot M2 Screw (ø 2.2 × 5.2 mm)")
 	(tags "mounting slot 2.2mm m2 screw")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingSlot_M2_NTPH_Half"
+	(property "Value" "MountingSlot_M2_NoPad"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,59 +56,36 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_poly
-		(pts
-			(arc
-				(start 1.5 -2)
-				(mid 3.5 0)
-				(end 1.5 2)
-			)
-			(xy 0 2) (xy 0 -2)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "7dfa6b60-38e0-4cec-bc30-40173a7fd43e")
-	)
-	(fp_poly
-		(pts
-			(arc
-				(start 1.5 -2)
-				(mid 3.5 0)
-				(end 1.5 2)
-			)
-			(xy 0 2) (xy 0 -2)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Mask")
-		(uuid "37c937f9-4166-4dda-b1d7-61b01abaeee3")
-	)
 	(fp_line
-		(start 0 -1.1)
+		(start -1.5 -1.1)
 		(end 1.5 -1.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
-		(uuid "1d894f04-261f-4f5d-b6fc-efeefdd7ecbb")
+		(layer "Dwgs.User")
+		(uuid "67ac7c60-2d61-4dc0-8f94-f2f3e822aa02")
 	)
 	(fp_line
-		(start 0 1.1)
-		(end 1.5 1.1)
+		(start 1.5 1.1)
+		(end -1.5 1.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
-		(uuid "eb7fbf28-37e3-49be-8cf3-f32610228bcb")
+		(layer "Dwgs.User")
+		(uuid "96a4a177-3d83-4345-86db-c9352cdf71f3")
+	)
+	(fp_arc
+		(start -1.5 1.1)
+		(mid -2.6 0)
+		(end -1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a0b0057f-d16c-415d-9836-dcc6d0165d8d")
 	)
 	(fp_arc
 		(start 1.5 -1.1)
@@ -118,38 +95,39 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
-		(uuid "c82886be-efe7-4b48-90a2-d23024f10b8b")
+		(layer "Dwgs.User")
+		(uuid "be7f8480-1ede-46a5-8e13-48445a50bca2")
 	)
 	(fp_line
-		(start -0.2 -2.199999)
+		(start -1.5 -2.2)
 		(end 1.5 -2.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "a2fd2463-9d5b-45f0-9218-20873a08a9d5")
-	)
-	(fp_line
-		(start -0.2 2.2)
-		(end -0.2 -2.199999)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "71ddab23-8bd5-4cef-bcc1-374f248afc68")
+		(uuid "0979f65c-0bba-4110-b428-a02f839fc273")
 	)
 	(fp_line
 		(start 1.5 2.2)
-		(end -0.2 2.2)
+		(end -1.5 2.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "897f43b4-392b-46a4-a6aa-551a65538083")
+		(uuid "63007983-b3a9-4c67-a08a-4be19cffa6fc")
+	)
+	(fp_arc
+		(start -1.5 2.2)
+		(mid -3.7 0)
+		(end -1.5 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "08d08b15-dfcd-41f2-9b7a-258fe70edede")
 	)
 	(fp_arc
 		(start 1.5 -2.2)
@@ -160,37 +138,38 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "bfd03661-5070-4a6c-aa8d-e0aa7671ba00")
+		(uuid "66a010c2-1ccd-47f5-a23a-0302f80d1f14")
 	)
 	(fp_line
-		(start 0 -2)
-		(end 0 2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "2a2038fa-ef67-488f-9f47-dc618c530045")
-	)
-	(fp_line
-		(start 0 -2)
+		(start -1.5 -2)
 		(end 1.5 -2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "e30fbeb9-8460-4736-a032-8e9fd07c5335")
+		(uuid "49648358-64ef-4aa4-8b5a-2bd63ebc350e")
 	)
 	(fp_line
-		(start 0 2)
+		(start -1.5 2)
 		(end 1.5 2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "87ab04c0-0379-45aa-bd40-e79abb998eb3")
+		(uuid "53674433-33a2-4e59-8b03-f581076d3aea")
+	)
+	(fp_arc
+		(start -1.5 2)
+		(mid -3.5 0)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2fd3e53d-4a4b-487c-a276-30f6f5655a8b")
 	)
 	(fp_arc
 		(start 1.5 -2)
@@ -201,12 +180,12 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "019d7fcd-926e-49f1-8f7a-2421118f1956")
+		(uuid "e0e78534-21e6-48e0-a87f-93fa62d57fc1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.5 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "1256f178-0a9e-470d-b796-b33ae4c8fd39")
+		(uuid "fb60c7d4-ee60-4bb5-be85-fdb4e042df6a")
 		(effects
 			(font
 				(size 1 1)
@@ -214,11 +193,24 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole roundrect
+		(at 0 0)
+		(size 5.2 2.2)
+		(drill oval 5.2 2.2)
+		(layers)
+		(roundrect_rratio 0.5)
+		(uuid "90cdb690-db03-4e4a-a93a-96f8db447b77")
+	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "bb596734-bd6d-43a3-afcc-e8d6eed620b8")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
+		(uuid "3e1495c6-17ed-4544-a760-6e4e2948eb7a")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -242,12 +234,16 @@
 		)
 		(polygon
 			(pts
-				(xy -0.2 -2.199999) (xy -0.2 2.2) (xy 1.5 2.2) (xy 1.650309 2.197436) (xy 1.948126 2.156502) (xy 2.237596 2.075396)
-				(xy 2.513326 1.95563) (xy 2.770179 1.799434) (xy 3.003371 1.609718) (xy 3.208559 1.390016) (xy 3.381919 1.14442)
-				(xy 3.520223 0.877506) (xy 3.620893 0.594246) (xy 3.682056 0.299917) (xy 3.702571 0) (xy 3.682056 -0.299917)
-				(xy 3.620893 -0.594246) (xy 3.520223 -0.877506) (xy 3.381919 -1.14442) (xy 3.208559 -1.390016) (xy 3.003371 -1.609718)
-				(xy 2.770179 -1.799434) (xy 2.513326 -1.95563) (xy 2.237596 -2.075396) (xy 1.948126 -2.156502) (xy 1.650309 -2.197436)
-				(xy 1.5 -2.2)
+				(arc
+					(start 1.5 2.2)
+					(mid 3.7 0)
+					(end 1.5 -2.2)
+				)
+				(arc
+					(start -1.5 -2.2)
+					(mid -3.7 0)
+					(end -1.5 2.2)
+				)
 			)
 		)
 	)

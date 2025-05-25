@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)")
+	(descr "Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4 × 5.4 mm)")
 	(tags "mounting slot 2.2mm m2 screw")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)

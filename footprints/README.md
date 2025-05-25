@@ -90,21 +90,23 @@
 
 ## `LKBD_MountingHole.pretty`
 
-| Footprint                    | Description                                                           | Preview                                                                                                             |
-|------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| `MountingHole_M2`            | Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)                            | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2.svg" width="160" height="160" />            |
-| `MountingHole_M2Head`        | Mounting Hole M2 Head Clearance (ø 4 mm)                              | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2Head.svg" width="160" height="160" />        |
-| `MountingHole_M2_NPTH`       | Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)                            | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_NPTH.svg" width="160" height="160" />       |
-| `MountingHole_M2_Oval`       | Mounting Hole M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval.svg" width="160" height="160" />       |
-| `MountingHole_M2_Oval_NTPH2` | Mounting Hole M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval_NTPH2.svg" width="160" height="160" /> |
-| `MountingSlot_M2`            | Mounting Slot M2 Screw (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2.svg" width="160" height="160" />            |
-| `MountingSlot_M2Head`        | Mounting Slot M2 Head Clearance (ø 4 × 7 mm)                          | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2Head.svg" width="160" height="160" />        |
-| `MountingSlot_M2Head_Small`  | Mounting Slot M2 Head Clearance (ø 4 × 5.4 mm)                        | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2Head_Small.svg" width="160" height="160" />  |
-| `MountingSlot_M2_NTPH`       | Mounting Slot M2 Screw (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH.svg" width="160" height="160" />       |
-| `MountingSlot_M2_NTPH_Half`  | Mounting Slot M2 Screw (Half Slot, ø 2.2 × 2.6 mm, Pad 4 × 3.5 mm)    | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH_Half.svg" width="160" height="160" />  |
-| `MountingSlot_M2_NTPH_Long`  | Mounting Slot M2 Screw (Long Half Slot, ø 2.2 × 4.1 mm, Pad 4 × 5 mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH_Long.svg" width="160" height="160" />  |
-| `MountingSlot_M2_Small`      | Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_Small.svg" width="160" height="160" />      |
-| `MountingSlot_M2_Small_NPTH` | Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)                      | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_Small_NPTH.svg" width="160" height="160" /> |
+| Footprint                     | Description                                             | Preview                                                                                                              |
+|-------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| `MountingHole_M2`             | Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)              | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2.svg" width="160" height="160" />             |
+| `MountingHole_M2Head`         | Mounting Hole M2 Head Clearance (ø 4 mm)                | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2Head.svg" width="160" height="160" />         |
+| `MountingHole_M2_NPTH`        | Mounting Hole M2 Screw (ø 2.2 mm, Pad 4mm)              | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_NPTH.svg" width="160" height="160" />        |
+| `MountingHole_M2_NoPad`       | Mounting Hole M2 Screw (ø 2.2 mm)                       | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_NoPad.svg" width="160" height="160" />       |
+| `MountingHole_M2_Oval`        | Mounting Hole M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)        | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval.svg" width="160" height="160" />        |
+| `MountingHole_M2_Oval_NTPH`   | Mounting Hole M2 Screw (ø 2.2 × 3.6 mm, Pad 4mm)        | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval_NTPH.svg" width="160" height="160" />   |
+| `MountingHole_M2_Oval_NoPad`  | Mounting Hole M2 Screw (ø 2.2 × 3.6 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingHole_M2_Oval_NoPad.svg" width="160" height="160" />  |
+| `MountingSlot_M2`             | Mounting Slot M2 Screw (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)   | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2.svg" width="160" height="160" />             |
+| `MountingSlot_M2Head`         | Mounting Slot M2 Head Clearance (ø 4 × 7 mm)            | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2Head.svg" width="160" height="160" />         |
+| `MountingSlot_M2Head_Small`   | Mounting Slot M2 Head Clearance (ø 4 × 5.4 mm)          | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2Head_Small.svg" width="160" height="160" />   |
+| `MountingSlot_M2_NTPH`        | Mounting Slot M2 Screw (ø 2.2 × 5.2 mm, Pad 4 × 7 mm)   | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NTPH.svg" width="160" height="160" />        |
+| `MountingSlot_M2_NoPad`       | Mounting Slot M2 Screw (ø 2.2 × 5.2 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_NoPad.svg" width="160" height="160" />       |
+| `MountingSlot_M2_Small`       | Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4 × 5.4 mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_Small.svg" width="160" height="160" />       |
+| `MountingSlot_M2_Small_NPTH`  | Mounting Slot M2 Screw (ø 2.2 × 3.6 mm, Pad 4 × 5.4 mm) | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_Small_NPTH.svg" width="160" height="160" />  |
+| `MountingSlot_M2_Small_NoPad` | Mounting Slot M2 Screw (ø 2.2 × 3.6 mm)                 | <img src="../output/footprints/LKBD_MountingHole.pretty/MountingSlot_M2_Small_NoPad.svg" width="160" height="160" /> |
 
 ## `LKBD_OLED.pretty`
 
@@ -135,27 +137,25 @@
 
 ## `LKBD_PlateMX.pretty`
 
-| Footprint                    | Description                                                               | Preview                                                                                                        |
-|------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| `Plate_MX_1.25U`             | Plate cutout for Cherry MX style keyswitches (1.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.25U.svg" width="160" height="160" />             |
-| `Plate_MX_1.5U`              | Plate cutout for Cherry MX style keyswitches (1.5U)                       | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.5U.svg" width="160" height="160" />              |
-| `Plate_MX_1.75U`             | Plate cutout for Cherry MX style keyswitches (1.75U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.75U.svg" width="160" height="160" />             |
-| `Plate_MX_1U`                | Plate cutout for Cherry MX style keyswitches (1U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />                |
-| `Plate_MX_2.25U`             | Plate cutout for Cherry MX style keyswitches (2.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" />             |
-| `Plate_MX_2.25U_1.25U+1U`    | Plate cutout for Cherry MX style keyswitches (2.25U or 1.25U + 1U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U_1.25U+1U.svg" width="160" height="160" />    |
-| `Plate_MX_2.25U_1U+1.25U`    | Plate cutout for Cherry MX style keyswitches (2.25U or 1U + 1.25U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U_1U+1.25U.svg" width="160" height="160" />    |
-| `Plate_MX_2.5U`              | Plate cutout for Cherry MX style keyswitches (2.5U)                       | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />              |
-| `Plate_MX_2.75U`             | Plate cutout for Cherry MX style keyswitches (2.75U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" />             |
-| `Plate_MX_2U`                | Plate cutout for Cherry MX style keyswitches (2U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />                |
-| `Plate_MX_2U_2x1U`           | Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U)               | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U_2x1U.svg" width="160" height="160" />           |
-| `Plate_MX_3U`                | Plate cutout for Cherry MX style keyswitches (3U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_3U.svg" width="160" height="160" />                |
-| `Plate_MX_4x1U_2x1.5U+1U`    | Plate cutout for Cherry MX style keyswitches (4 × 1U or 1.5U + 1U + 1.5U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_4x1U_2x1.5U+1U.svg" width="160" height="160" />    |
-| `Plate_MX_6.25U`             | Plate cutout for Cherry MX style keyswitches (6.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6.25U.svg" width="160" height="160" />             |
-| `Plate_MX_6U_1U+2.25U+2.75U` | Plate cutout for Cherry MX style keyswitches (6U or 1U + 2.25U + 2.75U)   | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6U_1U+2.25U+2.75U.svg" width="160" height="160" /> |
-| `Plate_MX_6U_2.75U+2.25U+1U` | Plate cutout for Cherry MX style keyswitches (6U or 2.75U + 2.25U + 1U)   | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6U_2.75U+2.25U+1U.svg" width="160" height="160" /> |
-| `Plate_MX_6U_Centered`       | Plate cutout for Cherry MX style keyswitches (6U, Centered)               | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6U_Centered.svg" width="160" height="160" />       |
-| `Plate_MX_7U`                | Plate cutout for Cherry MX style keyswitches (7U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_7U.svg" width="160" height="160" />                |
-| `Plate_MX_8U`                | Plate cutout for Cherry MX style keyswitches (8U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_8U.svg" width="160" height="160" />                |
+| Footprint                 | Description                                                               | Preview                                                                                                     |
+|---------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| `Plate_MX_1.25U`          | Plate cutout for Cherry MX style keyswitches (1.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.25U.svg" width="160" height="160" />          |
+| `Plate_MX_1.5U`           | Plate cutout for Cherry MX style keyswitches (1.5U)                       | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.5U.svg" width="160" height="160" />           |
+| `Plate_MX_1.75U`          | Plate cutout for Cherry MX style keyswitches (1.75U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1.75U.svg" width="160" height="160" />          |
+| `Plate_MX_1U`             | Plate cutout for Cherry MX style keyswitches (1U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_1U.svg" width="160" height="160" />             |
+| `Plate_MX_2.25U`          | Plate cutout for Cherry MX style keyswitches (2.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U.svg" width="160" height="160" />          |
+| `Plate_MX_2.25U_1.25U+1U` | Plate cutout for Cherry MX style keyswitches (2.25U or 1.25U + 1U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U_1.25U+1U.svg" width="160" height="160" /> |
+| `Plate_MX_2.25U_1U+1.25U` | Plate cutout for Cherry MX style keyswitches (2.25U or 1U + 1.25U)        | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.25U_1U+1.25U.svg" width="160" height="160" /> |
+| `Plate_MX_2.5U`           | Plate cutout for Cherry MX style keyswitches (2.5U)                       | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.5U.svg" width="160" height="160" />           |
+| `Plate_MX_2.75U`          | Plate cutout for Cherry MX style keyswitches (2.75U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2.75U.svg" width="160" height="160" />          |
+| `Plate_MX_2U`             | Plate cutout for Cherry MX style keyswitches (2U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U.svg" width="160" height="160" />             |
+| `Plate_MX_2U_2x1U`        | Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U)               | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_2U_2x1U.svg" width="160" height="160" />        |
+| `Plate_MX_3U`             | Plate cutout for Cherry MX style keyswitches (3U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_3U.svg" width="160" height="160" />             |
+| `Plate_MX_4x1U_2x1.5U+1U` | Plate cutout for Cherry MX style keyswitches (4 × 1U or 1.5U + 1U + 1.5U) | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_4x1U_2x1.5U+1U.svg" width="160" height="160" /> |
+| `Plate_MX_6.25U`          | Plate cutout for Cherry MX style keyswitches (6.25U)                      | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6.25U.svg" width="160" height="160" />          |
+| `Plate_MX_6U_Centered`    | Plate cutout for Cherry MX style keyswitches (6U, Centered)               | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_6U_Centered.svg" width="160" height="160" />    |
+| `Plate_MX_7U`             | Plate cutout for Cherry MX style keyswitches (7U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_7U.svg" width="160" height="160" />             |
+| `Plate_MX_8U`             | Plate cutout for Cherry MX style keyswitches (8U)                         | <img src="../output/footprints/LKBD_PlateMX.pretty/Plate_MX_8U.svg" width="160" height="160" />             |
 
 ## `LKBD_StabMX.pretty`
 

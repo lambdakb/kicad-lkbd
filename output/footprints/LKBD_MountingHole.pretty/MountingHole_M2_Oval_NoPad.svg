@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.088" height="16.8" viewBox="0 0 4.521 4.445">
+    <g class="stroked-text" style="fill:none;stroke:#afafaf;stroke-width:.15;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M.935 2.68.6 2.204M.363 2.68v-1M.363 1.68h.381M.744 1.68l.095.047M.84 1.727l.047.048M.887 1.775l.047.095M.935 1.87v.143M.935 2.013l-.048.095M.887 2.108l-.048.048M.84 2.156l-.096.048M.744 2.204h-.38M1.363 2.156h.333M1.84 2.68h-.477M1.363 2.68v-1M1.363 1.68h.476M2.601 2.156h-.333M2.268 2.68v-1M2.268 1.68h.476M3.268 1.68v.238M3.03 1.823l.238.095M3.268 1.918l.238-.095M3.125 2.108l.143-.19M3.268 1.918l.143.19M4.03 1.68v.238M3.792 1.823l.238.095M4.03 1.918l.238-.095M3.887 2.108l.143-.19M4.03 1.918l.143.19"/>
+    </g>
+    <circle cx="2.268" cy="2.225" r="2" style="fill:none;stroke:#afafaf;stroke-width:.1;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#c2c2c2;stroke-width:.05;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M1.568 1.125h1.4M2.968 3.325h-1.4M1.568 1.125a1.1 1.1 0 0 0 0 2.2M2.968 3.325a1.1 1.1 0 0 0 0-2.2"/>
+    </g>
+</svg>
