@@ -104,7 +104,7 @@
 		(at 0 0)
 		(size 4 4)
 		(drill 2.2)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b3d21159-18b1-466e-a141-f0f75094e16e")
 	)
