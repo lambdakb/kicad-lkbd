@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118.656" height="154.944" viewBox="0 0 31.394 40.996">
+    <g style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <rect width="20.32" height="25.4" x="5.537" y="9.261" rx="0"/>
+        <path d="M5.537 11.801h-2.54"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M7.56 11.11h-.604M6.956 11.11l-.06.605M6.895 11.715l.06-.06M6.956 11.655l.12-.06M7.077 11.594h.302M7.38 11.594l.12.06M7.5 11.655l.06.06M7.56 11.715l.061.121M7.621 11.836v.303M7.621 12.139l-.06.12M7.56 12.26l-.06.06M7.5 12.32l-.12.06M7.38 12.38h-.303M7.077 12.38l-.121-.06M6.956 12.32l-.06-.06M7.984 11.11l.423 1.27M8.407 12.38l.424-1.27"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m3.3 10.235.06-.06M3.36 10.174l.121-.06M3.481 10.114h.302M3.783 10.114l.121.06M3.904 10.174l.06.06M3.965 10.235l.06.12M4.025 10.356v.12M4.025 10.477l-.06.18M3.965 10.658l-.726.726M3.24 11.384h.785M4.449 10.114h.786M5.235 10.114l-.424.483M4.811 10.597h.182M4.993 10.597l.12.06M5.114 10.658l.06.06M5.174 10.718l.06.121M5.235 10.84v.302M5.235 11.142l-.06.12M5.174 11.263l-.06.06M5.114 11.323l-.121.06M4.993 11.384H4.63M4.63 11.384l-.12-.06M4.51 11.323l-.061-.06"/>
+    </g>
+    <path d="M5.537 14.341h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m7.621 13.711-.121-.06M7.5 13.65h-.181M7.319 13.65l-.182.061M7.137 13.711l-.12.121M7.016 13.832l-.06.121M6.956 13.953l-.06.242M6.895 14.195v.181M6.895 14.376l.06.242M6.956 14.618l.06.121M7.016 14.74l.121.12M7.137 14.86l.182.06M7.319 14.92h.12M7.44 14.92l.181-.06M7.621 14.86l.06-.06M7.681 14.8v-.424M7.681 14.376H7.44M8.226 14.92v-1.27M8.226 13.65l.725 1.27M8.951 14.92v-1.27M9.556 14.92v-1.27M9.556 13.65h.303M9.859 13.65l.181.061M10.04 13.711l.121.121M10.161 13.832l.06.121M10.222 13.953l.06.242M10.282 14.195v.181M10.282 14.376l-.06.242M10.222 14.618l-.061.121M10.161 14.74l-.121.12M10.04 14.86l-.181.06M9.859 14.92h-.303"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m3.3 12.775.06-.06M3.36 12.714l.121-.06M3.481 12.654h.302M3.783 12.654l.121.06M3.904 12.714l.06.06M3.965 12.775l.06.12M4.025 12.896v.12M4.025 13.017l-.06.18M3.965 13.198l-.726.726M3.24 13.924h.785M4.51 12.775l.06-.06M4.57 12.714l.12-.06M4.69 12.654h.303M4.993 12.654l.12.06M5.114 12.714l.06.06M5.174 12.775l.06.12M5.235 12.896v.12M5.235 13.017l-.06.18M5.174 13.198l-.725.726M4.449 13.924h.786"/>
+    </g>
+    <path d="M5.537 16.881h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M6.835 16.19h.786M7.621 16.19l-.423.484M7.198 16.674h.181M7.38 16.674l.12.06M7.5 16.735l.06.06M7.56 16.795l.061.121M7.621 16.916v.303M7.621 17.219l-.06.12M7.56 17.34l-.06.06M7.5 17.4l-.12.06M7.38 17.46h-.364M7.016 17.46l-.12-.06M6.895 17.4l-.06-.06M7.984 16.19l.423 1.27M8.407 17.46l.424-1.27M9.133 16.19h.786M9.92 16.19l-.424.484M9.496 16.674h.181M9.677 16.674l.121.06M9.798 16.735l.06.06M9.859 16.795l.06.121M9.92 16.916v.303M9.92 17.219l-.061.12M9.859 17.34l-.06.06M9.798 17.4l-.12.06M9.677 17.46h-.363M9.314 17.46l-.12-.06M9.193 17.4l-.06-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m3.3 15.315.06-.06M3.36 15.254l.121-.06M3.481 15.194h.302M3.783 15.194l.121.06M3.904 15.254l.06.06M3.965 15.315l.06.12M4.025 15.436v.12M4.025 15.557l-.06.18M3.965 15.738l-.726.726M3.24 16.464h.785M5.235 16.464h-.726M4.872 16.464v-1.27M4.872 15.194l-.121.181M4.751 15.375l-.121.121M4.63 15.496l-.12.06"/>
+    </g>
+    <path d="M5.537 19.421h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m6.895 18.852.06-.06M6.956 18.791l.12-.06M7.077 18.73h.302M7.38 18.73l.12.061M7.5 18.791l.06.06M7.56 18.852l.061.12M7.621 18.973v.12M7.621 19.094l-.06.18M7.56 19.275 6.836 20M6.835 20h.786M8.226 20h.242M8.468 20l.12-.06M8.589 19.94l.06-.06M8.649 19.88l.121-.182M8.77 19.698l.06-.242M8.83 19.456v-.483M8.83 18.973l-.06-.121M8.77 18.852l-.06-.06M8.71 18.791l-.121-.06M8.589 18.73h-.242M8.347 18.73l-.121.061M8.226 18.791l-.06.06M8.165 18.852l-.06.12M8.105 18.973v.302M8.105 19.275l.06.12M8.165 19.396l.06.06M8.226 19.456l.12.06M8.347 19.517h.242M8.589 19.517l.12-.06M8.71 19.456l.06-.06M8.77 19.396l.06-.121"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m3.3 17.855.06-.06M3.36 17.794l.121-.06M3.481 17.734h.302M3.783 17.734l.121.06M3.904 17.794l.06.06M3.965 17.855l.06.12M4.025 17.976v.12M4.025 18.097l-.06.18M3.965 18.278l-.726.726M3.24 19.004h.785M4.811 17.734h.121M4.932 17.734l.121.06M5.053 17.794l.06.06M5.114 17.855l.06.12M5.174 17.976l.06.241M5.235 18.217v.303M5.235 18.52l-.06.242M5.174 18.762l-.06.12M5.114 18.883l-.06.06M5.053 18.943l-.12.06M4.932 19.004h-.12M4.811 19.004l-.12-.06M4.69 18.943l-.06-.06M4.63 18.883l-.06-.121M4.57 18.762l-.06-.242M4.51 18.52v-.303M4.51 18.217l.06-.241M4.57 17.976l.06-.121M4.63 17.855l.06-.06M4.69 17.794l.121-.06"/>
+    </g>
+    <path d="M5.537 21.961h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m6.895 21.392.06-.06M6.956 21.331l.12-.06M7.077 21.27h.302M7.38 21.27l.12.061M7.5 21.331l.06.06M7.56 21.392l.061.12M7.621 21.513v.12M7.621 21.634l-.06.18M7.56 21.815l-.725.726M6.835 22.54h.786M8.347 21.815l-.121-.06M8.226 21.754l-.06-.06M8.165 21.694l-.06-.121M8.105 21.573v-.06M8.105 21.513l.06-.121M8.165 21.392l.06-.06M8.226 21.331l.12-.06M8.347 21.27h.242M8.589 21.27l.12.061M8.71 21.331l.06.06M8.77 21.392l.06.12M8.83 21.513v.06M8.83 21.573l-.06.121M8.77 21.694l-.06.06M8.71 21.754l-.121.06M8.589 21.815h-.242M8.347 21.815l-.121.06M8.226 21.875l-.06.06M8.165 21.936l-.06.12M8.105 22.057v.242M8.105 22.299l.06.12M8.165 22.42l.06.06M8.226 22.48l.12.06M8.347 22.54h.242M8.589 22.54l.12-.06M8.71 22.48l.06-.06M8.77 22.42l.06-.121M8.83 22.299v-.242M8.83 22.057l-.06-.121M8.77 21.936l-.06-.06M8.71 21.875l-.121-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M4.025 21.544H3.3M3.662 21.544v-1.27M3.662 20.274l-.12.181M3.542 20.455l-.121.121M3.42 20.576l-.12.06M4.63 21.544h.242M4.872 21.544l.12-.06M4.993 21.483l.06-.06M5.053 21.423l.121-.182M5.174 21.241l.06-.242M5.235 21v-.485M5.235 20.516l-.06-.121M5.174 20.395l-.06-.06M5.114 20.334l-.121-.06M4.993 20.274H4.75M4.751 20.274l-.121.06M4.63 20.334l-.06.06M4.57 20.395l-.06.12M4.51 20.516v.302M4.51 20.818l.06.12M4.57 20.939l.06.06M4.63 21l.121.06M4.751 21.06h.242M4.993 21.06l.12-.06M5.114 21l.06-.061M5.174 20.939l.06-.121"/>
+    </g>
+    <path d="M5.537 24.501h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m6.895 23.932.06-.06M6.956 23.871l.12-.06M7.077 23.81h.302M7.38 23.81l.12.061M7.5 23.871l.06.06M7.56 23.932l.061.12M7.621 24.053v.12M7.621 24.174l-.06.18M7.56 24.355l-.725.726M6.835 25.08h.786M8.044 23.81h.847M8.89 23.81l-.543 1.27"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M4.025 24.084H3.3M3.662 24.084v-1.27M3.662 22.814l-.12.181M3.542 22.995l-.121.121M3.42 23.116l-.12.06M4.751 23.358l-.121-.06M4.63 23.297l-.06-.06M4.57 23.237l-.06-.121M4.51 23.116v-.06M4.51 23.056l.06-.121M4.57 22.935l.06-.06M4.63 22.874l.121-.06M4.751 22.814h.242M4.993 22.814l.12.06M5.114 22.874l.06.06M5.174 22.935l.06.12M5.235 23.056v.06M5.235 23.116l-.06.121M5.174 23.237l-.06.06M5.114 23.297l-.121.06M4.993 23.358H4.75M4.751 23.358l-.121.06M4.63 23.418l-.06.06M4.57 23.479l-.06.12M4.51 23.6v.242M4.51 23.842l.06.12M4.57 23.963l.06.06M4.63 24.023l.121.06M4.751 24.084h.242M4.993 24.084l.12-.06M5.114 24.023l.06-.06M5.174 23.963l.06-.121M5.235 23.842V23.6M5.235 23.6l-.06-.121M5.174 23.479l-.06-.06M5.114 23.418l-.121-.06"/>
+    </g>
+    <path d="M5.537 27.041h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m6.895 26.472.06-.06M6.956 26.411l.12-.06M7.077 26.35h.302M7.38 26.35l.12.061M7.5 26.411l.06.06M7.56 26.472l.061.12M7.621 26.593v.12M7.621 26.714l-.06.18M7.56 26.895l-.725.726M6.835 27.62h.786M8.71 26.35h-.242M8.468 26.35l-.121.061M8.347 26.411l-.06.06M8.286 26.472l-.12.181M8.165 26.653l-.06.242M8.105 26.895v.484M8.105 27.379l.06.12M8.165 27.5l.06.06M8.226 27.56l.12.06M8.347 27.62h.242M8.589 27.62l.12-.06M8.71 27.56l.06-.06M8.77 27.5l.06-.121M8.83 27.379v-.303M8.83 27.076l-.06-.12M8.77 26.955l-.06-.06M8.71 26.895l-.121-.06M8.589 26.834h-.242M8.347 26.834l-.121.06M8.226 26.895l-.06.06M8.165 26.955l-.06.121"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M4.025 26.624H3.3M3.662 26.624v-1.27M3.662 25.354l-.12.181M3.542 25.535l-.121.121M3.42 25.656l-.12.06M4.449 25.354h.846M5.295 25.354l-.544 1.27"/>
+    </g>
+    <path d="M5.537 29.581h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M7.621 30.16h-.726M7.258 30.16v-1.27M7.258 28.89l-.12.182M7.137 29.072l-.12.121M7.016 29.193l-.12.06M8.77 28.89h-.605M8.165 28.89l-.06.605M8.105 29.495l.06-.06M8.165 29.435l.121-.06M8.286 29.374h.303M8.589 29.374l.12.06M8.71 29.435l.06.06M8.77 29.495l.06.121M8.83 29.616v.303M8.83 29.919l-.06.12M8.77 30.04l-.06.06M8.71 30.1l-.121.06M8.589 30.16h-.303M8.286 30.16l-.12-.06M8.165 30.1l-.06-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M4.025 29.164H3.3M3.662 29.164v-1.27M3.662 27.894l-.12.181M3.542 28.075l-.121.121M3.42 28.196l-.12.06M5.114 27.894h-.242M4.872 27.894l-.121.06M4.751 27.954l-.06.06M4.69 28.015l-.12.181M4.57 28.196l-.06.242M4.51 28.438v.484M4.51 28.922l.06.12M4.57 29.043l.06.06M4.63 29.103l.121.06M4.751 29.164h.242M4.993 29.164l.12-.06M5.114 29.103l.06-.06M5.174 29.043l.06-.121M5.235 28.922v-.303M5.235 28.62l-.06-.122M5.174 28.498l-.06-.06M5.114 28.438l-.121-.06M4.993 28.377H4.75M4.751 28.377l-.121.06M4.63 28.438l-.06.06M4.57 28.498l-.06.121"/>
+    </g>
+    <path d="M5.537 32.121h-2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M7.621 32.7h-.726M7.258 32.7v-1.27M7.258 31.43l-.12.182M7.137 31.612l-.12.121M7.016 31.733l-.12.06M8.71 31.854v.847M8.407 31.37l-.302.907M8.105 32.277h.786"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M4.025 31.704H3.3M3.662 31.704v-1.27M3.662 30.434l-.12.181M3.542 30.615l-.121.121M3.42 30.736l-.12.06M5.174 30.434H4.57M4.57 30.434l-.06.604M4.51 31.038l.06-.06M4.57 30.978l.12-.06M4.69 30.917h.303M4.993 30.917l.12.06M5.114 30.978l.06.06M5.174 31.038l.06.121M5.235 31.16v.302M5.235 31.462l-.06.12M5.174 31.583l-.06.06M5.114 31.643l-.121.06M4.993 31.704H4.69M4.69 31.704l-.12-.06M4.57 31.643l-.06-.06"/>
+    </g>
+    <path d="M10.617 34.661v2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M11.197 32.577v.726M11.197 32.94h-1.27M9.927 32.94l.181.121M10.108 33.061l.121.121M10.23 33.182l.06.12M9.927 32.154v-.786M9.927 31.368l.484.423M10.41 31.791v-.181M10.41 31.61l.061-.121M10.471 31.489l.06-.06M10.532 31.428l.12-.06M10.652 31.368h.303M10.955 31.368l.12.06M11.076 31.428l.06.06M11.136 31.489l.06.12M11.197 31.61v.363M11.197 31.973l-.06.12M11.136 32.093l-.06.06"/>
+        </g>
+    </g>
+    <g style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M10.2 36.173v.726M10.2 36.536H8.93M8.93 36.536l.181.12M9.111 36.657l.121.12M9.232 36.778l.06.12M9.353 35.084h.847M8.87 35.387l.906.302M9.776 35.69v-.787"/>
+        </g>
+    </g>
+    <path d="M13.157 34.661v2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M13.737 32.577v.726M13.737 32.94h-1.27M12.467 32.94l.181.121M12.648 33.061l.121.121M12.77 33.182l.06.12M12.588 32.093l-.06-.06M12.527 32.033l-.06-.121M12.467 31.912v-.302M12.467 31.61l.06-.121M12.527 31.489l.06-.06M12.588 31.428l.12-.06M12.709 31.368h.12M12.83 31.368l.181.06M13.011 31.428l.726.726M13.737 32.154v-.786"/>
+        </g>
+    </g>
+    <g style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M12.74 36.173v.726M12.74 36.536h-1.27M11.47 36.536l.181.12M11.651 36.657l.121.12M11.772 36.778l.06.12M11.47 35.75v-.787M11.47 34.963l.483.424M11.954 35.387v-.182M11.954 35.205l.06-.12M12.014 35.084l.06-.06M12.075 35.024l.12-.06M12.195 34.963h.303M12.498 34.963l.12.06M12.619 35.024l.06.06M12.68 35.084l.06.121M12.74 35.205v.363M12.74 35.568l-.06.121M12.68 35.69l-.061.06"/>
+        </g>
+    </g>
+    <path d="M15.697 34.661v2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M16.277 32.577v.726M16.277 32.94h-1.27M15.007 32.94l.181.121M15.188 33.061l.121.121M15.31 33.182l.06.12M16.277 31.368v.725M16.277 31.73h-1.27M15.007 31.73l.181.122M15.188 31.852l.121.12M15.31 31.973l.06.12"/>
+        </g>
+    </g>
+    <g style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M15.28 36.173v.726M15.28 36.536h-1.27M14.01 36.536l.181.12M14.191 36.657l.121.12M14.312 36.778l.06.12M14.13 35.69l-.06-.061M14.07 35.629l-.06-.121M14.01 35.508v-.303M14.01 35.205l.06-.12M14.07 35.084l.06-.06M14.13 35.024l.122-.06M14.252 34.963h.12M14.373 34.963l.181.06M14.554 35.024l.726.726M15.28 35.75v-.787"/>
+        </g>
+    </g>
+    <path d="M18.237 34.661v2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M18.817 32.577v.726M18.817 32.94h-1.27M17.547 32.94l.181.121M17.728 33.061l.121.121M17.85 33.182l.06.12M17.547 31.791v-.12M17.547 31.67l.06-.12M17.607 31.55l.06-.061M17.668 31.489l.12-.06M17.789 31.428l.241-.06M18.03 31.368h.303M18.333 31.368l.242.06M18.575 31.428l.12.06M18.696 31.489l.06.06M18.756 31.55l.06.12M18.817 31.67v.121M18.817 31.791l-.06.121M18.756 31.912l-.06.06M18.696 31.973l-.121.06M18.575 32.033l-.242.06M18.333 32.093h-.302M18.03 32.093l-.241-.06M17.789 32.033l-.121-.06M17.668 31.973l-.06-.061M17.607 31.912l-.06-.12"/>
+        </g>
+    </g>
+    <g style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M17.82 36.173v.726M17.82 36.536h-1.27M16.55 36.536l.181.12M16.731 36.657l.121.12M16.852 36.778l.06.12M17.82 34.963v.726M17.82 35.326h-1.27M16.55 35.326l.181.121M16.731 35.447l.121.121M16.852 35.568l.06.121"/>
+        </g>
+    </g>
+    <path d="M20.777 34.661v2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M21.357 33.182v-.242M21.357 32.94l-.06-.12M21.296 32.82l-.06-.061M21.236 32.759l-.182-.121M21.054 32.638l-.242-.06M20.812 32.577h-.483M20.329 32.577l-.121.06M20.208 32.638l-.06.06M20.147 32.698l-.06.121M20.087 32.82v.241M20.087 33.061l.06.121M20.147 33.182l.06.06M20.208 33.243l.12.06M20.329 33.303h.302M20.631 33.303l.121-.06M20.752 33.243l.06-.061M20.812 33.182l.06-.121M20.873 33.061v-.242M20.873 32.82l-.06-.122M20.812 32.698l-.06-.06M20.752 32.638l-.121-.06"/>
+        </g>
+    </g>
+    <g style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M20.36 36.173v.726M20.36 36.536h-1.27M19.09 36.536l.181.12M19.271 36.657l.121.12M19.392 36.778l.06.12M19.09 35.387v-.121M19.09 35.266l.06-.121M19.15 35.145l.06-.06M19.21 35.084l.122-.06M19.332 35.024l.241-.06M19.574 34.963h.302M19.876 34.963l.242.06M20.118 35.024l.12.06M20.239 35.084l.06.06M20.3 35.145l.06.12M20.36 35.266v.12M20.36 35.387l-.06.12M20.3 35.508l-.061.06M20.239 35.568l-.121.06M20.118 35.629l-.242.06M19.876 35.69h-.303M19.574 35.69l-.242-.061M19.332 35.629l-.121-.06M19.21 35.568l-.06-.06M19.15 35.508l-.06-.121"/>
+        </g>
+    </g>
+    <path d="M25.857 11.801h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M24.076 11.11h.12M24.197 11.11l.12.061M24.318 11.171l.06.06M24.378 11.232l.06.12M24.439 11.353l.06.241M24.5 11.594v.303M24.5 11.897l-.061.242M24.439 12.139l-.06.12M24.378 12.26l-.06.06M24.318 12.32l-.121.06M24.197 12.38h-.121M24.076 12.38l-.121-.06M23.955 12.32l-.06-.06M23.894 12.26l-.06-.121M23.834 12.139l-.06-.242M23.773 11.897v-.303M23.773 11.594l.06-.242M23.834 11.353l.06-.121M23.894 11.232l.06-.06M23.955 11.171l.12-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M27.49 11.384h-.726M27.127 11.384v-1.27M27.127 10.114l-.12.181M27.006 10.295l-.12.121M26.885 10.416l-.12.06"/>
+    </g>
+    <path d="M25.857 14.341h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M24.5 14.92h-.727M24.136 14.92v-1.27M24.136 13.65l-.12.182M24.015 13.832l-.12.121M23.894 13.953l-.12.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m26.764 12.775.06-.06M26.825 12.714l.12-.06M26.946 12.654h.302M27.248 12.654l.121.06M27.37 12.714l.06.06M27.43 12.775l.06.12M27.49 12.896v.12M27.49 13.017l-.06.18M27.43 13.198l-.726.726M26.704 13.924h.786"/>
+    </g>
+    <path d="M25.857 16.881h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m23.773 16.312.06-.06M23.834 16.251l.12-.06M23.955 16.19h.302M24.257 16.19l.121.061M24.378 16.251l.06.06M24.439 16.312l.06.12M24.5 16.433v.12M24.5 16.554l-.061.18M24.439 16.735l-.726.726M23.713 17.46h.786"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M26.704 15.194h.786M27.49 15.194l-.423.483M27.067 15.677h.181M27.248 15.677l.121.06M27.37 15.738l.06.06M27.43 15.798l.06.121M27.49 15.92v.302M27.49 16.222l-.06.12M27.43 16.343l-.06.06M27.37 16.403l-.122.06M27.248 16.464h-.363M26.885 16.464l-.12-.06M26.764 16.403l-.06-.06"/>
+    </g>
+    <path d="M25.857 19.421h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M23.713 18.73h.786M24.5 18.73l-.424.484M24.076 19.214h.181M24.257 19.214l.121.06M24.378 19.275l.06.06M24.439 19.335l.06.121M24.5 19.456v.303M24.5 19.759l-.061.12M24.439 19.88l-.06.06M24.378 19.94l-.12.06M24.257 20h-.363M23.894 20l-.12-.06M23.773 19.94l-.06-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M27.37 18.157v.847M27.067 17.673l-.303.907M26.764 18.58h.787"/>
+    </g>
+    <path d="M25.857 21.961h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M24.378 21.694v.847M24.076 21.21l-.303.907M23.773 22.117h.787"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M27.43 20.274h-.605M26.825 20.274l-.06.604M26.764 20.878l.06-.06M26.825 20.818l.12-.06M26.946 20.757h.302M27.248 20.757l.121.06M27.37 20.818l.06.06M27.43 20.878l.06.121M27.49 21v.302M27.49 21.302l-.06.12M27.43 21.423l-.06.06M27.37 21.483l-.122.06M27.248 21.544h-.302M26.946 21.544l-.121-.06M26.825 21.483l-.06-.06"/>
+    </g>
+    <path d="M25.857 24.501h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M24.439 23.81h-.605M23.834 23.81l-.06.605M23.773 24.415l.06-.06M23.834 24.355l.12-.06M23.955 24.294h.302M24.257 24.294l.121.06M24.378 24.355l.06.06M24.439 24.415l.06.121M24.5 24.536v.303M24.5 24.839l-.061.12M24.439 24.96l-.06.06M24.378 25.02l-.12.06M24.257 25.08h-.302M23.955 25.08l-.121-.06M23.834 25.02l-.06-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M27.37 22.814h-.243M27.127 22.814l-.12.06M27.006 22.874l-.06.06M26.946 22.935l-.121.181M26.825 23.116l-.06.242M26.764 23.358v.484M26.764 23.842l.06.12M26.825 23.963l.06.06M26.885 24.023l.121.06M27.006 24.084h.242M27.248 24.084l.121-.06M27.37 24.023l.06-.06M27.43 23.963l.06-.121M27.49 23.842v-.303M27.49 23.54l-.06-.122M27.43 23.418l-.06-.06M27.37 23.358l-.122-.06M27.248 23.297h-.242M27.006 23.297l-.12.06M26.885 23.358l-.06.06M26.825 23.418l-.06.121"/>
+    </g>
+    <path d="M25.857 27.041h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M24.378 26.35h-.242M24.136 26.35l-.12.061M24.015 26.411l-.06.06M23.955 26.472l-.121.181M23.834 26.653l-.06.242M23.773 26.895v.484M23.773 27.379l.06.12M23.834 27.5l.06.06M23.894 27.56l.121.06M24.015 27.62h.242M24.257 27.62l.121-.06M24.378 27.56l.06-.06M24.439 27.5l.06-.121M24.5 27.379v-.303M24.5 27.076l-.061-.12M24.439 26.955l-.06-.06M24.378 26.895l-.12-.06M24.257 26.834h-.242M24.015 26.834l-.12.06M23.894 26.895l-.06.06M23.834 26.955l-.06.121"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M26.704 25.354h.846M27.55 25.354l-.544 1.27"/>
+    </g>
+    <path d="M25.857 29.581h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M23.713 28.89h.846M24.56 28.89l-.545 1.27"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m27.006 28.438-.12-.06M26.885 28.377l-.06-.06M26.825 28.317l-.06-.121M26.764 28.196v-.06M26.764 28.136l.06-.121M26.825 28.015l.06-.06M26.885 27.954l.121-.06M27.006 27.894h.242M27.248 27.894l.121.06M27.37 27.954l.06.06M27.43 28.015l.06.12M27.49 28.136v.06M27.49 28.196l-.06.121M27.43 28.317l-.06.06M27.37 28.377l-.122.06M27.248 28.438h-.242M27.006 28.438l-.12.06M26.885 28.498l-.06.06M26.825 28.559l-.06.12M26.764 28.68v.242M26.764 28.922l.06.12M26.825 29.043l.06.06M26.885 29.103l.121.06M27.006 29.164h.242M27.248 29.164l.121-.06M27.37 29.103l.06-.06M27.43 29.043l.06-.121M27.49 28.922v-.242M27.49 28.68l-.06-.121M27.43 28.559l-.06-.06M27.37 28.498l-.122-.06"/>
+    </g>
+    <path d="M25.857 32.121h2.54" style="fill:none;stroke:#840000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <g class="stroked-text" style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="m24.015 31.975-.12-.06M23.894 31.914l-.06-.06M23.834 31.854l-.06-.121M23.773 31.733v-.06M23.773 31.673l.06-.121M23.834 31.552l.06-.06M23.894 31.491l.121-.06M24.015 31.43h.242M24.257 31.43l.121.061M24.378 31.491l.06.06M24.439 31.552l.06.12M24.5 31.673v.06M24.5 31.733l-.061.121M24.439 31.854l-.06.06M24.378 31.914l-.12.06M24.257 31.975h-.242M24.015 31.975l-.12.06M23.894 32.035l-.06.06M23.834 32.096l-.06.12M23.773 32.217v.242M23.773 32.459l.06.12M23.834 32.58l.06.06M23.894 32.64l.121.06M24.015 32.7h.242M24.257 32.7l.121-.06M24.378 32.64l.06-.06M24.439 32.58l.06-.121M24.5 32.459v-.242M24.5 32.217l-.061-.121M24.439 32.096l-.06-.06M24.378 32.035l-.12-.06"/>
+    </g>
+    <g class="stroked-text" style="fill:none;stroke:#a90000;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <path d="M26.885 31.704h.242M27.127 31.704l.121-.06M27.248 31.643l.06-.06M27.309 31.583l.12-.182M27.43 31.401l.06-.242M27.49 31.16v-.485M27.49 30.676l-.06-.121M27.43 30.555l-.06-.06M27.37 30.494l-.122-.06M27.248 30.434h-.242M27.006 30.434l-.12.06M26.885 30.494l-.06.06M26.825 30.555l-.06.12M26.764 30.676v.302M26.764 30.978l.06.12M26.825 31.099l.06.06M26.885 31.16l.121.06M27.006 31.22h.242M27.248 31.22l.121-.06M27.37 31.16l.06-.061M27.43 31.099l.06-.121"/>
+    </g>
+    <g style="fill:none;stroke:#006464;stroke-width:.1524;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round">
+        <g class="stroked-text">
+            <path d="M-.907-16.753v1.028M-.907-15.725l.06.121M-.847-15.604l.06.06M-.786-15.544l.12.06M-.665-15.483h.242M-.423-15.483l.12-.06M-.302-15.544l.06-.06M-.242-15.604l.06-.121M-.181-15.725v-1.028M.605-15.604l.06.06M.665-15.544l-.06.06M.605-15.483l-.06-.06M.544-15.544l.06-.06M.605-15.604v.12M.363-16.693l.12-.06M.484-16.753h.302M.786-16.753l.121.06M.907-16.693l.06.121M.968-16.572v.121M.968-16.45l-.06.12M.907-16.33l-.06.06M.847-16.27l-.121.061M.726-16.209l-.06.06M.665-16.148l-.06.12M.605-16.027v.06"/>
+        </g>
+        <g class="stroked-text">
+            <path d="m-5.564-12.943-.423-.605M-6.29-12.943v-1.27M-6.29-14.213h.484M-5.806-14.213l.121.06M-5.685-14.153l.06.06M-5.624-14.092l.06.12M-5.564-13.971v.181M-5.564-13.79l-.06.121M-5.624-13.669l-.06.06M-5.685-13.608l-.12.06M-5.806-13.548h-.483M-5.02-12.943v-1.27M-5.02-14.213h.484M-4.536-14.213l.121.06M-4.415-14.153l.06.06M-4.354-14.092l.06.12M-4.294-13.971v.181M-4.294-13.79l-.06.121M-4.354-13.669l-.06.06M-4.415-13.608l-.12.06M-4.536-13.548h-.483M-3.81-14.092l.06-.06M-3.75-14.153l.122-.06M-3.628-14.213h.302M-3.326-14.213l.12.06M-3.205-14.153l.06.06M-3.145-14.092l.06.12M-3.084-13.971v.12M-3.084-13.85l-.06.181M-3.145-13.669l-.725.726M-3.87-12.943h.786M-2.298-14.213h.121M-2.177-14.213l.12.06M-2.056-14.153l.06.06M-1.996-14.092l.06.12M-1.935-13.971l.06.242M-1.875-13.73v.303M-1.875-13.427l-.06.242M-1.935-13.185l-.06.121M-1.996-13.064l-.06.06M-2.056-13.004l-.121.06M-2.177-12.943h-.121M-2.298-12.943l-.12-.06M-2.419-13.004l-.06-.06M-2.48-13.064l-.06-.121M-2.54-13.185l-.06-.242M-2.6-13.427v-.302M-2.6-13.73l.06-.241M-2.54-13.971l.06-.121M-2.48-14.092l.061-.06M-2.419-14.153l.121-.06M-.786-13.79v.847M-1.088-14.274l-.303.908M-1.39-13.366h.785M.12-14.213h.122M.242-14.213l.12.06M.363-14.153l.06.06M.423-14.092l.06.12M.484-13.971l.06.242M.544-13.73v.303M.544-13.427l-.06.242M.484-13.185l-.06.121M.423-13.064l-.06.06M.363-13.004l-.121.06M.242-12.943H.12M.12-12.943l-.12-.06M0-13.004l-.06-.06M-.06-13.064l-.06-.121M-.12-13.185l-.061-.242M-.181-13.427v-.302M-.181-13.73l.06-.241M-.12-13.971l.06-.121M-.06-14.092l.06-.06M0-14.153l.12-.06M1.089-13.427h.967M2.54-14.213h.847M3.387-14.213l-.847 1.27M2.54-12.943h.847M4.354-13.004l-.12.06M4.233-12.943h-.242M3.991-12.943l-.12-.06M3.87-13.004l-.06-.12M3.81-13.124v-.484M3.81-13.608l.06-.121M3.87-13.73l.121-.06M3.991-13.79h.242M4.233-13.79l.121.06M4.354-13.73l.06.122M4.415-13.608v.12M4.415-13.487l-.605.12M4.959-12.943v-.847M4.959-13.548l.06-.12M5.02-13.669l.06-.06M5.08-13.73l.12-.06M5.2-13.79h.122M5.927-12.943l-.121-.06M5.806-13.004l-.06-.06M5.745-13.064l-.06-.121M5.685-13.185v-.363M5.685-13.548l.06-.12M5.745-13.669l.06-.06M5.806-13.73l.12-.06M5.927-13.79h.181M6.108-13.79l.121.06M6.229-13.73l.06.061M6.29-13.669l.06.121M6.35-13.548v.363M6.35-13.185l-.06.121M6.29-13.064l-.061.06M6.229-13.004l-.12.06M6.108-12.943h-.181"/>
+        </g>
+    </g>
+</svg>
