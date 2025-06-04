@@ -1,9 +1,9 @@
-(footprint "MCU_RP2040-Zero_THT"
+(footprint "MCU_RP2040-Tiny_THT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Waveshare RP2040-Zero MCU (THT)")
+	(descr "Waveshare RP2040-Tiny MCU (THT)")
 	(tags "RP2040 Zero Waveshare THT")
 	(property "Reference" "REF**"
 		(at 0 8.89 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MCU_RP2040-Zero_THT"
+	(property "Value" "MCU_RP2040-Tiny_THT"
 		(at 0 23.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,13 +56,23 @@
 	(attr through_hole)
 	(fp_line
 		(start -9.1 20.91)
-		(end -9.1 -1.5)
+		(end -9.1 -0.59)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "edf3227d-7b11-4c30-8d7f-b19496c7abc6")
+	)
+	(fp_line
+		(start -8 -1.69)
+		(end 8 -1.69)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9820680-afde-4a7b-9344-1c691ac9d508")
 	)
 	(fp_line
 		(start 6.506 -0.8)
@@ -166,13 +176,24 @@
 	)
 	(fp_line
 		(start 9.1 20.91)
-		(end 9.1 -1.5)
+		(end 9.1 -0.59)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "3105c694-50a2-42e1-877f-7abe2bc55e93")
+	)
+	(fp_arc
+		(start -9.1 -0.59)
+		(mid -8.777817 -1.367817)
+		(end -8 -1.69)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca4ca4db-72bb-47f8-9c92-307223a9e428")
 	)
 	(fp_arc
 		(start -8 22.01)
@@ -184,6 +205,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "dfc9b590-769d-4c50-80cc-26f6eb1c7a29")
+	)
+	(fp_arc
+		(start 8 -1.69)
+		(mid 8.777817 -1.367817)
+		(end 9.1 -0.59)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "617f40cb-c5e2-4026-80ee-ecc52e6c0740")
 	)
 	(fp_arc
 		(start 9.1 20.91)
@@ -246,17 +278,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "a56b57a7-673a-4d7d-9b96-dd7970db2bc5")
-	)
-	(fp_rect
-		(start -4.33 -2.89)
-		(end 4.33 -1.59)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "323c81a2-6a1d-48ce-9599-2767e3bc2174")
 	)
 	(fp_arc
 		(start -9 -0.59)
@@ -503,15 +524,4 @@
 		(uuid "feeb2b6a-c39a-45ea-95d7-2b62ef4d9242")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_MCU.3dshapes/MCU_RP2040-Zero_THT.step"
-		(offset
-			(xyz 0 -10.16 2.54)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
 )

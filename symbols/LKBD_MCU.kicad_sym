@@ -2848,6 +2848,88 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RP2040-Tiny"
+		(extends "RP2040-Zero")
+		(property "Reference" "U"
+			(at 0 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040-Tiny"
+			(at 0 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_MCU:MCU_RP2040-Tiny"
+			(at -0.508 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Waveshare RP2040-Tiny"
+			(at 0 -26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://www.waveshare.com/wiki/RP2040-Tiny"
+			(at 0 -28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pinout" "https://www.waveshare.com/w/upload/f/f2/RP2040-Tiny-Kit-details-11.png"
+			(at 0 -30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RP2040 Tiny Waveshare"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LKBD_MCU:MCU_RP2040-Tiny LKBD_MCU:MCU_RP2040-Tiny_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "XIAO_RP2040"
 		(extends "XIAO_Generic")
 		(property "Reference" "U"
